@@ -1,0 +1,1935 @@
+
+############
+re12
+Reaction:['GTPGpa1Ste4Ste18']->['GTPGpa1', 'Ste4Ste18']#No Modifier
+Single components:['GTP@1', 'Gpa1@2', 'Ste18@3', 'Ste4@4']->['GTP@1', 'Gpa1@2', 'Ste18@1', 'Ste4@2']
+Rxn type: False
+PPIs LHS: ['Ste18@3--Ste4@4', 'Gpa1@2--Ste4@4', 'GTP@1--Gpa1@2', 'Ste18@1--Ste4@2']
+PPIs RHS: ['GTP@1--Gpa1@2', 'Ste18@1--Ste4@2']
+Gpa1_[Ste4]_ppi-_Ste4_[Gpa1],Gpa1,Ste4,,ppi-,Ste4,Gpa1,,,,
+Ste18_[Ste4]_ppi-_Ste4_[Ste18],Ste18,Ste4,,ppi-,Ste4,Ste18,,,,
+Modification type: False
+LHSp:[]
+
+############
+re44
+Reaction:['Dig1Dig2Ste12']->['Ste12', 'Dig1', 'Dig2']#No Modifier
+Single components:['Dig1@1', 'Dig2@2', 'Ste12@3', 'Ste12@4']->['Dig1@1', 'Dig2@1', 'Ste12@1', 'Ste12@2']
+Rxn type: False
+PPIs LHS: ['Ste12@1--Ste12@2', 'Dig1@1--Ste12@3', 'Dig2@2--Ste12@4']
+PPIs RHS: []
+Dig1_[Ste12]_ppi-_Ste12_[Dig1],Dig1,Ste12,,ppi-,Ste12,Dig1,,,,
+Ste12_[Ste12]_ppi-_Ste12_[Ste12],Ste12,Ste12,,ppi-,Ste12,Ste12,,,,
+Dig2_[Ste12]_ppi-_Ste12_[Dig2],Dig2,Ste12,,ppi-,Ste12,Dig2,,,,
+Modification type: False
+LHSp:[]
+
+############
+re73
+Reaction:['Cdc28Cln2Far1']->['Far1', 'Cdc28Cln2']#No Modifier
+Single components:['Cdc28@1', 'Cln2@2', 'Far1@3']->['Cdc28@1', 'Cln2@2', 'Far1@1']
+Rxn type: False
+PPIs LHS: ['Cdc28@1--Cln2@2', 'Cdc28@1--Far1@3']
+PPIs RHS: ['Cdc28@1--Cln2@2']
+Cdc28_[Far1]_ppi-_Far1_[Cdc28],Cdc28,Far1,,ppi-,Far1,Cdc28,,,,
+Modification type: False
+LHSp:[]
+
+############
+re91
+Reaction:['Ste5Ste50Ste11Ste7Fus3']->['Ste7', 'Fus3', 'Ste50Ste11', 'Ste5', 'Ste7']#No Modifier
+Single components:['Fus3@1', 'Ste11@4', 'Ste11@5', 'Ste50@6', 'Ste5@2', 'Ste5@3', 'Ste7@7']->['Fus3@1', 'Ste11@1', 'Ste11@2', 'Ste50@3', 'Ste5@1', 'Ste5@2', 'Ste7@1', 'Ste7@1']
+Rxn type: False
+PPIs LHS: ['Ste5@2--Ste7@7', 'Fus3@1--Ste5@3', 'Ste11@4--Ste5@2', 'Ste11@1--Ste11@2', 'Ste11@1--Ste50@2']
+PPIs RHS: ['Ste11@1--Ste11@2', 'Ste11@1--Ste50@2']
+Ste11_[Ste5]_ppi-_Ste5_[Ste11],Ste11,Ste5,,ppi-,Ste5,Ste11,,,,
+Ste5_[Ste7]_ppi-_Ste7_[Ste5],Ste5,Ste7,,ppi-,Ste7,Ste5,,,,
+Fus3_[Ste5]_ppi-_Ste5_[Fus3],Fus3,Ste5,,ppi-,Ste5,Fus3,,,,
+Modification type: False
+LHSp:[]
+
+############
+re97
+Reaction:['Ste5Ste50Ste11Ste7Kss1']->['Ste7', 'Kss1', 'Ste7', 'Ste50Ste11', 'Ste5']#No Modifier
+Single components:['Kss1@1', 'Ste11@4', 'Ste11@5', 'Ste50@6', 'Ste5@2', 'Ste5@3', 'Ste7@7']->['Kss1@1', 'Ste11@1', 'Ste11@2', 'Ste50@3', 'Ste5@1', 'Ste5@2', 'Ste7@1', 'Ste7@1']
+Rxn type: False
+PPIs LHS: ['Ste5@1--Ste5@2', 'Kss1@1--Ste5@2', 'Ste5@2--Ste7@7', 'Ste11@4--Ste5@3', 'Ste11@1--Ste11@2', 'Ste11@1--Ste50@2']
+PPIs RHS: ['Ste11@1--Ste11@2', 'Ste11@1--Ste50@2']
+Ste11_[Ste5]_ppi-_Ste5_[Ste11],Ste11,Ste5,,ppi-,Ste5,Ste11,,,,
+Ste5_[Ste7]_ppi-_Ste7_[Ste5],Ste5,Ste7,,ppi-,Ste7,Ste5,,,,
+Ste5_[Ste5]_ppi-_Ste5_[Ste5],Ste5,Ste5,,ppi-,Ste5,Ste5,,,,
+Kss1_[Ste5]_ppi-_Ste5_[Kss1],Kss1,Ste5,,ppi-,Ste5,Kss1,,,,
+Modification type: False
+LHSp:[]
+
+############
+re102
+Reaction:['Bem1GTPCdc42Cdc24GTPRsr1']->['Bem1GTPCdc42GTPRsr1', 'Cdc24']#No Modifier
+Single components:['Bem1@1', 'Cdc24@2', 'Cdc42@5', 'GTP@3', 'GTP@6', 'Rsr1@4']->['Bem1@1', 'Cdc24@1', 'Cdc42@2', 'GTP@3', 'GTP@4', 'Rsr1@5']
+Rxn type: False
+PPIs LHS: ['Bem1@1--Cdc42@5', 'Cdc42@5--Rsr1@4', 'Cdc24@1--Rsr1@3', 'GTP@1--Rsr1@2', 'Cdc42@1--GTP@2', 'GDP@1--Rsr1@2']
+PPIs RHS: ['Bem1@1--Cdc42@5', 'Cdc42@5--Rsr1@4', 'Cdc42@1--GTP@2', 'GTP@1--Rsr1@2']
+Rsr1_[GDP]_i-_GDP_[Rsr1],Rsr1,GDP,,i-,GDP,Rsr1,,,,
+Cdc24_[Rsr1]_ppi-_Rsr1_[Cdc24],Cdc24,Rsr1,,ppi-,Rsr1,Cdc24,,,,
+Modification type: False
+LHSp:[]
+
+############
+re129
+Reaction:['Dig1Ste12Tec1']->['Ste12Tec1', 'Dig1']#No Modifier
+Single components:['Dig1@1', 'Ste12@2', 'Ste12@3', 'Tec1@4']->['Dig1@1', 'Ste12@1', 'Ste12@2', 'Tec1@3']
+Rxn type: False
+PPIs LHS: ['Dig1@1--Ste12@2', 'Ste12@3--Tec1@4']
+PPIs RHS: ['Ste12@1--Tec1@2']
+Ste12_[Tec1]_ppi-_Tec1_[Ste12],Ste12,Tec1,,ppi-,Tec1,Ste12,,,,
+Dig1_[Ste12]_ppi-_Ste12_[Dig1],Dig1,Ste12,,ppi-,Ste12,Dig1,,,,
+Ste12_[Tec1]_ppi+_Tec1_[Ste12],Ste12,Tec1,,ppi+,Tec1,Ste12,,,,
+Modification type: False
+LHSp:[]
+
+############
+re135
+Reaction:['Cyc8Tup1Sfl1']->['Sfl1', 'Cyc8Tup1']#No Modifier
+Single components:['Cyc8@1', 'Sfl1@3', 'Tup1@2']->['Cyc8@1', 'Sfl1@1', 'Tup1@2']
+Rxn type: False
+PPIs LHS: ['Cyc8@1--Tup1@2', 'Sfl1@1--Sfl1@2', 'Cyc8@1--Sfl1@3']
+PPIs RHS: ['Cyc8@1--Tup1@2']
+Sfl1_[Sfl1]_ppi-_Sfl1_[Sfl1],Sfl1,Sfl1,,ppi-,Sfl1,Sfl1,,,,
+Cyc8_[Sfl1]_ppi-_Sfl1_[Cyc8],Cyc8,Sfl1,,ppi-,Sfl1,Cyc8,,,,
+Modification type: False
+LHSp:[]
+
+############
+re156
+Reaction:['AFactorSte3Asg7']->['Ste3', 'Mfa12', 'Asg7']#No Modifier
+Single components:['Asg7@3', 'Mfa12@1', 'Ste3@2']->['Asg7@1', 'Mfa12@1', 'Ste3@1']
+Rxn type: False
+PPIs LHS: ['Mfa12@1--Ste3@2', 'Asg7@3--Ste3@2']
+PPIs RHS: []
+Asg7_[Ste3]_ppi-_Ste3_[Asg7],Asg7,Ste3,,ppi-,Ste3,Asg7,,,,
+Mfa12_[Ste3]_ppi-_Ste3_[Mfa12],Mfa12,Ste3,,ppi-,Ste3,Mfa12,,,,
+Modification type: False
+LHSp:[]
+
+############
+re163
+Reaction:['AlphaFactorSte2Sst2']->['Ste2', 'Sst2', 'MfAlpha12']#No Modifier
+Single components:['MfAlpha12@1', 'Sst2@4', 'Ste2@2', 'Ste2@3']->['MfAlpha12@1', 'Sst2@1', 'Ste2@1', 'Ste2@2']
+Rxn type: False
+PPIs LHS: ['Sst2@4--Ste2@2', 'Ste2@1--Ste2@2', 'MfAlpha12@1--Ste2@2']
+PPIs RHS: []
+MfAlpha12_[Ste2]_ppi-_Ste2_[MfAlpha12],MfAlpha12,Ste2,,ppi-,Ste2,MfAlpha12,,,,
+Sst2_[Ste2]_ppi-_Ste2_[Sst2],Sst2,Ste2,,ppi-,Ste2,Sst2,,,,
+Ste2_[Ste2]_ppi-_Ste2_[Ste2],Ste2,Ste2,,ppi-,Ste2,Ste2,,,,
+Modification type: False
+LHSp:[]
+
+############
+re216
+Reaction:['Cdc28Cln1Far1']->['Cdc28Cln1', 'Far1']#No Modifier
+Single components:['Cdc28@1', 'Cln1@2', 'Far1@3']->['Cdc28@1', 'Cln1@2', 'Far1@1']
+Rxn type: False
+PPIs LHS: ['Cdc28@1--Cln1@2', 'Cdc28@1--Far1@3']
+PPIs RHS: ['Cdc28@1--Cln1@2']
+Cdc28_[Far1]_ppi-_Far1_[Cdc28],Cdc28,Far1,,ppi-,Far1,Cdc28,,,,
+Modification type: False
+LHSp:[]
+
+############
+re233
+Reaction:['Bcy1Tpk2']->['Tpk2', 'Bcy1']#Camp
+Single components:['Bcy1@1', 'Tpk2@2']->['Bcy1@1', 'Tpk2@1']
+Rxn type: False
+PPIs LHS: ['Bcy1@1--Tpk2@2']
+PPIs RHS: []
+Bcy1_[Tpk2]_ppi-_Tpk2_[Bcy1],Bcy1,Tpk2,,ppi-,Tpk2,Bcy1,,,,
+Modification type: False
+LHSp:[]
+
+############
+re234
+Reaction:['Bcy1Tpk1']->['Tpk1', 'Bcy1']#Camp
+Single components:['Bcy1@1', 'Tpk1@2']->['Bcy1@1', 'Tpk1@1']
+Rxn type: False
+PPIs LHS: ['Bcy1@1--Tpk1@2']
+PPIs RHS: []
+Bcy1_[Tpk1]_ppi-_Tpk1_[Bcy1],Bcy1,Tpk1,,ppi-,Tpk1,Bcy1,,,,
+Modification type: False
+LHSp:[]
+
+############
+re236
+Reaction:['Bcy1Tpk1']->['Tpk3', 'Bcy1']#Camp
+Single components:['Bcy1@1', 'Tpk3@2']->['Bcy1@1', 'Tpk3@1']
+Rxn type: False
+PPIs LHS: ['Bcy1@1--Tpk3@2', 'Bcy1@1--Tpk1@2']
+PPIs RHS: []
+Bcy1_[Tpk3]_ppi-_Tpk3_[Bcy1],Bcy1,Tpk3,,ppi-,Tpk3,Bcy1,,,,
+Bcy1_[Tpk1]_ppi-_Tpk1_[Bcy1],Bcy1,Tpk1,,ppi-,Tpk1,Bcy1,,,,
+Modification type: False
+LHSp:[]
+
+############
+re10
+Reaction:['MfAlpha12', 'Ste2']->['AlphaFactorSte2']#No Modifier
+Single components:['MfAlpha12@1', 'Ste2@1', 'Ste2@2']->['MfAlpha12@1', 'Ste2@2', 'Ste2@3']
+Rxn type: False
+PPIs LHS: []
+PPIs RHS: ['Ste2@1--Ste2@2', 'MfAlpha12@1--Ste2@2']
+MfAlpha12_[Ste2]_ppi+_Ste2_[MfAlpha12],MfAlpha12,Ste2,,ppi+,Ste2,MfAlpha12,,,,
+Ste2_[Ste2]_ppi+_Ste2_[Ste2],Ste2,Ste2,,ppi+,Ste2,Ste2,,,,
+Modification type: False
+LHSp:[]
+
+############
+re11
+Reaction:['Mfa12', 'Ste3']->['AFactorSte3']#No Modifier
+Single components:['Mfa12@1', 'Ste3@1']->['Mfa12@1', 'Ste3@2']
+Rxn type: False
+PPIs LHS: []
+PPIs RHS: ['Mfa12@1--Ste3@2']
+Mfa12_[Ste3]_ppi+_Ste3_[Mfa12],Mfa12,Ste3,,ppi+,Ste3,Mfa12,,,,
+Modification type: False
+LHSp:[]
+
+############
+re14
+Reaction:['GDPGpa1', 'Ste4Ste18']->['GDPGpa1Ste4Ste18']#No Modifier
+Single components:['GDP@1', 'Gpa1@2', 'Ste18@1', 'Ste4@2']->['GDP@1', 'Gpa1@2', 'Ste18@3', 'Ste4@4']
+Rxn type: False
+PPIs LHS: ['GDP@1--Gpa1@2', 'Ste18@1--Ste4@2']
+PPIs RHS: ['Ste18@3--Ste4@4', 'GDP@1--Gpa1@2', 'Gpa1@2--Ste4@4', 'Ste18@1--Ste4@2']
+Gpa1_[Ste4]_ppi+_Ste4_[Gpa1],Gpa1,Ste4,,ppi+,Ste4,Gpa1,,,,
+Ste18_[Ste4]_ppi+_Ste4_[Ste18],Ste18,Ste4,,ppi+,Ste4,Ste18,,,,
+Modification type: False
+LHSp:[]
+
+############
+re30
+Reaction:['Ste5', 'Ste50Ste11', 'Ste7', 'Fus3']->['Ste5Ste50Ste11Ste7Fus3']#No Modifier
+Single components:['Fus3@1', 'Ste11@1', 'Ste11@2', 'Ste50@3', 'Ste5@1', 'Ste5@2', 'Ste7@1']->['Fus3@1', 'Ste11@4', 'Ste11@5', 'Ste50@6', 'Ste5@2', 'Ste5@3', 'Ste7@7']
+Rxn type: False
+PPIs LHS: ['Ste11@1--Ste11@2', 'Ste11@1--Ste50@2']
+PPIs RHS: ['Ste5@2--Ste7@7', 'Fus3@1--Ste5@3', 'Ste11@4--Ste5@2', 'Ste11@1--Ste11@2', 'Ste11@1--Ste50@2']
+Ste11_[Ste5]_ppi+_Ste5_[Ste11],Ste11,Ste5,,ppi+,Ste5,Ste11,,,,
+Ste5_[Ste7]_ppi+_Ste7_[Ste5],Ste5,Ste7,,ppi+,Ste7,Ste5,,,,
+Fus3_[Ste5]_ppi+_Ste5_[Fus3],Fus3,Ste5,,ppi+,Ste5,Fus3,,,,
+Modification type: False
+LHSp:[]
+
+############
+re41
+Reaction:['Ste12', 'Dig1', 'Dig2']->['Dig1Dig2Ste12']#No Modifier
+Single components:['Dig1@1', 'Dig2@1', 'Ste12@1', 'Ste12@2']->['Dig1@1', 'Dig2@2', 'Ste12@3', 'Ste12@4']
+Rxn type: False
+PPIs LHS: []
+PPIs RHS: ['Ste12@1--Ste12@2', 'Dig1@1--Ste12@3', 'Dig2@2--Ste12@4']
+Dig1_[Ste12]_ppi+_Ste12_[Dig1],Dig1,Ste12,,ppi+,Ste12,Dig1,,,,
+Ste12_[Ste12]_ppi+_Ste12_[Ste12],Ste12,Ste12,,ppi+,Ste12,Ste12,,,,
+Dig2_[Ste12]_ppi+_Ste12_[Dig2],Dig2,Ste12,,ppi+,Ste12,Dig2,,,,
+Modification type: False
+LHSp:[]
+
+############
+re48
+Reaction:['Mpt5', 'Sst2']->['Mpt5Sst2']#No Modifier
+Single components:['Mpt5@1', 'Sst2@1']->['Mpt5@1', 'Sst2@2']
+Rxn type: False
+PPIs LHS: []
+PPIs RHS: ['Mpt5@1--Sst2@2']
+Mpt5_[Sst2]_ppi+_Sst2_[Mpt5],Mpt5,Sst2,,ppi+,Sst2,Mpt5,,,,
+Modification type: False
+LHSp:[]
+
+############
+re66
+Reaction:['Far1', 'Cdc28Cln2']->['Cdc28Cln2Far1']#No Modifier
+Single components:['Cdc28@1', 'Cln2@2', 'Far1@1']->['Cdc28@1', 'Cln2@2', 'Far1@3']
+Rxn type: False
+PPIs LHS: ['Cdc28@1--Cln2@2']
+PPIs RHS: ['Cdc28@1--Cln2@2', 'Cdc28@1--Far1@3']
+Cdc28_[Far1]_ppi+_Far1_[Cdc28],Cdc28,Far1,,ppi+,Far1,Cdc28,,,,
+Modification type: False
+LHSp:[]
+
+############
+re68
+Reaction:['Far1', 'Cdc24']->['Cdc24Far1']#No Modifier
+Single components:['Cdc24@1', 'Far1@1']->['Cdc24@1', 'Far1@2']
+Rxn type: False
+PPIs LHS: []
+PPIs RHS: ['Cdc24@1--Far1@2']
+Cdc24_[Far1]_ppi+_Far1_[Cdc24],Cdc24,Far1,,ppi+,Far1,Cdc24,,,,
+Modification type: False
+LHSp:[]
+
+############
+re71
+Reaction:['ScfComplex', 'Cdc4']->['ScfCdc4Complex']#No Modifier
+Single components:['Cdc34@1', 'Cdc4@1', 'Cdc53@2', 'Hrt1@3', 'Skp1@4']->['Cdc34@2', 'Cdc4@1', 'Cdc53@3', 'Hrt1@4', 'Skp1@5']
+Rxn type: False
+PPIs LHS: ['Cdc34@1--Hrt1@3', 'Cdc53@2--Skp1@4', 'Cdc53@2--Hrt1@3']
+PPIs RHS: ['Cdc4@1--Skp1@5', 'Cdc34@1--Hrt1@3', 'Cdc53@2--Skp1@4', 'Cdc53@2--Hrt1@3']
+Cdc4_[Skp1]_ppi+_Skp1_[Cdc4],Cdc4,Skp1,,ppi+,Skp1,Cdc4,,,,
+Modification type: False
+LHSp:[]
+
+############
+re76
+Reaction:['GDPCdc42', 'Bem1']->['Bem1GDPCdc42']#No Modifier
+Single components:['Bem1@1', 'Cdc42@1', 'GDP@2']->['Bem1@1', 'Cdc42@2', 'GDP@3']
+Rxn type: False
+PPIs LHS: ['Cdc42@1--GDP@2']
+PPIs RHS: ['Bem1@1--Cdc42@2', 'Cdc42@1--GDP@2']
+Bem1_[Cdc42]_ppi+_Cdc42_[Bem1],Bem1,Cdc42,,ppi+,Cdc42,Bem1,,,,
+Modification type: False
+LHSp:[]
+
+############
+re78
+Reaction:['Ste4Ste18', 'Cdc24Far1']->['Cdc24Far1Ste4Ste18']#No Modifier
+Single components:['Cdc24@1', 'Far1@2', 'Ste18@1', 'Ste4@2']->['Cdc24@1', 'Far1@2', 'Ste18@3', 'Ste4@4']
+Rxn type: False
+PPIs LHS: ['Ste18@1--Ste4@2', 'Cdc24@1--Far1@2']
+PPIs RHS: ['Cdc24@1--Far1@2', 'Ste18@3--Ste4@4', 'Far1@2--Ste4@4', 'Ste18@1--Ste4@2']
+Far1_[Ste4]_ppi+_Ste4_[Far1],Far1,Ste4,,ppi+,Ste4,Far1,,,,
+Ste18_[Ste4]_ppi+_Ste4_[Ste18],Ste18,Ste4,,ppi+,Ste4,Ste18,,,,
+Modification type: False
+LHSp:[]
+
+############
+re79
+Reaction:['Bem1GDPCdc42', 'Cdc24Far1Ste4Ste18']->['Bem1GDPCdc42Cdc24Far1Ste4Ste18']#No Modifier
+Single components:['Bem1@1', 'Cdc24@1', 'Cdc42@2', 'Far1@2', 'GDP@3', 'Ste18@3', 'Ste4@4']->['Bem1@1', 'Cdc24@4', 'Cdc42@2', 'Far1@5', 'GDP@3', 'Ste18@6', 'Ste4@7']
+Rxn type: False
+PPIs LHS: ['Bem1@1--Cdc42@2', 'Cdc42@1--GDP@2', 'Cdc24@1--Far1@2', 'Ste18@3--Ste4@4', 'Far1@2--Ste4@4', 'Ste18@1--Ste4@2']
+PPIs RHS: ['Bem1@1--Cdc42@2', 'Cdc42@1--GDP@2', 'Far1@2--Ste4@4', 'Cdc24@1--Far1@2', 'Ste18@1--Ste4@2']
+Ste18_[Ste4]_ppi-_Ste4_[Ste18],Ste18,Ste4,,ppi-,Ste4,Ste18,,,,
+Modification type: False
+LHSp:[]
+
+############
+re80
+Reaction:['Bem1GTPCdc42Cdc24Far1Ste4Ste18', 'Ste20']->['Bem1GTPCdc42Cdc24Far1Ste4Ste18Ste20']#No Modifier
+Single components:['Bem1@1', 'Cdc24@4', 'Cdc42@2', 'Far1@5', 'GDP@3', 'Ste18@6', 'Ste20@1', 'Ste4@7']->['Bem1@1', 'Cdc24@4', 'Cdc42@2', 'Far1@5', 'GTP@3', 'Ste18@6', 'Ste20@8', 'Ste4@7']
+Rxn type: synthesis/degradation
+PPIs LHS: ['Bem1@1--Cdc24@4', 'Bem1@1--Cdc42@2', 'Cdc42@1--GTP@2', 'Far1@2--Ste4@4', 'Cdc24@1--Far1@2', 'Ste18@1--Ste4@2']
+PPIs RHS: ['Cdc42@2--Ste20@8', 'Bem1@1--Cdc24@4', 'Bem1@1--Cdc42@2', 'Cdc42@1--GTP@2', 'Far1@2--Ste4@4', 'Cdc24@1--Far1@2', 'Ste18@1--Ste4@2']
+Cdc42_[Ste20]_ppi+_Ste20_[Cdc42],Cdc42,Ste20,,ppi+,Ste20,Cdc42,,,,
+Modification type: False
+LHSp:[]
+
+############
+re87
+Reaction:['Ste11', 'Ste50']->['Ste50Ste11']#No Modifier
+Single components:['Ste11@1', 'Ste11@2', 'Ste50@1']->['Ste11@1', 'Ste11@2', 'Ste50@3']
+Rxn type: False
+PPIs LHS: []
+PPIs RHS: ['Ste11@1--Ste11@2', 'Ste11@1--Ste50@2']
+Ste11_[Ste50]_ppi+_Ste50_[Ste11],Ste11,Ste50,,ppi+,Ste50,Ste11,,,,
+Ste11_[Ste11]_ppi+_Ste11_[Ste11],Ste11,Ste11,,ppi+,Ste11,Ste11,,,,
+Modification type: False
+LHSp:[]
+
+############
+re92
+Reaction:['Ste5', 'Ste50Ste11', 'Ste7', 'Kss1']->['Ste5Ste50Ste11Ste7Kss1']#No Modifier
+Single components:['Kss1@1', 'Ste11@1', 'Ste11@2', 'Ste50@3', 'Ste5@1', 'Ste5@2', 'Ste7@1']->['Kss1@1', 'Ste11@4', 'Ste11@5', 'Ste50@6', 'Ste5@2', 'Ste5@3', 'Ste7@7']
+Rxn type: False
+PPIs LHS: ['Ste11@1--Ste11@2', 'Ste11@1--Ste50@2']
+PPIs RHS: ['Ste5@1--Ste5@2', 'Kss1@1--Ste5@2', 'Ste5@2--Ste7@7', 'Ste11@4--Ste5@3', 'Ste11@1--Ste11@2', 'Ste11@1--Ste50@2']
+Ste11_[Ste5]_ppi+_Ste5_[Ste11],Ste11,Ste5,,ppi+,Ste5,Ste11,,,,
+Ste5_[Ste7]_ppi+_Ste7_[Ste5],Ste5,Ste7,,ppi+,Ste7,Ste5,,,,
+Ste5_[Ste5]_ppi+_Ste5_[Ste5],Ste5,Ste5,,ppi+,Ste5,Ste5,,,,
+Kss1_[Ste5]_ppi+_Ste5_[Kss1],Kss1,Ste5,,ppi+,Ste5,Kss1,,,,
+Modification type: False
+LHSp:[]
+
+############
+re99
+Reaction:['Cdc24', 'GTPRsr1']->['Cdc24GTPRsr1']#No Modifier
+Single components:['Cdc24@1', 'GTP@1', 'Rsr1@2']->['Cdc24@1', 'GTP@2', 'Rsr1@3']
+Rxn type: False
+PPIs LHS: ['GTP@1--Rsr1@2']
+PPIs RHS: ['Cdc24@1--Rsr1@3', 'GTP@1--Rsr1@2']
+Cdc24_[Rsr1]_ppi+_Rsr1_[Cdc24],Cdc24,Rsr1,,ppi+,Rsr1,Cdc24,,,,
+Modification type: False
+LHSp:[]
+
+############
+re125
+Reaction:['Mcm1', 'Ste12']->['Mcm1Ste12']#No Modifier
+Single components:['Mcm1@1', 'Ste12@1', 'Ste12@2']->['Mcm1@1', 'Ste12@2', 'Ste12@3']
+Rxn type: False
+PPIs LHS: []
+PPIs RHS: ['Mcm1@1--Ste12@2']
+Mcm1_[Ste12]_ppi+_Ste12_[Mcm1],Mcm1,Ste12,,ppi+,Ste12,Mcm1,,,,
+Modification type: False
+LHSp:[]
+
+############
+re127
+Reaction:['Dig1', 'Ste12Tec1']->['Dig1Ste12Tec1']#No Modifier
+Single components:['Dig1@1', 'Ste12@1', 'Ste12@2', 'Tec1@3']->['Dig1@1', 'Ste12@2', 'Ste12@3', 'Tec1@4']
+Rxn type: False
+PPIs LHS: ['Ste12@1--Tec1@2']
+PPIs RHS: ['Dig1@1--Ste12@2', 'Ste12@3--Tec1@4']
+Ste12_[Tec1]_ppi-_Tec1_[Ste12],Ste12,Tec1,,ppi-,Tec1,Ste12,,,,
+Ste12_[Tec1]_ppi+_Tec1_[Ste12],Ste12,Tec1,,ppi+,Tec1,Ste12,,,,
+Dig1_[Ste12]_ppi+_Ste12_[Dig1],Dig1,Ste12,,ppi+,Ste12,Dig1,,,,
+Modification type: False
+LHSp:[]
+
+############
+re133
+Reaction:['Sfl1', 'Cyc8Tup1']->['Cyc8Tup1Sfl1']#No Modifier
+Single components:['Cyc8@1', 'Sfl1@1', 'Sfl1@2', 'Tup1@2']->['Cyc8@1', 'Sfl1@3', 'Sfl1@4', 'Tup1@2']
+Rxn type: False
+PPIs LHS: ['Cyc8@1--Tup1@2']
+PPIs RHS: ['Sfl1@1--Sfl1@2', 'Cyc8@1--Tup1@2', 'Cyc8@1--Sfl1@3']
+Sfl1_[Sfl1]_ppi+_Sfl1_[Sfl1],Sfl1,Sfl1,,ppi+,Sfl1,Sfl1,,,,
+Cyc8_[Sfl1]_ppi+_Sfl1_[Cyc8],Cyc8,Sfl1,,ppi+,Sfl1,Cyc8,,,,
+Modification type: False
+LHSp:[]
+
+############
+re160
+Reaction:['AlphaFactorSte2', 'Sst2']->['AlphaFactorSte2Sst2']#No Modifier
+Single components:['MfAlpha12@1', 'Sst2@1', 'Ste2@2', 'Ste2@3']->['MfAlpha12@1', 'Sst2@4', 'Ste2@2', 'Ste2@3']
+Rxn type: False
+PPIs LHS: ['Ste2@1--Ste2@2', 'MfAlpha12@1--Ste2@2']
+PPIs RHS: ['Sst2@4--Ste2@2', 'Ste2@1--Ste2@2', 'MfAlpha12@1--Ste2@2']
+Sst2_[Ste2]_ppi+_Ste2_[Sst2],Sst2,Ste2,,ppi+,Ste2,Sst2,,,,
+Modification type: False
+LHSp:[]
+
+############
+re178
+Reaction:['Cdc28', 'Cln2']->['Cdc28Cln2']#No Modifier
+Single components:['Cdc28@1', 'Cln2@1']->['Cdc28@1', 'Cln2@2']
+Rxn type: False
+PPIs LHS: []
+PPIs RHS: ['Cdc28@1--Cln2@2']
+Cdc28_[Cln2]_ppi+_Cln2_[Cdc28],Cdc28,Cln2,,ppi+,Cln2,Cdc28,,,,
+Modification type: False
+LHSp:[]
+
+############
+re183
+Reaction:['ScfComplex', 'Dia2']->['Dia2ScfComplex']#No Modifier
+Single components:['Cdc34@1', 'Cdc53@2', 'Dia2@1', 'Hrt1@3', 'Skp1@4']->['Cdc34@2', 'Cdc53@3', 'Dia2@1', 'Hrt1@4', 'Skp1@5']
+Rxn type: False
+PPIs LHS: ['Cdc34@1--Hrt1@3', 'Cdc53@2--Skp1@4', 'Cdc53@2--Hrt1@3']
+PPIs RHS: ['Dia2@1--Skp1@5', 'Cdc34@1--Hrt1@3', 'Cdc53@2--Skp1@4', 'Cdc53@2--Hrt1@3']
+Dia2_[Skp1]_ppi+_Skp1_[Dia2],Dia2,Skp1,,ppi+,Skp1,Dia2,,,,
+Modification type: False
+LHSp:[]
+
+############
+re184
+Reaction:['Ste12', 'Tec1']->['Ste12Tec1']#No Modifier
+Single components:['Ste12@1', 'Ste12@2', 'Tec1@1']->['Ste12@1', 'Ste12@2', 'Tec1@3']
+Rxn type: False
+PPIs LHS: []
+PPIs RHS: ['Ste12@1--Tec1@2']
+Ste12_[Tec1]_ppi+_Tec1_[Ste12],Ste12,Tec1,,ppi+,Tec1,Ste12,,,,
+Modification type: False
+LHSp:[]
+
+############
+re204
+Reaction:['Asg7', 'AFactorSte3']->['AFactorSte3Asg7']#No Modifier
+Single components:['Asg7@1', 'Mfa12@1', 'Ste3@2']->['Asg7@3', 'Mfa12@1', 'Ste3@2']
+Rxn type: False
+PPIs LHS: ['Mfa12@1--Ste3@2']
+PPIs RHS: ['Mfa12@1--Ste3@2', 'Asg7@3--Ste3@2']
+Asg7_[Ste3]_ppi+_Ste3_[Asg7],Asg7,Ste3,,ppi+,Ste3,Asg7,,,,
+Modification type: False
+LHSp:[]
+
+############
+re210
+Reaction:['Cdc28', 'Cln1']->['Cdc28Cln1']#No Modifier
+Single components:['Cdc28@1', 'Cln1@1']->['Cdc28@1', 'Cln1@2']
+Rxn type: False
+PPIs LHS: []
+PPIs RHS: ['Cdc28@1--Cln1@2']
+Cdc28_[Cln1]_ppi+_Cln1_[Cdc28],Cdc28,Cln1,,ppi+,Cln1,Cdc28,,,,
+Modification type: False
+LHSp:[]
+
+############
+re213
+Reaction:['Far1', 'Cdc28Cln1']->['Cdc28Cln1Far1']#No Modifier
+Single components:['Cdc28@1', 'Cln1@2', 'Far1@1']->['Cdc28@1', 'Cln1@2', 'Far1@3']
+Rxn type: False
+PPIs LHS: ['Cdc28@1--Cln1@2']
+PPIs RHS: ['Cdc28@1--Cln1@2', 'Cdc28@1--Far1@3']
+Cdc28_[Far1]_ppi+_Far1_[Cdc28],Cdc28,Far1,,ppi+,Far1,Cdc28,,,,
+Modification type: False
+LHSp:[]
+
+############
+re220
+Reaction:['Bem1GDPCdc42', 'Cdc24GTPRsr1']->['Bem1GDPCdc42Cdc24GTPRsr1']#No Modifier
+Single components:['Bem1@1', 'Cdc24@1', 'Cdc42@2', 'GDP@3', 'GTP@2', 'Rsr1@3']->['Bem1@1', 'Cdc24@2', 'Cdc42@5', 'GDP@3', 'GDP@6', 'Rsr1@4']
+Rxn type: degradation
+PPIs LHS: ['Bem1@1--Cdc42@2', 'Cdc42@1--GDP@2', 'Cdc24@1--Rsr1@3', 'GTP@1--Rsr1@2']
+PPIs RHS: ['Bem1@1--Cdc42@5', 'Cdc42@5--Rsr1@4', 'Cdc24@1--Rsr1@3', 'GTP@1--Rsr1@2', 'GDP@1--Rsr1@2', 'Cdc42@1--GDP@2']
+Bem1_[Cdc42]_ppi-_Cdc42_[Bem1],Bem1,Cdc42,,ppi-,Cdc42,Bem1,,,,
+Bem1_[Cdc42]_ppi+_Cdc42_[Bem1],Bem1,Cdc42,,ppi+,Cdc42,Bem1,,,,
+Rsr1_[GDP]_i+_GDP_[Rsr1],Rsr1,GDP,,i+,GDP,Rsr1,,,,
+Cdc42_[Rsr1]_ppi+_Rsr1_[Cdc42],Cdc42,Rsr1,,ppi+,Rsr1,Cdc42,,,,
+Modification type: False
+LHSp:[]
+
+############
+re227
+Reaction:['Mcm1', 'Matalpha1']->['Mcm1Matalpha1']#No Modifier
+Single components:['Matalpha1@1', 'Mcm1@1']->['Matalpha1@1', 'Mcm1@2']
+Rxn type: False
+PPIs LHS: []
+PPIs RHS: ['Matalpha1@1--Mcm1@2']
+Matalpha1_[Mcm1]_ppi+_Mcm1_[Matalpha1],Matalpha1,Mcm1,,ppi+,Mcm1,Matalpha1,,,,
+Modification type: False
+LHSp:[]
+
+############
+re228
+Reaction:['Mcm1', 'Matalpha2']->['Mcm1Matalpha2']#No Modifier
+Single components:['Matalpha2@1', 'Mcm1@1']->['Matalpha2@1', 'Mcm1@2']
+Rxn type: False
+PPIs LHS: []
+PPIs RHS: ['Matalpha2@1--Mcm1@2']
+Matalpha2_[Mcm1]_ppi+_Mcm1_[Matalpha2],Matalpha2,Mcm1,,ppi+,Mcm1,Matalpha2,,,,
+Modification type: False
+LHSp:[]
+
+############
+re237
+Reaction:['Bcy1', 'Tpk2']->['Bcy1Tpk2']#No Modifier
+Single components:['Bcy1@1', 'Tpk2@1']->['Bcy1@1', 'Tpk2@2']
+Rxn type: False
+PPIs LHS: []
+PPIs RHS: ['Bcy1@1--Tpk2@2']
+Bcy1_[Tpk2]_ppi+_Tpk2_[Bcy1],Bcy1,Tpk2,,ppi+,Tpk2,Bcy1,,,,
+Modification type: False
+LHSp:[]
+
+############
+re238
+Reaction:['Bcy1', 'Tpk1']->['Bcy1Tpk1']#No Modifier
+Single components:['Bcy1@1', 'Tpk1@1']->['Bcy1@1', 'Tpk1@2']
+Rxn type: False
+PPIs LHS: []
+PPIs RHS: ['Bcy1@1--Tpk1@2']
+Bcy1_[Tpk1]_ppi+_Tpk1_[Bcy1],Bcy1,Tpk1,,ppi+,Tpk1,Bcy1,,,,
+Modification type: False
+LHSp:[]
+
+############
+re239
+Reaction:['Bcy1', 'Tpk3']->['Bcy1Tpk1']#No Modifier
+Single components:['Bcy1@1', 'Tpk3@1']->['Bcy1@1', 'Tpk3@2']
+Rxn type: False
+PPIs LHS: []
+PPIs RHS: ['Bcy1@1--Tpk3@2', 'Bcy1@1--Tpk1@2']
+Bcy1_[Tpk3]_ppi+_Tpk3_[Bcy1],Bcy1,Tpk3,,ppi+,Tpk3,Bcy1,,,,
+Bcy1_[Tpk1]_ppi+_Tpk1_[Bcy1],Bcy1,Tpk1,,ppi+,Tpk1,Bcy1,,,,
+Modification type: False
+LHSp:[]
+
+############
+re13
+Reaction:['GTPGpa1']->['GDPGpa1', 'Pi']#No Modifier
+Single components:['GTP@1', 'Gpa1@2']->['GDP@1', 'Gpa1@2', 'Pi@1']
+Rxn type: synthesis/degradation
+PPIs LHS: ['GTP@1--Gpa1@2']
+PPIs RHS: ['GDP@1--Gpa1@2']
+Gpa1_[GTP]_i-_GTP_[Gpa1],Gpa1,GTP,,i-,GTP,Gpa1,,,,
+Gpa1_[GDP]_i+_GDP_[Gpa1],Gpa1,GDP,,i+,GDP,Gpa1,,,,
+Modification type: False
+LHSp:[]
+
+############
+re52
+Reaction:['Flo8']->['Flo8']#Tpk2
+Single components:['Flo8@1']->['Flo8@1']
+Rxn type: False
+PPIs LHS: []
+PPIs RHS: []
+Modifications LHS: {'Flo8': {'rs1': (None, None, '2.356194490192345', '')}}
+Modifications RHS: {'Flo8': {'rs1': (None, 'phosphorylated', '2.356194490192345', '')}}
+Modification type: P+
+LHSp:[]
+
+############
+re57
+Reaction:['Ste5']->['Ste5']#No Modifier
+Single components:['Ste5@1']->['Ste5@1', 'Ste5@2']
+Rxn type: False
+PPIs LHS: []
+PPIs RHS: []
+Modifications LHS: {'Ste5': {}}
+Modifications RHS: {'Ste5@2': {}, 'Ste5@1': {}}
+Modification type: False
+LHSp:[]
+
+############
+re65
+Reaction:['Far1']->['Far1']#Fus3
+Single components:['Far1@1']->['Far1@1']
+Rxn type: False
+PPIs LHS: []
+PPIs RHS: []
+Modifications LHS: {'Far1': {'rs3': ('T306', None, '0.78', None), 'rs2': ('S87', None, '2.27', None), 'rs5': (None, None, '3.9757573696164945', ''), 'rs4': (None, None, '5.6', None)}}
+Modifications RHS: {'Far1': {'rs3': ('T306', 'phosphorylated', '0.78', None), 'rs2': ('S87', None, '2.27', None), 'rs5': (None, None, '3.9757573696164945', ''), 'rs4': (None, None, '5.6', None)}}
+Modification type: P+
+LHSp:[]
+
+############
+re69
+Reaction:['Cdc28Cln2Far1']->['Cdc28Cln2Far1']#Cdc28Cln2Far1
+Single components:['Cdc28@1', 'Cln2@2', 'Far1@3']->['Cdc28@1', 'Cln2@2', 'Far1@3']
+Rxn type: False
+PPIs LHS: ['Cdc28@1--Cln2@2', 'Cdc28@1--Far1@3']
+PPIs RHS: ['Cdc28@1--Cln2@2', 'Cdc28@1--Far1@3']
+Modifications LHS: {'Cdc28': {}, 'Far1': {'rs3': ('T306', 'phosphorylated', '0.78', None), 'rs2': ('S87', None, '2.27', None), 'rs5': (None, None, '3.9757573696164945', ''), 'rs4': (None, None, '5.6', None)}, 'Cln2': {}}
+Modifications RHS: {'Cdc28': {}, 'Far1': {'rs3': ('T306', 'phosphorylated', '0.78', None), 'rs2': ('S87', 'phosphorylated', '2.27', None), 'rs5': (None, None, '3.9757573696164945', ''), 'rs4': (None, None, '5.6', None)}, 'Cln2': {}}
+Modification type: P+
+LHSp:[]
+
+############
+re70
+Reaction:['Cdc28Cln2Far1']->['Cdc28Cln2Far1']#ScfCdc4Complex
+Single components:['Cdc28@1', 'Cln2@2', 'Far1@3']->['Cdc28@1', 'Cln2@2', 'Far1@3']
+Rxn type: False
+PPIs LHS: ['Cdc28@1--Cln2@2', 'Cdc28@1--Far1@3']
+PPIs RHS: ['Cdc28@1--Cln2@2', 'Cdc28@1--Far1@3']
+Modifications LHS: {'Cdc28': {}, 'Far1': {'rs3': ('T306', 'phosphorylated', '0.78', None), 'rs2': ('S87', 'phosphorylated', '2.27', None), 'rs5': (None, None, '3.9757573696164945', ''), 'rs4': (None, None, '5.6', None)}, 'Cln2': {}}
+Modifications RHS: {'Cdc28': {}, 'Far1': {'rs3': ('T306', 'phosphorylated', '0.78', None), 'rs2': ('S87', 'phosphorylated', '2.27', None), 'rs5': (None, 'ubiquitinated', '3.9757573696164945', ''), 'rs4': (None, None, '5.6', None)}, 'Cln2': {}}
+Modification type: Ub+
+LHSp:[]
+
+############
+re77
+Reaction:['GDPGpa1Ste4Ste18']->['GDPGpa1Ste4Ste18']#Fus3
+Single components:['GDP@1', 'Gpa1@2', 'Ste18@3', 'Ste4@4']->['GDP@1', 'Gpa1@2', 'Ste18@3', 'Ste4@4']
+Rxn type: False
+PPIs LHS: ['Ste18@3--Ste4@4', 'GDP@1--Gpa1@2', 'Gpa1@2--Ste4@4', 'Ste18@1--Ste4@2']
+PPIs RHS: ['Ste18@3--Ste4@4', 'GDP@1--Gpa1@2', 'Gpa1@2--Ste4@4', 'Ste18@1--Ste4@2']
+Modifications LHS: {'Ste4': {'rs3': ('S335', None, '2.29', None), 'rs2': ('T320', None, '0.72', None), 'rs1': ('T322', None, '5.61', None)}, 'Gpa1': {}, 'GDP': {}, 'Ste18': {'rs2': (None, 'palmytoylated', '2.45', None), 'rs1': (None, 'prenylated', '0.71', None)}}
+Modifications RHS: {'Ste4': {'rs3': ('S335', 'phosphorylated', '2.29', None), 'rs2': ('T320', 'phosphorylated', '0.72', None), 'rs1': ('T322', 'phosphorylated', '5.61', None)}, 'Gpa1': {}, 'GDP': {}, 'Ste18': {'rs2': (None, 'palmytoylated', '2.45', None), 'rs1': (None, 'prenylated', '0.71', None)}}
+Modification type: P+
+LHSp:[]
+
+############
+re83
+Reaction:['Ste5Ste50Ste11Ste7Fus3']->['Ste5Ste50Ste11Ste7Fus3']#Bem1GTPCdc42Cdc24Far1Ste4Ste18Ste20
+Single components:['Fus3@1', 'Ste11@4', 'Ste11@5', 'Ste50@6', 'Ste5@2', 'Ste5@3', 'Ste7@7']->['Fus3@1', 'Ste11@4', 'Ste11@5', 'Ste50@6', 'Ste5@2', 'Ste5@3', 'Ste7@7']
+Rxn type: False
+PPIs LHS: ['Ste5@2--Ste7@7', 'Fus3@1--Ste5@3', 'Ste11@4--Ste5@2', 'Ste11@1--Ste11@2', 'Ste11@1--Ste50@2']
+PPIs RHS: ['Ste5@2--Ste7@7', 'Fus3@1--Ste5@3', 'Ste11@4--Ste5@2', 'Ste11@1--Ste11@2', 'Ste11@1--Ste50@2']
+Modifications LHS: {'Ste11@4': {'rs3': ('T286', None, '5.52511784910183', None), 'rs2': ('S285', None, '0.8048507494877875', None), 'rs1': ('S281', None, '2.284177011541714', None)}, 'Ste5': {}, 'Ste7': {'rs3': (None, None, '5.633859166012091', ''), 'rs2': ('S363', None, '0.78', None), 'rs1': ('S359', None, '2.35', None)}, 'Ste50': {'rs3': ('S155', None, '2.35', None), 'rs5': ('T244', None, '4.7', None), 'rs6': ('S248', None, '5.49', None), 'rs4': ('S202', None, '0.78', None), 'rs7': ('S196', None, '1.57', None)}, 'Ste11@5': {'rs3': ('T286', None, '5.52511784910183', None), 'rs2': ('S285', None, '0.8048507494877875', None), 'rs1': ('S281', None, '2.284177011541714', None)}, 'Fus3': {'rs2': ('Y182', None, '0.76', None), 'rs1': ('T180', None, '2.35', None)}}
+Modifications RHS: {'Ste11@4': {'rs3': ('T286', 'phosphorylated', '5.52511784910183', None), 'rs2': ('S285', 'phosphorylated', '0.8048507494877875', None), 'rs1': ('S281', 'phosphorylated', '2.284177011541714', None)}, 'Ste5': {}, 'Ste7': {'rs3': (None, None, '5.633859166012091', ''), 'rs2': ('S363', None, '0.78', None), 'rs1': ('S359', None, '2.35', None)}, 'Ste50': {'rs3': ('S155', None, '2.35', None), 'rs5': ('T244', None, '4.7', None), 'rs6': ('S248', None, '5.49', None), 'rs4': ('S202', None, '0.78', None), 'rs7': ('S196', None, '1.57', None)}, 'Ste11@5': {'rs3': ('T286', 'phosphorylated', '5.52511784910183', None), 'rs2': ('S285', 'phosphorylated', '0.8048507494877875', None), 'rs1': ('S281', 'phosphorylated', '2.284177011541714', None)}, 'Fus3': {'rs2': ('Y182', None, '0.76', None), 'rs1': ('T180', None, '2.35', None)}}
+Modification type: P+
+LHSp:[]
+
+############
+re88
+Reaction:['Ste5Ste50Ste11Ste7Fus3']->['Ste5Ste50Ste11Ste7Fus3']#Ste5Ste50Ste11Ste7Fus3
+Single components:['Fus3@1', 'Ste11@4', 'Ste11@5', 'Ste50@6', 'Ste5@2', 'Ste5@3', 'Ste7@7']->['Fus3@1', 'Ste11@4', 'Ste11@5', 'Ste50@6', 'Ste5@2', 'Ste5@3', 'Ste7@7']
+Rxn type: False
+PPIs LHS: ['Ste5@2--Ste7@7', 'Fus3@1--Ste5@3', 'Ste11@4--Ste5@2', 'Ste11@1--Ste11@2', 'Ste11@1--Ste50@2']
+PPIs RHS: ['Ste5@2--Ste7@7', 'Fus3@1--Ste5@3', 'Ste11@4--Ste5@2', 'Ste11@1--Ste11@2', 'Ste11@1--Ste50@2']
+Modifications LHS: {'Ste11@4': {'rs3': ('T286', 'phosphorylated', '5.52511784910183', None), 'rs2': ('S285', 'phosphorylated', '0.8048507494877875', None), 'rs1': ('S281', 'phosphorylated', '2.284177011541714', None)}, 'Ste5': {}, 'Ste7': {'rs3': (None, None, '5.633859166012091', ''), 'rs2': ('S363', None, '0.78', None), 'rs1': ('S359', None, '2.35', None)}, 'Ste50': {'rs3': ('S155', None, '2.35', None), 'rs5': ('T244', None, '4.7', None), 'rs6': ('S248', None, '5.49', None), 'rs4': ('S202', None, '0.78', None), 'rs7': ('S196', None, '1.57', None)}, 'Ste11@5': {'rs3': ('T286', 'phosphorylated', '5.52511784910183', None), 'rs2': ('S285', 'phosphorylated', '0.8048507494877875', None), 'rs1': ('S281', 'phosphorylated', '2.284177011541714', None)}, 'Fus3': {'rs2': ('Y182', None, '0.76', None), 'rs1': ('T180', None, '2.35', None)}}
+Modifications RHS: {'Ste11@4': {'rs3': ('T286', 'phosphorylated', '5.52511784910183', None), 'rs2': ('S285', 'phosphorylated', '0.8048507494877875', None), 'rs1': ('S281', 'phosphorylated', '2.284177011541714', None)}, 'Ste5': {}, 'Ste7': {'rs3': (None, None, '5.633859166012091', ''), 'rs2': ('S363', 'phosphorylated', '0.78', None), 'rs1': ('S359', 'phosphorylated', '2.35', None)}, 'Ste50': {'rs3': ('S155', None, '2.35', None), 'rs5': ('T244', None, '4.7', None), 'rs6': ('S248', None, '5.49', None), 'rs4': ('S202', None, '0.78', None), 'rs7': ('S196', None, '1.57', None)}, 'Ste11@5': {'rs3': ('T286', 'phosphorylated', '5.52511784910183', None), 'rs2': ('S285', 'phosphorylated', '0.8048507494877875', None), 'rs1': ('S281', 'phosphorylated', '2.284177011541714', None)}, 'Fus3': {'rs2': ('Y182', None, '0.76', None), 'rs1': ('T180', None, '2.35', None)}}
+Modification type: P+
+LHSp:[]
+
+############
+re90
+Reaction:['Ste5Ste50Ste11Ste7Fus3']->['Ste5Ste50Ste11Ste7Fus3']#Ste5Ste50Ste11Ste7Fus3
+Single components:['Fus3@1', 'Ste11@4', 'Ste11@5', 'Ste50@6', 'Ste5@2', 'Ste5@3', 'Ste7@7']->['Fus3@1', 'Ste11@4', 'Ste11@5', 'Ste50@6', 'Ste5@2', 'Ste5@3', 'Ste7@7']
+Rxn type: False
+PPIs LHS: ['Ste5@2--Ste7@7', 'Fus3@1--Ste5@3', 'Ste11@4--Ste5@2', 'Ste11@1--Ste11@2', 'Ste11@1--Ste50@2']
+PPIs RHS: ['Ste5@2--Ste7@7', 'Fus3@1--Ste5@3', 'Ste11@4--Ste5@2', 'Ste11@1--Ste11@2', 'Ste11@1--Ste50@2']
+Modifications LHS: {'Ste11@4': {'rs3': ('T286', 'phosphorylated', '5.52511784910183', None), 'rs2': ('S285', 'phosphorylated', '0.8048507494877875', None), 'rs1': ('S281', 'phosphorylated', '2.284177011541714', None)}, 'Ste5': {}, 'Ste7': {'rs3': (None, None, '5.633859166012091', ''), 'rs2': ('S363', 'phosphorylated', '0.78', None), 'rs1': ('S359', 'phosphorylated', '2.35', None)}, 'Ste50': {'rs3': ('S155', None, '2.35', None), 'rs5': ('T244', None, '4.7', None), 'rs6': ('S248', None, '5.49', None), 'rs4': ('S202', None, '0.78', None), 'rs7': ('S196', None, '1.57', None)}, 'Ste11@5': {'rs3': ('T286', 'phosphorylated', '5.52511784910183', None), 'rs2': ('S285', 'phosphorylated', '0.8048507494877875', None), 'rs1': ('S281', 'phosphorylated', '2.284177011541714', None)}, 'Fus3': {'rs2': ('Y182', None, '0.76', None), 'rs1': ('T180', None, '2.35', None)}}
+Modifications RHS: {'Ste11@4': {'rs3': ('T286', 'phosphorylated', '5.52511784910183', None), 'rs2': ('S285', 'phosphorylated', '0.8048507494877875', None), 'rs1': ('S281', 'phosphorylated', '2.284177011541714', None)}, 'Ste5': {}, 'Ste7': {'rs3': (None, None, '5.633859166012091', ''), 'rs2': ('S363', 'phosphorylated', '0.78', None), 'rs1': ('S359', 'phosphorylated', '2.35', None)}, 'Ste50': {'rs3': ('S155', None, '2.35', None), 'rs5': ('T244', None, '4.7', None), 'rs6': ('S248', None, '5.49', None), 'rs4': ('S202', None, '0.78', None), 'rs7': ('S196', None, '1.57', None)}, 'Ste11@5': {'rs3': ('T286', 'phosphorylated', '5.52511784910183', None), 'rs2': ('S285', 'phosphorylated', '0.8048507494877875', None), 'rs1': ('S281', 'phosphorylated', '2.284177011541714', None)}, 'Fus3': {'rs2': ('Y182', 'phosphorylated', '0.76', None), 'rs1': ('T180', 'phosphorylated', '2.35', None)}}
+Modification type: P+
+LHSp:[]
+
+############
+re93
+Reaction:['Ste5Ste50Ste11Ste7Kss1']->['Ste5Ste50Ste11Ste7Kss1']#Bem1GTPCdc42Cdc24Far1Ste4Ste18Ste20
+Single components:['Kss1@1', 'Ste11@4', 'Ste11@5', 'Ste50@6', 'Ste5@2', 'Ste5@3', 'Ste7@7']->['Kss1@1', 'Ste11@4', 'Ste11@5', 'Ste50@6', 'Ste5@2', 'Ste5@3', 'Ste7@7']
+Rxn type: False
+PPIs LHS: ['Ste5@1--Ste5@2', 'Kss1@1--Ste5@2', 'Ste5@2--Ste7@7', 'Ste11@4--Ste5@3', 'Ste11@1--Ste11@2', 'Ste11@1--Ste50@2']
+PPIs RHS: ['Ste5@1--Ste5@2', 'Kss1@1--Ste5@2', 'Ste5@2--Ste7@7', 'Ste11@4--Ste5@3', 'Ste11@1--Ste11@2', 'Ste11@1--Ste50@2']
+Modifications LHS: {'Ste11@4': {'rs3': ('T286', None, '5.52511784910183', None), 'rs2': ('S285', None, '0.8048507494877875', None), 'rs1': ('S281', None, '2.284177011541714', None)}, 'Ste5': {}, 'Ste7': {'rs3': (None, None, '5.633859166012091', ''), 'rs2': ('S363', None, '0.78', None), 'rs1': ('S359', None, '2.35', None)}, 'Kss1': {'rs2': ('Y185', None, '0.75', None), 'rs1': ('T183', None, '2.35', None)}, 'Ste50': {'rs3': ('S155', None, '2.35', None), 'rs5': ('T244', None, '4.7', None), 'rs6': ('S248', None, '5.49', None), 'rs4': ('S202', None, '0.78', None), 'rs7': ('S196', None, '1.57', None)}, 'Ste11@5': {'rs3': ('T286', None, '5.52511784910183', None), 'rs2': ('S285', None, '0.8048507494877875', None), 'rs1': ('S281', None, '2.284177011541714', None)}}
+Modifications RHS: {'Ste11@4': {'rs3': ('T286', 'phosphorylated', '5.52511784910183', None), 'rs2': ('S285', 'phosphorylated', '0.8048507494877875', None), 'rs1': ('S281', 'phosphorylated', '2.284177011541714', None)}, 'Ste5': {}, 'Ste7': {'rs3': (None, None, '5.633859166012091', ''), 'rs2': ('S363', None, '0.78', None), 'rs1': ('S359', None, '2.35', None)}, 'Kss1': {'rs2': ('Y185', None, '0.75', None), 'rs1': ('T183', None, '2.35', None)}, 'Ste50': {'rs3': ('S155', None, '2.35', None), 'rs5': ('T244', None, '4.7', None), 'rs6': ('S248', None, '5.49', None), 'rs4': ('S202', None, '0.78', None), 'rs7': ('S196', None, '1.57', None)}, 'Ste11@5': {'rs3': ('T286', 'phosphorylated', '5.52511784910183', None), 'rs2': ('S285', 'phosphorylated', '0.8048507494877875', None), 'rs1': ('S281', 'phosphorylated', '2.284177011541714', None)}}
+Modification type: P+
+LHSp:[]
+
+############
+re94
+Reaction:['Ste5Ste50Ste11Ste7Kss1']->['Ste5Ste50Ste11Ste7Kss1']#Ste5Ste50Ste11Ste7Kss1
+Single components:['Kss1@1', 'Ste11@4', 'Ste11@5', 'Ste50@6', 'Ste5@2', 'Ste5@3', 'Ste7@7']->['Kss1@1', 'Ste11@4', 'Ste11@5', 'Ste50@6', 'Ste5@2', 'Ste5@3', 'Ste7@7']
+Rxn type: False
+PPIs LHS: ['Ste5@1--Ste5@2', 'Kss1@1--Ste5@2', 'Ste5@2--Ste7@7', 'Ste11@4--Ste5@3', 'Ste11@1--Ste11@2', 'Ste11@1--Ste50@2']
+PPIs RHS: ['Ste5@1--Ste5@2', 'Kss1@1--Ste5@2', 'Ste5@2--Ste7@7', 'Ste11@4--Ste5@3', 'Ste11@1--Ste11@2', 'Ste11@1--Ste50@2']
+Modifications LHS: {'Ste11@4': {'rs3': ('T286', 'phosphorylated', '5.52511784910183', None), 'rs2': ('S285', 'phosphorylated', '0.8048507494877875', None), 'rs1': ('S281', 'phosphorylated', '2.284177011541714', None)}, 'Ste5': {}, 'Ste7': {'rs3': (None, None, '5.633859166012091', ''), 'rs2': ('S363', None, '0.78', None), 'rs1': ('S359', None, '2.35', None)}, 'Kss1': {'rs2': ('Y185', None, '0.75', None), 'rs1': ('T183', None, '2.35', None)}, 'Ste50': {'rs3': ('S155', None, '2.35', None), 'rs5': ('T244', None, '4.7', None), 'rs6': ('S248', None, '5.49', None), 'rs4': ('S202', None, '0.78', None), 'rs7': ('S196', None, '1.57', None)}, 'Ste11@5': {'rs3': ('T286', 'phosphorylated', '5.52511784910183', None), 'rs2': ('S285', 'phosphorylated', '0.8048507494877875', None), 'rs1': ('S281', 'phosphorylated', '2.284177011541714', None)}}
+Modifications RHS: {'Ste11@4': {'rs3': ('T286', 'phosphorylated', '5.52511784910183', None), 'rs2': ('S285', 'phosphorylated', '0.8048507494877875', None), 'rs1': ('S281', 'phosphorylated', '2.284177011541714', None)}, 'Ste5': {}, 'Ste7': {'rs3': (None, None, '5.633859166012091', ''), 'rs2': ('S363', 'phosphorylated', '0.78', None), 'rs1': ('S359', 'phosphorylated', '2.35', None)}, 'Kss1': {'rs2': ('Y185', None, '0.75', None), 'rs1': ('T183', None, '2.35', None)}, 'Ste50': {'rs3': ('S155', None, '2.35', None), 'rs5': ('T244', None, '4.7', None), 'rs6': ('S248', None, '5.49', None), 'rs4': ('S202', None, '0.78', None), 'rs7': ('S196', None, '1.57', None)}, 'Ste11@5': {'rs3': ('T286', 'phosphorylated', '5.52511784910183', None), 'rs2': ('S285', 'phosphorylated', '0.8048507494877875', None), 'rs1': ('S281', 'phosphorylated', '2.284177011541714', None)}}
+Modification type: P+
+LHSp:[]
+
+############
+re96
+Reaction:['Ste5Ste50Ste11Ste7Kss1']->['Ste5Ste50Ste11Ste7Kss1']#Ste5Ste50Ste11Ste7Kss1
+Single components:['Kss1@1', 'Ste11@4', 'Ste11@5', 'Ste50@6', 'Ste5@2', 'Ste5@3', 'Ste7@7']->['Kss1@1', 'Ste11@4', 'Ste11@5', 'Ste50@6', 'Ste5@2', 'Ste5@3', 'Ste7@7']
+Rxn type: False
+PPIs LHS: ['Ste5@1--Ste5@2', 'Kss1@1--Ste5@2', 'Ste5@2--Ste7@7', 'Ste11@4--Ste5@3', 'Ste11@1--Ste11@2', 'Ste11@1--Ste50@2']
+PPIs RHS: ['Ste5@1--Ste5@2', 'Kss1@1--Ste5@2', 'Ste5@2--Ste7@7', 'Ste11@4--Ste5@3', 'Ste11@1--Ste11@2', 'Ste11@1--Ste50@2']
+Modifications LHS: {'Ste11@4': {'rs3': ('T286', 'phosphorylated', '5.52511784910183', None), 'rs2': ('S285', 'phosphorylated', '0.8048507494877875', None), 'rs1': ('S281', 'phosphorylated', '2.284177011541714', None)}, 'Ste5': {}, 'Ste7': {'rs3': (None, None, '5.633859166012091', ''), 'rs2': ('S363', 'phosphorylated', '0.78', None), 'rs1': ('S359', 'phosphorylated', '2.35', None)}, 'Kss1': {'rs2': ('Y185', None, '0.75', None), 'rs1': ('T183', None, '2.35', None)}, 'Ste50': {'rs3': ('S155', None, '2.35', None), 'rs5': ('T244', None, '4.7', None), 'rs6': ('S248', None, '5.49', None), 'rs4': ('S202', None, '0.78', None), 'rs7': ('S196', None, '1.57', None)}, 'Ste11@5': {'rs3': ('T286', 'phosphorylated', '5.52511784910183', None), 'rs2': ('S285', 'phosphorylated', '0.8048507494877875', None), 'rs1': ('S281', 'phosphorylated', '2.284177011541714', None)}}
+Modifications RHS: {'Ste11@4': {'rs3': ('T286', 'phosphorylated', '5.52511784910183', None), 'rs2': ('S285', 'phosphorylated', '0.8048507494877875', None), 'rs1': ('S281', 'phosphorylated', '2.284177011541714', None)}, 'Ste5': {}, 'Ste7': {'rs3': (None, None, '5.633859166012091', ''), 'rs2': ('S363', 'phosphorylated', '0.78', None), 'rs1': ('S359', 'phosphorylated', '2.35', None)}, 'Kss1': {'rs2': ('Y185', 'phosphorylated', '0.75', None), 'rs1': ('T183', 'phosphorylated', '2.35', None)}, 'Ste50': {'rs3': ('S155', None, '2.35', None), 'rs5': ('T244', None, '4.7', None), 'rs6': ('S248', None, '5.49', None), 'rs4': ('S202', None, '0.78', None), 'rs7': ('S196', None, '1.57', None)}, 'Ste11@5': {'rs3': ('T286', 'phosphorylated', '5.52511784910183', None), 'rs2': ('S285', 'phosphorylated', '0.8048507494877875', None), 'rs1': ('S281', 'phosphorylated', '2.284177011541714', None)}}
+Modification type: P+
+LHSp:[]
+
+############
+re128
+Reaction:['Dig1Ste12Tec1']->['Dig1Ste12Tec1']#Kss1
+Single components:['Dig1@1', 'Ste12@2', 'Ste12@3', 'Tec1@4']->['Dig1@1', 'Ste12@2', 'Ste12@3', 'Tec1@4']
+Rxn type: False
+PPIs LHS: ['Dig1@1--Ste12@2', 'Ste12@3--Tec1@4']
+PPIs RHS: ['Dig1@1--Ste12@2', 'Ste12@3--Tec1@4']
+Modifications LHS: {'Ste12': {'rs1': (None, None, '2.35', None)}, 'Tec1': {'rs2': (None, None, '0.8161980913738187', ''), 'rs1': ('T273', None, '2.3', None)}, 'Dig1': {'rs1': (None, None, '2.356194490192345', None)}}
+Modifications RHS: {'Ste12': {'rs1': (None, 'phosphorylated', '2.35', None)}, 'Tec1': {'rs2': (None, None, '0.8161980913738187', ''), 'rs1': ('T273', None, '2.3', None)}, 'Dig1': {'rs1': (None, 'phosphorylated', '2.356194490192345', None)}}
+Modification type: P+
+LHSp:[]
+
+############
+re134
+Reaction:['Cyc8Tup1Sfl1']->['Cyc8Tup1Sfl1']#Tpk2
+Single components:['Cyc8@1', 'Sfl1@3', 'Sfl1@4', 'Tup1@2']->['Cyc8@1', 'Sfl1@3', 'Tup1@2']
+Rxn type: False
+PPIs LHS: ['Sfl1@1--Sfl1@2', 'Cyc8@1--Tup1@2', 'Cyc8@1--Sfl1@3']
+PPIs RHS: ['Cyc8@1--Tup1@2', 'Sfl1@1--Sfl1@2', 'Cyc8@1--Sfl1@3']
+Modifications LHS: {'Sfl1': {'rs1': (None, None, '2.356194490192345', '')}, 'Tup1': {}, 'Cyc8': {}}
+Modifications RHS: {'Sfl1': {'rs1': (None, 'phosphorylated', '2.356194490192345', '')}, 'Tup1': {}, 'Cyc8': {}}
+Modification type: P+
+LHSp:[]
+
+############
+re145
+Reaction:['Tec1']->['Tec1']#Fus3
+Single components:['Tec1@1']->['Tec1@1']
+Rxn type: False
+PPIs LHS: []
+PPIs RHS: []
+Modifications LHS: {'Tec1': {'rs2': (None, None, '0.8161980913738187', ''), 'rs1': ('T273', None, '2.3', None)}}
+Modifications RHS: {'Tec1': {'rs2': (None, None, '0.8161980913738187', ''), 'rs1': ('T273', 'phosphorylated', '2.3', None)}}
+Modification type: P+
+LHSp:[]
+
+############
+re147
+Reaction:['Tec1']->['Sa431_Degraded']#No Modifier
+Single components:['Tec1@1']->['Sa431_Degraded@1']
+Rxn type: synthesis/degradation
+PPIs LHS: []
+PPIs RHS: []
+Modification type: False
+LHSp:[]
+
+############
+re148
+Reaction:['AFactorSte3']->['AFactorSte3']#Fus3
+Single components:['Mfa12@1', 'Ste3@2']->['Mfa12@1', 'Ste3@2']
+Rxn type: False
+PPIs LHS: ['Mfa12@1--Ste3@2']
+PPIs RHS: ['Mfa12@1--Ste3@2']
+Modifications LHS: {'Mfa12': {}, 'Ste3': {'rs3': (None, None, '5.84', None), 'rs2': (None, None, '0.81', None), 'rs1': (None, None, '2.4', None)}}
+Modifications RHS: {'Mfa12': {}, 'Ste3': {'rs3': (None, None, '5.84', None), 'rs2': (None, None, '0.81', None), 'rs1': (None, 'phosphorylated', '2.4', None)}}
+Modification type: P+
+LHSp:[]
+
+############
+re157
+Reaction:['Ste3']->['Sa449_Degraded']#No Modifier
+Single components:['Ste3@1']->['Sa449_Degraded@1']
+Rxn type: synthesis/degradation
+PPIs LHS: []
+PPIs RHS: []
+Modification type: False
+LHSp:[]
+
+############
+re165
+Reaction:['Ste2']->['Sa464_Degraded']#No Modifier
+Single components:['Ste2@1', 'Ste2@2']->['Sa464_Degraded@1']
+Rxn type: synthesis/degradation
+PPIs LHS: []
+PPIs RHS: []
+Modification type: False
+LHSp:[]
+
+############
+re166
+Reaction:['Sst2']->['Sst2']#Rad6
+Single components:['Sst2@1']->['Sst2@1']
+Rxn type: False
+PPIs LHS: []
+PPIs RHS: []
+Modifications LHS: {'Sst2': {'rs2': ('S539', None, '2.32', None), 'rs1': (None, None, '0.7838611806902125', '')}}
+Modifications RHS: {'Sst2': {'rs2': ('S539', None, '2.32', None), 'rs1': (None, 'ubiquitinated', '0.7838611806902125', '')}}
+Modification type: Ub+
+LHSp:[]
+
+############
+re167
+Reaction:['Sst2']->['Sa468_Degraded']#No Modifier
+Single components:['Sst2@1']->['Sa468_Degraded@1']
+Rxn type: synthesis/degradation
+PPIs LHS: []
+PPIs RHS: []
+Modification type: False
+LHSp:[]
+
+############
+re168
+Reaction:['Mpt5Sst2']->['Mpt5Sst2']#Fus3
+Single components:['Mpt5@1', 'Sst2@2']->['Mpt5@1', 'Sst2@2']
+Rxn type: False
+PPIs LHS: ['Mpt5@1--Sst2@2']
+PPIs RHS: ['Mpt5@1--Sst2@2']
+Modifications LHS: {'Sst2': {'rs2': ('S539', None, '2.32', None), 'rs1': (None, None, '0.7838611806902125', '')}, 'Mpt5': {}}
+Modifications RHS: {'Sst2': {'rs2': ('S539', 'phosphorylated', '2.32', None), 'rs1': (None, None, '0.7838611806902125', '')}, 'Mpt5': {}}
+Modification type: P+
+LHSp:[]
+
+############
+re176
+Reaction:['Far1']->['Sa231_Degraded']#No Modifier
+Single components:['Far1@1']->['Sa231_Degraded@1']
+Rxn type: synthesis/degradation
+PPIs LHS: []
+PPIs RHS: []
+Modification type: False
+LHSp:[]
+
+############
+re179
+Reaction:['Ste7']->['Ste7']#ScfComplex
+Single components:['Ste7@1']->['Ste7@1']
+Rxn type: False
+PPIs LHS: []
+PPIs RHS: []
+Modifications LHS: {'Ste7': {'rs3': (None, None, '5.633859166012091', ''), 'rs2': ('S363', 'phosphorylated', '0.78', None), 'rs1': ('S359', 'phosphorylated', '2.35', None)}}
+Modifications RHS: {'Ste7': {'rs3': (None, 'ubiquitinated', '5.633859166012091', ''), 'rs2': ('S363', 'phosphorylated', '0.78', None), 'rs1': ('S359', 'phosphorylated', '2.35', None)}}
+Modification type: Ub+
+LHSp:[]
+
+############
+re180
+Reaction:['Ste7']->['Sa276_Degraded']#No Modifier
+Single components:['Ste7@1']->['Sa276_Degraded@1']
+Rxn type: synthesis/degradation
+PPIs LHS: []
+PPIs RHS: []
+Modification type: False
+LHSp:[]
+
+############
+re192
+Reaction:['MfAlpha12']->['Sa86_Degraded']#Bar1
+Single components:['MfAlpha12@1']->['Sa86_Degraded@1']
+Rxn type: synthesis/degradation
+PPIs LHS: []
+PPIs RHS: []
+Modification type: False
+LHSp:[]
+
+############
+re209
+Reaction:['Bem1GDPCdc42Cdc24Far1Ste4Ste18']->['Bem1GTPCdc42Cdc24Far1Ste4Ste18']#Bem1GDPCdc42Cdc24Far1Ste4Ste18
+Single components:['Bem1@1', 'Cdc24@4', 'Cdc42@2', 'Far1@5', 'GDP@3', 'Ste18@6', 'Ste4@7']->['Bem1@1', 'Cdc24@4', 'Cdc42@2', 'Far1@5', 'GDP@3', 'Ste18@6', 'Ste4@7']
+Rxn type: False
+PPIs LHS: ['Bem1@1--Cdc42@2', 'Cdc42@1--GDP@2', 'Far1@2--Ste4@4', 'Cdc24@1--Far1@2', 'Ste18@1--Ste4@2']
+PPIs RHS: ['Bem1@1--Cdc24@4', 'Bem1@1--Cdc42@2', 'Cdc42@1--GTP@2', 'Far1@2--Ste4@4', 'Cdc24@1--Far1@2', 'Ste18@1--Ste4@2']
+Cdc42_[GDP]_i-_GDP_[Cdc42],Cdc42,GDP,,i-,GDP,Cdc42,,,,
+Bem1_[Cdc24]_ppi+_Cdc24_[Bem1],Bem1,Cdc24,,ppi+,Cdc24,Bem1,,,,
+Cdc42_[GTP]_i+_GTP_[Cdc42],Cdc42,GTP,,i+,GTP,Cdc42,,,,
+Modification type: False
+LHSp:[]
+
+############
+re214
+Reaction:['Cdc28Cln1Far1']->['Cdc28Cln1Far1']#Cdc28Cln1Far1
+Single components:['Cdc28@1', 'Cln1@2', 'Far1@3']->['Cdc28@1', 'Cln1@2', 'Far1@3']
+Rxn type: False
+PPIs LHS: ['Cdc28@1--Cln1@2', 'Cdc28@1--Far1@3']
+PPIs RHS: ['Cdc28@1--Cln1@2', 'Cdc28@1--Far1@3']
+Modifications LHS: {'Cdc28': {}, 'Far1': {'rs3': ('T306', 'phosphorylated', '0.78', None), 'rs2': ('S87', None, '2.27', None), 'rs5': (None, None, '3.9757573696164945', ''), 'rs4': (None, None, '5.6', None)}, 'Cln1': {}}
+Modifications RHS: {'Cdc28': {}, 'Far1': {'rs3': ('T306', 'phosphorylated', '0.78', None), 'rs2': ('S87', 'phosphorylated', '2.27', None), 'rs5': (None, None, '3.9757573696164945', ''), 'rs4': (None, None, '5.6', None)}, 'Cln1': {}}
+Modification type: P+
+LHSp:[]
+
+############
+re215
+Reaction:['Cdc28Cln1Far1']->['Cdc28Cln1Far1']#ScfCdc4Complex
+Single components:['Cdc28@1', 'Cln1@2', 'Far1@3']->['Cdc28@1', 'Cln1@2', 'Far1@3']
+Rxn type: False
+PPIs LHS: ['Cdc28@1--Cln1@2', 'Cdc28@1--Far1@3']
+PPIs RHS: ['Cdc28@1--Cln1@2', 'Cdc28@1--Far1@3']
+Modifications LHS: {'Cdc28': {}, 'Far1': {'rs3': ('T306', 'phosphorylated', '0.78', None), 'rs2': ('S87', 'phosphorylated', '2.27', None), 'rs5': (None, None, '3.9757573696164945', ''), 'rs4': (None, None, '5.6', None)}, 'Cln1': {}}
+Modifications RHS: {'Cdc28': {}, 'Far1': {'rs3': ('T306', 'phosphorylated', '0.78', None), 'rs2': ('S87', 'phosphorylated', '2.27', None), 'rs5': (None, 'ubiquitinated', '3.9757573696164945', ''), 'rs4': (None, None, '5.6', None)}, 'Cln1': {}}
+Modification type: Ub+
+LHSp:[]
+
+############
+re218
+Reaction:['GDPRsr1', 'GTP']->['GTPRsr1', 'GDP']#Bud5
+Single components:['GDP@1', 'GTP@1', 'Rsr1@2']->['GDP@1', 'GTP@1', 'Rsr1@2']
+Rxn type: False
+PPIs LHS: ['GDP@1--Rsr1@2']
+PPIs RHS: ['GTP@1--Rsr1@2']
+Rsr1_[GDP]_i-_GDP_[Rsr1],Rsr1,GDP,,i-,GDP,Rsr1,,,,
+Rsr1_[GTP]_i+_GTP_[Rsr1],Rsr1,GTP,,i+,GTP,Rsr1,,,,
+Modification type: False
+LHSp:[]
+
+############
+re219
+Reaction:['GTPRsr1']->['GDPRsr1', 'Pi']#Bud2
+Single components:['GTP@1', 'Rsr1@2']->['GDP@1', 'Pi@1', 'Rsr1@2']
+Rxn type: synthesis/degradation
+PPIs LHS: ['GTP@1--Rsr1@2']
+PPIs RHS: ['GDP@1--Rsr1@2']
+Rsr1_[GTP]_i-_GTP_[Rsr1],Rsr1,GTP,,i-,GTP,Rsr1,,,,
+Rsr1_[GDP]_i+_GDP_[Rsr1],Rsr1,GDP,,i+,GDP,Rsr1,,,,
+Modification type: False
+LHSp:[]
+
+############
+re221
+Reaction:['Bem1GTPCdc42Cdc24GTPRsr1']->['Bem1GTPCdc42Cdc24GTPRsr1']#Cla4
+Single components:['Bem1@1', 'Cdc24@2', 'Cdc42@5', 'GTP@3', 'GTP@6', 'Rsr1@4']->['Bem1@1', 'Cdc24@2', 'Cdc42@5', 'GTP@3', 'GTP@6', 'Rsr1@4']
+Rxn type: False
+PPIs LHS: ['Bem1@1--Cdc42@5', 'Cdc42@5--Rsr1@4', 'Cdc24@1--Rsr1@3', 'GTP@1--Rsr1@2', 'Cdc42@1--GTP@2']
+PPIs RHS: ['Bem1@1--Cdc42@5', 'Cdc42@5--Rsr1@4', 'Cdc24@1--Rsr1@3', 'GTP@1--Rsr1@2', 'Cdc42@1--GTP@2', 'GDP@1--Rsr1@2']
+Rsr1_[GDP]_i+_GDP_[Rsr1],Rsr1,GDP,,i+,GDP,Rsr1,,,,
+Modifications LHS: {'GTP': {}, 'Cdc42': {}, 'Rsr1': {'rs1': (None, 'prenylated', '2.24', None)}, 'Bem1': {}, 'Cdc24': {'rs1': (None, None, '2.26', None)}}
+Modifications RHS: {'GTP': {}, 'Cdc42': {}, 'Rsr1': {'rs1': (None, 'prenylated', '2.24', None)}, 'Bem1': {}, 'Cdc24': {'rs1': (None, 'phosphorylated', '2.26', None)}}
+Modification type: P+
+LHSp:[]
+
+############
+re222
+Reaction:['Bem1GDPCdc42Cdc24GTPRsr1']->['Bem1GTPCdc42Cdc24GTPRsr1']#Bem1GDPCdc42Cdc24GTPRsr1
+Single components:['Bem1@1', 'Cdc24@2', 'Cdc42@5', 'GDP@3', 'GDP@6', 'Rsr1@4']->['Bem1@1', 'Cdc24@2', 'Cdc42@5', 'GTP@3', 'GTP@6', 'Rsr1@4']
+Rxn type: synthesis/degradation
+PPIs LHS: ['Bem1@1--Cdc42@5', 'Cdc42@5--Rsr1@4', 'Cdc24@1--Rsr1@3', 'GTP@1--Rsr1@2', 'GDP@1--Rsr1@2', 'Cdc42@1--GDP@2']
+PPIs RHS: ['Bem1@1--Cdc42@5', 'Cdc42@5--Rsr1@4', 'Cdc24@1--Rsr1@3', 'GTP@1--Rsr1@2', 'Cdc42@1--GTP@2']
+Rsr1_[GDP]_i-_GDP_[Rsr1],Rsr1,GDP,,i-,GDP,Rsr1,,,,
+Cdc42_[GDP]_i-_GDP_[Cdc42],Cdc42,GDP,,i-,GDP,Cdc42,,,,
+Cdc42_[GTP]_i+_GTP_[Cdc42],Cdc42,GTP,,i+,GTP,Cdc42,,,,
+Modification type: False
+LHSp:[]
+
+############
+re223
+Reaction:['Cla4']->['Cla4']#Bem1GTPCdc42Cdc24GTPRsr1
+Single components:['Cla4@1']->['Cla4@1']
+Rxn type: False
+PPIs LHS: []
+PPIs RHS: []
+Modifications LHS: {'Cla4': {}}
+Modifications RHS: {'Cla4': {}}
+Modification type: False
+LHSp:[]
+
+############
+re240
+Reaction:['Bcy1']->['S8761']#No Modifier
+Single components:['Bcy1@1']->['S8761@1']
+Rxn type: synthesis/degradation
+PPIs LHS: []
+PPIs RHS: []
+Modification type: False
+LHSp:[]
+
+############
+re244
+Reaction:['Ste2']->['Ste2']#No Modifier
+Single components:['Ste2@1']->['Ste2@1', 'Ste2@2']
+Rxn type: False
+PPIs LHS: []
+PPIs RHS: []
+Modifications LHS: {'Ste2': {'rs3': ('S339', None, '3.4905064718238514', None), 'rs2': ('S338', None, '5.928321020727583', None), 'rs4': ('K337', None, '0.8269780661655485', None), 'rs1': ('S331', None, '2.3832305715485393', None)}}
+Modifications RHS: {'Ste2@2': {'rs3': ('S339', None, '3.4905064718238514', None), 'rs2': ('S338', None, '5.928321020727583', None), 'rs4': ('K337', None, '0.8269780661655485', None), 'rs1': ('S331', None, '2.3832305715485393', None)}, 'Ste2@1': {'rs3': ('S339', None, '3.4905064718238514', None), 'rs2': ('S338', None, '5.928321020727583', None), 'rs4': ('K337', None, '0.8269780661655485', None), 'rs1': ('S331', None, '2.3832305715485393', None)}}
+Modification type: False
+LHSp:[]
+
+############
+re250
+Reaction:['Gpa1', 'GDP']->['GDPGpa1']#No Modifier
+Single components:['GDP@1', 'Gpa1@1']->['GDP@1', 'Gpa1@2']
+Rxn type: False
+PPIs LHS: []
+PPIs RHS: ['GDP@1--Gpa1@2']
+Gpa1_[GDP]_i+_GDP_[Gpa1],Gpa1,GDP,,i+,GDP,Gpa1,,,,
+Modification type: False
+LHSp:[]
+
+############
+re39
+Reaction:['Far1Gene']->['Far1mRNA']#Mcm1Ste12
+Single components:['Far1Gene@1']->['Far1mRNA@1']
+Rxn type: synthesis/degradation
+PPIs LHS: []
+PPIs RHS: []
+Modification type: False
+LHSp:[]
+
+############
+re112
+Reaction:['Fus3Gene']->['Fus3mRNA']#Mcm1Ste12
+Single components:['Fus3Gene@1']->['Fus3mRNA@1']
+Rxn type: synthesis/degradation
+PPIs LHS: []
+PPIs RHS: []
+Modification type: False
+LHSp:[]
+
+############
+re115
+Reaction:['Msg5Gene']->['Msg5mRNA']#Mcm1Ste12
+Single components:['Msg5Gene@1']->['Msg5mRNA@1']
+Rxn type: synthesis/degradation
+PPIs LHS: []
+PPIs RHS: []
+Modification type: False
+LHSp:[]
+
+############
+re116
+Reaction:['Sst2Gene']->['Sst2mRNA']#Mcm1Ste12
+Single components:['Sst2Gene@1']->['Sst2mRNA@1']
+Rxn type: synthesis/degradation
+PPIs LHS: []
+PPIs RHS: []
+Modification type: False
+LHSp:[]
+
+############
+re117
+Reaction:['Gpa1Gene']->['Gpa1mRNA']#Mcm1Ste12
+Single components:['Gpa1Gene@1']->['Gpa1mRNA@1']
+Rxn type: synthesis/degradation
+PPIs LHS: []
+PPIs RHS: []
+Modification type: False
+LHSp:[]
+
+############
+re119
+Reaction:['Fus1Gene']->['Fus1mRNA']#Mcm1Ste12
+Single components:['Fus1Gene@1']->['Fus1mRNA@1']
+Rxn type: synthesis/degradation
+PPIs LHS: []
+PPIs RHS: []
+Modification type: False
+LHSp:[]
+
+############
+re120
+Reaction:['Fus2Gene']->['Fus2mRNA']#Mcm1Ste12
+Single components:['Fus2Gene@1']->['Fus2mRNA@1']
+Rxn type: synthesis/degradation
+PPIs LHS: []
+PPIs RHS: []
+Modification type: False
+LHSp:[]
+
+############
+re121
+Reaction:['Fig1Gene']->['Fig1mRNA']#Mcm1Ste12
+Single components:['Fig1Gene@1']->['Fig1mRNA@1']
+Rxn type: synthesis/degradation
+PPIs LHS: []
+PPIs RHS: []
+Modification type: False
+LHSp:[]
+
+############
+re122
+Reaction:['Fig2Gene']->['Fig2mRNA']#Mcm1Ste12
+Single components:['Fig2Gene@1']->['Fig2mRNA@1']
+Rxn type: synthesis/degradation
+PPIs LHS: []
+PPIs RHS: []
+Modification type: False
+LHSp:[]
+
+############
+re123
+Reaction:['Aga1Gene']->['Aga1mRNA']#Mcm1Ste12
+Single components:['Aga1Gene@1']->['Aga1mRNA@1']
+Rxn type: synthesis/degradation
+PPIs LHS: []
+PPIs RHS: []
+Modification type: False
+LHSp:[]
+
+############
+re229
+Reaction:['Ste3Gene']->['Ste3mRNA']#Mcm1Matalpha1
+Single components:['Ste3Gene@1']->['Ste3mRNA@1']
+Rxn type: synthesis/degradation
+PPIs LHS: []
+PPIs RHS: []
+Modification type: False
+LHSp:[]
+
+############
+re230
+Reaction:['MfAlpha1Gene']->['MfAlpha1mRNA']#Mcm1Matalpha1
+Single components:['MfAlpha1Gene@1']->['MfAlpha1mRNA@1']
+Rxn type: synthesis/degradation
+PPIs LHS: []
+PPIs RHS: []
+Modification type: False
+LHSp:[]
+
+############
+re231
+Reaction:['MfAlpha2Gene']->['MfAlpha2mRNA']#Mcm1Matalpha1
+Single components:['MfAlpha2Gene@1']->['MfAlpha2mRNA@1']
+Rxn type: synthesis/degradation
+PPIs LHS: []
+PPIs RHS: []
+Modification type: False
+LHSp:[]
+
+############
+re232
+Reaction:['Sag1Gene']->['Sag1mRNA']#Mcm1Matalpha1
+Single components:['Sag1Gene@1']->['Sag1mRNA@1']
+Rxn type: synthesis/degradation
+PPIs LHS: []
+PPIs RHS: []
+Modification type: False
+LHSp:[]
+
+############
+re241
+Reaction:['Tec1Gene']->['Tec1mRNA']#Ste12Tec1
+Single components:['Tec1Gene@1']->['Tec1mRNA@1']
+Rxn type: synthesis/degradation
+PPIs LHS: []
+PPIs RHS: []
+Modification type: False
+LHSp:[]
+
+############
+re105
+Reaction:['Msg5mRNA']->['Msg5']#No Modifier
+Single components:['Msg5mRNA@1']->['Msg5@1']
+
+############
+re142
+Reaction:['Tec1mRNA']->['Tec1']#No Modifier
+Single components:['Tec1mRNA@1']->['Tec1@1']
+
+############
+re185
+Reaction:['Sst2mRNA']->['Sst2']#No Modifier
+Single components:['Sst2mRNA@1']->['Sst2@1']
+
+############
+re242
+Reaction:['Ste3mRNA']->['Ste3']#No Modifier
+Single components:['Ste3mRNA@1']->['Ste3@1']
+
+############
+re245
+Reaction:['Ste2mRNA']->['Ste2']#No Modifier
+Single components:['Ste2mRNA@1']->['Ste2@1']
+
+############
+re246
+Reaction:['Bar1mRNA']->['Bar1']#No Modifier
+Single components:['Bar1mRNA@1']->['Bar1@1']
+
+############
+re247
+Reaction:['Fus3mRNA']->['Fus3']#No Modifier
+Single components:['Fus3mRNA@1']->['Fus3@1']
+
+############
+re248
+Reaction:['Far1mRNA']->['Far1']#No Modifier
+Single components:['Far1mRNA@1']->['Far1@1']
+
+############
+re251
+Reaction:['Gpa1mRNA']->['Gpa1']#No Modifier
+Single components:['Gpa1mRNA@1']->['Gpa1@1']
+
+############
+re34
+Reaction:['Ste5']->['Ste5']#Msn5
+Single components:['Ste5@1', 'Ste5@2']->['Ste5@1', 'Ste5@2']
+Rxn type: False
+PPIs LHS: []
+PPIs RHS: []
+Modifications LHS: {'Ste5@2': {}, 'Ste5@1': {}}
+Modifications RHS: {'Ste5@2': {}, 'Ste5@1': {}}
+Modification type: False
+LHSp:[]
+
+############
+re35
+Reaction:['Ste12']->['Ste12']#Pse1
+Single components:['Ste12@1', 'Ste12@2']->['Ste12@1', 'Ste12@2']
+Rxn type: False
+PPIs LHS: []
+PPIs RHS: []
+Modifications LHS: {'Ste12@1': {'rs1': (None, None, '2.35', None)}, 'Ste12@2': {'rs1': (None, None, '2.35', None)}}
+Modifications RHS: {'Ste12@1': {'rs1': (None, None, '2.35', None)}, 'Ste12@2': {'rs1': (None, None, '2.35', None)}}
+Modification type: False
+LHSp:[]
+
+############
+re42
+Reaction:['Fus3']->['Fus3']#No Modifier
+Single components:['Fus3@1']->['Fus3@1']
+Rxn type: False
+PPIs LHS: []
+PPIs RHS: []
+Modifications LHS: {'Fus3': {'rs2': ('Y182', 'phosphorylated', '0.76', None), 'rs1': ('T180', 'phosphorylated', '2.35', None)}}
+Modifications RHS: {'Fus3': {'rs2': ('Y182', 'phosphorylated', '0.76', None), 'rs1': ('T180', 'phosphorylated', '2.35', None)}}
+Modification type: False
+LHSp:[]
+
+############
+re46
+Reaction:['Kss1']->['Kss1']#No Modifier
+Single components:['Kss1@1']->['Kss1@1']
+Rxn type: False
+PPIs LHS: []
+PPIs RHS: []
+Modifications LHS: {'Kss1': {'rs2': ('Y185', 'phosphorylated', '0.75', None), 'rs1': ('T183', 'phosphorylated', '2.35', None)}}
+Modifications RHS: {'Kss1': {'rs2': ('Y185', 'phosphorylated', '0.75', None), 'rs1': ('T183', 'phosphorylated', '2.35', None)}}
+Modification type: False
+LHSp:[]
+
+############
+re75
+Reaction:['Cdc24Far1']->['Cdc24Far1']#Msn5
+Single components:['Cdc24@1', 'Far1@2']->['Cdc24@1', 'Far1@2']
+Rxn type: False
+PPIs LHS: ['Cdc24@1--Far1@2']
+PPIs RHS: ['Cdc24@1--Far1@2']
+Modifications LHS: {'Far1': {'rs3': ('T306', 'phosphorylated', '0.78', None), 'rs2': ('S87', None, '2.27', None), 'rs5': (None, None, '3.9757573696164945', ''), 'rs4': (None, None, '5.6', None)}, 'Cdc24': {'rs1': (None, None, '2.26', None)}}
+Modifications RHS: {'Far1': {'rs3': ('T306', 'phosphorylated', '0.78', None), 'rs2': ('S87', None, '2.27', None), 'rs5': (None, None, '3.9757573696164945', ''), 'rs4': (None, None, '5.6', None)}, 'Cdc24': {'rs1': (None, None, '2.26', None)}}
+Modification type: False
+LHSp:[]
+
+############
+re98
+Reaction:['Cdc24']->['Cdc24']#No Modifier
+Single components:['Cdc24@1']->['Cdc24@1']
+Rxn type: False
+PPIs LHS: []
+PPIs RHS: []
+Modifications LHS: {'Cdc24': {'rs1': (None, None, '2.26', None)}}
+Modifications RHS: {'Cdc24': {'rs1': (None, None, '2.26', None)}}
+Modification type: False
+LHSp:[]
+
+############
+re164
+Reaction:['Ste2']->['Ste2']#No Modifier
+Single components:['Ste2@1', 'Ste2@2']->['Ste2@1', 'Ste2@2']
+Rxn type: False
+PPIs LHS: []
+PPIs RHS: []
+Modifications LHS: {'Ste2@2': {'rs3': ('S339', 'phosphorylated', '3.4905064718238514', None), 'rs2': ('S338', 'phosphorylated', '5.928321020727583', None), 'rs4': ('K337', 'ubiquitinated', '0.8269780661655485', None), 'rs1': ('S331', 'phosphorylated', '2.3832305715485393', None)}, 'Ste2@1': {'rs3': ('S339', 'phosphorylated', '3.4905064718238514', None), 'rs2': ('S338', 'phosphorylated', '5.928321020727583', None), 'rs4': ('K337', 'ubiquitinated', '0.8269780661655485', None), 'rs1': ('S331', 'phosphorylated', '2.3832305715485393', None)}}
+Modifications RHS: {'Ste2@2': {'rs3': ('S339', 'phosphorylated', '3.4905064718238514', None), 'rs2': ('S338', 'phosphorylated', '5.928321020727583', None), 'rs4': ('K337', 'ubiquitinated', '0.8269780661655485', None), 'rs1': ('S331', 'phosphorylated', '2.3832305715485393', None)}, 'Ste2@1': {'rs3': ('S339', 'phosphorylated', '3.4905064718238514', None), 'rs2': ('S338', 'phosphorylated', '5.928321020727583', None), 'rs4': ('K337', 'ubiquitinated', '0.8269780661655485', None), 'rs1': ('S331', 'phosphorylated', '2.3832305715485393', None)}}
+Modification type: False
+LHSp:[]
+
+############
+re187
+Reaction:['Fus3']->['Fus3']#No Modifier
+Single components:['Fus3@1']->['Fus3@1']
+Rxn type: False
+PPIs LHS: []
+PPIs RHS: []
+Modifications LHS: {'Fus3': {'rs2': ('Y182', None, '0.76', None), 'rs1': ('T180', None, '2.35', None)}}
+Modifications RHS: {'Fus3': {'rs2': ('Y182', None, '0.76', None), 'rs1': ('T180', None, '2.35', None)}}
+Modification type: False
+LHSp:[]
+
+############
+re193
+Reaction:['Bar1']->['Bar1']#No Modifier
+Single components:['Bar1@1']->['Bar1@1']
+Rxn type: False
+PPIs LHS: []
+PPIs RHS: []
+Modifications LHS: {'Bar1': {}}
+Modifications RHS: {'Bar1': {}}
+Modification type: False
+LHSp:[]
+
+############
+re205
+Reaction:['Ste3']->['Ste3']#No Modifier
+Single components:['Ste3@1']->['Ste3@1']
+Rxn type: False
+PPIs LHS: []
+PPIs RHS: []
+Modifications LHS: {'Ste3': {'rs3': (None, 'ubiquitinated', '5.84', None), 'rs2': (None, 'phosphorylated', '0.81', None), 'rs1': (None, None, '2.4', None)}}
+Modifications RHS: {'Ste3': {'rs3': (None, 'ubiquitinated', '5.84', None), 'rs2': (None, 'phosphorylated', '0.81', None), 'rs1': (None, None, '2.4', None)}}
+Modification type: False
+LHSp:[]
+
+############
+re211
+Reaction:['Cdc28Cln2']->['Cdc28Cln2']#No Modifier
+Single components:['Cdc28@1', 'Cln2@2']->['Cdc28@1', 'Cln2@2']
+Rxn type: False
+PPIs LHS: ['Cdc28@1--Cln2@2']
+PPIs RHS: ['Cdc28@1--Cln2@2']
+Modifications LHS: {'Cdc28': {}, 'Cln2': {}}
+Modifications RHS: {'Cdc28': {}, 'Cln2': {}}
+Modification type: False
+LHSp:[]
+
+############
+re212
+Reaction:['Cdc28Cln1']->['Cdc28Cln1']#No Modifier
+Single components:['Cdc28@1', 'Cln1@2']->['Cdc28@1', 'Cln1@2']
+Rxn type: False
+PPIs LHS: ['Cdc28@1--Cln1@2']
+PPIs RHS: ['Cdc28@1--Cln1@2']
+Modifications LHS: {'Cdc28': {}, 'Cln1': {}}
+Modifications RHS: {'Cdc28': {}, 'Cln1': {}}
+Modification type: False
+LHSp:[]
+
+############
+re217
+Reaction:['Kss1']->['Kss1']#Ptp3
+Single components:['Kss1@1']->['Kss1@1']
+Rxn type: False
+PPIs LHS: []
+PPIs RHS: []
+Modifications LHS: {'Kss1': {'rs2': ('Y185', 'phosphorylated', '0.75', None), 'rs1': ('T183', 'phosphorylated', '2.35', None)}}
+Modifications RHS: {'Kss1': {'rs2': ('Y185', None, '0.75', None), 'rs1': ('T183', None, '2.35', None)}}
+Modification type: P-
+LHSp:[]
+
+############
+re256
+Reaction:['MfAlpha1mRNA']->['Mating']#No Modifier
+Single components:['MfAlpha1mRNA@1']->['Mating@1']
+Rxn type: synthesis/degradation
+PPIs LHS: []
+PPIs RHS: []
+Modification type: False
+LHSp:[]
+
+############
+re257
+Reaction:['MfAlpha2mRNA']->['Mating']#No Modifier
+Single components:['MfAlpha2mRNA@1']->['Mating@1']
+Rxn type: synthesis/degradation
+PPIs LHS: []
+PPIs RHS: []
+Modification type: False
+LHSp:[]
+
+############
+re258
+Reaction:['Sag1mRNA']->['Mating']#No Modifier
+Single components:['Sag1mRNA@1']->['Mating@1']
+Rxn type: synthesis/degradation
+PPIs LHS: []
+PPIs RHS: []
+Modification type: False
+LHSp:[]
+
+############
+re259
+Reaction:['Mfa1mRNA']->['Mating']#No Modifier
+Single components:['Mfa1mRNA@1']->['Mating@1']
+Rxn type: synthesis/degradation
+PPIs LHS: []
+PPIs RHS: []
+Modification type: False
+LHSp:[]
+
+############
+re260
+Reaction:['Fus1mRNA']->['Mating']#No Modifier
+Single components:['Fus1mRNA@1']->['Mating@1']
+Rxn type: synthesis/degradation
+PPIs LHS: []
+PPIs RHS: []
+Modification type: False
+LHSp:[]
+
+############
+re261
+Reaction:['Fus2mRNA']->['Mating']#No Modifier
+Single components:['Fus2mRNA@1']->['Mating@1']
+Rxn type: synthesis/degradation
+PPIs LHS: []
+PPIs RHS: []
+Modification type: False
+LHSp:[]
+
+############
+re262
+Reaction:['Fig1mRNA']->['Mating']#No Modifier
+Single components:['Fig1mRNA@1']->['Mating@1']
+Rxn type: synthesis/degradation
+PPIs LHS: []
+PPIs RHS: []
+Modification type: False
+LHSp:[]
+
+############
+re263
+Reaction:['Fig2mRNA']->['Mating']#No Modifier
+Single components:['Fig2mRNA@1']->['Mating@1']
+Rxn type: synthesis/degradation
+PPIs LHS: []
+PPIs RHS: []
+Modification type: False
+LHSp:[]
+
+############
+re264
+Reaction:['Aga1mRNA']->['Mating']#No Modifier
+Single components:['Aga1mRNA@1']->['Mating@1']
+Rxn type: synthesis/degradation
+PPIs LHS: []
+PPIs RHS: []
+Modification type: False
+LHSp:[]
+
+############
+re265
+Reaction:['Flo11mRNA']->['PseudohyphalGrowth']#No Modifier
+Single components:['Flo11mRNA@1']->['PseudohyphalGrowth@1']
+Rxn type: synthesis/degradation
+PPIs LHS: []
+PPIs RHS: []
+Modification type: False
+LHSp:[]
+
+############
+re266
+Reaction:['MfAlpha12']->['MfAlpha12']#Ste6
+Single components:['MfAlpha12@1']->['MfAlpha12@1']
+Rxn type: False
+PPIs LHS: []
+PPIs RHS: []
+Modifications LHS: {'MfAlpha12': {}}
+Modifications RHS: {'MfAlpha12': {}}
+Modification type: False
+LHSp:[]
+
+############
+re268
+Reaction:['Ste6mRNA']->['Ste6']#No Modifier
+Single components:['Ste6mRNA@1']->['Ste6@1']
+
+############
+re269
+Reaction:['Fus3']->['RecoveryFromG1Arrest']#No Modifier
+Single components:['Fus3@1']->['RecoveryFromG1Arrest@1']
+Rxn type: synthesis/degradation
+PPIs LHS: []
+PPIs RHS: []
+Modification type: False
+LHSp:[]
+
+############
+re270
+Reaction:['Mpt5Sst2']->['RecoveryFromG1Arrest']#No Modifier
+Single components:['Mpt5@1', 'Sst2@2']->['RecoveryFromG1Arrest@1']
+Rxn type: synthesis/degradation
+PPIs LHS: ['Mpt5@1--Sst2@2']
+PPIs RHS: []
+Mpt5_[Sst2]_ppi-_Sst2_[Mpt5],Mpt5,Sst2,,ppi-,Sst2,Mpt5,,,,
+Modification type: False
+LHSp:[]
+
+############
+re271
+Reaction:['Bem1GTPCdc42Cdc24GTPRsr1']->['PolarizedGrowth']#No Modifier
+Single components:['Bem1@1', 'Cdc24@2', 'Cdc42@5', 'GTP@3', 'GTP@6', 'Rsr1@4']->['PolarizedGrowth@1']
+Rxn type: synthesis/degradation
+PPIs LHS: ['Bem1@1--Cdc42@5', 'Cdc42@5--Rsr1@4', 'Cdc24@1--Rsr1@3', 'GTP@1--Rsr1@2', 'Cdc42@1--GTP@2']
+PPIs RHS: []
+Cdc24_[Rsr1]_ppi-_Rsr1_[Cdc24],Cdc24,Rsr1,,ppi-,Rsr1,Cdc24,,,,
+Rsr1_[GTP]_i-_GTP_[Rsr1],Rsr1,GTP,,i-,GTP,Rsr1,,,,
+Bem1_[Cdc42]_ppi-_Cdc42_[Bem1],Bem1,Cdc42,,ppi-,Cdc42,Bem1,,,,
+Cdc42_[GTP]_i-_GTP_[Cdc42],Cdc42,GTP,,i-,GTP,Cdc42,,,,
+Cdc42_[Rsr1]_ppi-_Rsr1_[Cdc42],Cdc42,Rsr1,,ppi-,Rsr1,Cdc42,,,,
+Modification type: False
+LHSp:[]
+
+############
+re272
+Reaction:['Cdc28Cln1']->['G1STransition']#No Modifier
+Single components:['Cdc28@1', 'Cln1@2']->['G1STransition@1']
+Rxn type: synthesis/degradation
+PPIs LHS: ['Cdc28@1--Cln1@2']
+PPIs RHS: []
+Cdc28_[Cln1]_ppi-_Cln1_[Cdc28],Cdc28,Cln1,,ppi-,Cln1,Cdc28,,,,
+Modification type: False
+LHSp:[]
+
+############
+re273
+Reaction:['Cdc28Cln2']->['G1STransition']#No Modifier
+Single components:['Cdc28@1', 'Cln2@2']->['G1STransition@1']
+Rxn type: synthesis/degradation
+PPIs LHS: ['Cdc28@1--Cln2@2']
+PPIs RHS: []
+Cdc28_[Cln2]_ppi-_Cln2_[Cdc28],Cdc28,Cln2,,ppi-,Cln2,Cdc28,,,,
+Modification type: False
+LHSp:[]
+
+############
+re81_0
+Reaction:['Bem1GTPCdc42Cdc24Far1Ste4Ste18Ste20']->['Bem1GTPCdc42Cdc24Far1Ste4Ste18Ste20']#Bem1GTPCdc42Cdc24Far1Ste4Ste18Ste20
+Single components:['Bem1@1', 'Cdc24@4', 'Cdc42@2', 'Far1@5', 'GTP@3', 'Ste18@6', 'Ste20@8', 'Ste4@7']->['Bem1@1', 'Cdc24@4', 'Cdc42@2', 'Far1@5', 'GTP@3', 'Ste18@6', 'Ste20@8', 'Ste4@7']
+Rxn type: False
+PPIs LHS: ['Cdc42@2--Ste20@8', 'Bem1@1--Cdc24@4', 'Bem1@1--Cdc42@2', 'Cdc42@1--GTP@2', 'Far1@2--Ste4@4', 'Cdc24@1--Far1@2', 'Ste18@1--Ste4@2']
+PPIs RHS: ['Cdc42@2--Ste20@8', 'Bem1@1--Cdc24@4', 'Bem1@1--Cdc42@2', 'Cdc42@1--GTP@2', 'Far1@2--Ste4@4', 'Cdc24@1--Far1@2', 'Ste18@1--Ste4@2']
+Modifications LHS: {'Ste4': {'rs3': ('S335', 'phosphorylated', '2.29', None), 'rs2': ('T320', 'phosphorylated', '0.72', None), 'rs1': ('T322', 'phosphorylated', '5.61', None)}, 'Far1': {'rs3': ('T306', 'phosphorylated', '0.78', None), 'rs2': ('S87', None, '2.27', None), 'rs5': (None, None, '3.9757573696164945', ''), 'rs4': (None, None, '5.6', None)}, 'Ste18': {'rs2': (None, 'palmytoylated', '2.45', None), 'rs1': (None, 'prenylated', '0.71', None)}, 'Bem1': {}, 'Cdc24': {'rs1': (None, None, '2.26', None)}, 'GTP': {}, 'Cdc42': {}, 'Ste20': {'rs1': (None, None, '2.35', None)}}
+Modifications RHS: {'Ste4': {'rs3': ('S335', 'phosphorylated', '2.29', None), 'rs2': ('T320', 'phosphorylated', '0.72', None), 'rs1': ('T322', 'phosphorylated', '5.61', None)}, 'Far1': {'rs3': ('T306', 'phosphorylated', '0.78', None), 'rs2': ('S87', None, '2.27', None), 'rs5': (None, None, '3.9757573696164945', ''), 'rs4': (None, None, '5.6', None)}, 'Ste18': {'rs2': (None, 'palmytoylated', '2.45', None), 'rs1': (None, 'prenylated', '0.71', None)}, 'Bem1': {}, 'Cdc24': {'rs1': (None, None, '2.26', None)}, 'GTP': {}, 'Cdc42': {}, 'Ste20': {'rs1': (None, 'phosphorylated', '2.35', None)}}
+Modification type: P+
+LHSp:[]
+
+############
+re81_1
+Reaction:['Bem1GTPCdc42Cdc24Far1Ste4Ste18Ste20']->['Bem1GTPCdc42Cdc24Far1Ste4Ste18Ste20']#Cdc28Cln2
+Single components:['Bem1@1', 'Bem1@1', 'Cdc24@4', 'Cdc24@4', 'Cdc42@2', 'Cdc42@2', 'Far1@5', 'Far1@5', 'GTP@3', 'GTP@3', 'Ste18@6', 'Ste18@6', 'Ste20@8', 'Ste20@8', 'Ste4@7', 'Ste4@7']->['Bem1@1', 'Bem1@1', 'Cdc24@4', 'Cdc24@4', 'Cdc42@2', 'Cdc42@2', 'Far1@5', 'Far1@5', 'GTP@3', 'GTP@3', 'Ste18@6', 'Ste18@6', 'Ste20@8', 'Ste20@8', 'Ste4@7', 'Ste4@7']
+Rxn type: False
+PPIs LHS: ['Cdc42@2--Ste20@8', 'Bem1@1--Cdc24@4', 'Bem1@1--Cdc42@2', 'Cdc42@1--GTP@2', 'Far1@2--Ste4@4', 'Cdc24@1--Far1@2', 'Ste18@1--Ste4@2']
+PPIs RHS: ['Cdc42@2--Ste20@8', 'Bem1@1--Cdc24@4', 'Bem1@1--Cdc42@2', 'Cdc42@1--GTP@2', 'Far1@2--Ste4@4', 'Cdc24@1--Far1@2', 'Ste18@1--Ste4@2']
+Modifications LHS: {'Ste4': {'rs3': ('S335', 'phosphorylated', '2.29', None), 'rs2': ('T320', 'phosphorylated', '0.72', None), 'rs1': ('T322', 'phosphorylated', '5.61', None)}, 'Far1': {'rs3': ('T306', 'phosphorylated', '0.78', None), 'rs2': ('S87', None, '2.27', None), 'rs5': (None, None, '3.9757573696164945', ''), 'rs4': (None, None, '5.6', None)}, 'Ste18': {'rs2': (None, 'palmytoylated', '2.45', None), 'rs1': (None, 'prenylated', '0.71', None)}, 'Bem1': {}, 'Cdc24': {'rs1': (None, None, '2.26', None)}, 'GTP': {}, 'Cdc42': {}, 'Ste20': {'rs1': (None, None, '2.35', None)}}
+Modifications RHS: {'Ste4': {'rs3': ('S335', 'phosphorylated', '2.29', None), 'rs2': ('T320', 'phosphorylated', '0.72', None), 'rs1': ('T322', 'phosphorylated', '5.61', None)}, 'Far1': {'rs3': ('T306', 'phosphorylated', '0.78', None), 'rs2': ('S87', None, '2.27', None), 'rs5': (None, None, '3.9757573696164945', ''), 'rs4': (None, None, '5.6', None)}, 'Ste18': {'rs2': (None, 'palmytoylated', '2.45', None), 'rs1': (None, 'prenylated', '0.71', None)}, 'Bem1': {}, 'Cdc24': {'rs1': (None, None, '2.26', None)}, 'GTP': {}, 'Cdc42': {}, 'Ste20': {'rs1': (None, 'phosphorylated', '2.35', None)}}
+Modification type: P+
+LHSp:[]
+
+############
+re81_2
+Reaction:['Bem1GTPCdc42Cdc24Far1Ste4Ste18Ste20']->['Bem1GTPCdc42Cdc24Far1Ste4Ste18Ste20']#Cdc28Cln1
+Single components:['Bem1@1', 'Bem1@1', 'Bem1@1', 'Cdc24@4', 'Cdc24@4', 'Cdc24@4', 'Cdc42@2', 'Cdc42@2', 'Cdc42@2', 'Far1@5', 'Far1@5', 'Far1@5', 'GTP@3', 'GTP@3', 'GTP@3', 'Ste18@6', 'Ste18@6', 'Ste18@6', 'Ste20@8', 'Ste20@8', 'Ste20@8', 'Ste4@7', 'Ste4@7', 'Ste4@7']->['Bem1@1', 'Bem1@1', 'Bem1@1', 'Cdc24@4', 'Cdc24@4', 'Cdc24@4', 'Cdc42@2', 'Cdc42@2', 'Cdc42@2', 'Far1@5', 'Far1@5', 'Far1@5', 'GTP@3', 'GTP@3', 'GTP@3', 'Ste18@6', 'Ste18@6', 'Ste18@6', 'Ste20@8', 'Ste20@8', 'Ste20@8', 'Ste4@7', 'Ste4@7', 'Ste4@7']
+Rxn type: False
+PPIs LHS: ['Cdc42@2--Ste20@8', 'Bem1@1--Cdc24@4', 'Bem1@1--Cdc42@2', 'Cdc42@1--GTP@2', 'Far1@2--Ste4@4', 'Cdc24@1--Far1@2', 'Ste18@1--Ste4@2']
+PPIs RHS: ['Cdc42@2--Ste20@8', 'Bem1@1--Cdc24@4', 'Bem1@1--Cdc42@2', 'Cdc42@1--GTP@2', 'Far1@2--Ste4@4', 'Cdc24@1--Far1@2', 'Ste18@1--Ste4@2']
+Modifications LHS: {'Ste4': {'rs3': ('S335', 'phosphorylated', '2.29', None), 'rs2': ('T320', 'phosphorylated', '0.72', None), 'rs1': ('T322', 'phosphorylated', '5.61', None)}, 'Far1': {'rs3': ('T306', 'phosphorylated', '0.78', None), 'rs2': ('S87', None, '2.27', None), 'rs5': (None, None, '3.9757573696164945', ''), 'rs4': (None, None, '5.6', None)}, 'Ste18': {'rs2': (None, 'palmytoylated', '2.45', None), 'rs1': (None, 'prenylated', '0.71', None)}, 'Bem1': {}, 'Cdc24': {'rs1': (None, None, '2.26', None)}, 'GTP': {}, 'Cdc42': {}, 'Ste20': {'rs1': (None, None, '2.35', None)}}
+Modifications RHS: {'Ste4': {'rs3': ('S335', 'phosphorylated', '2.29', None), 'rs2': ('T320', 'phosphorylated', '0.72', None), 'rs1': ('T322', 'phosphorylated', '5.61', None)}, 'Far1': {'rs3': ('T306', 'phosphorylated', '0.78', None), 'rs2': ('S87', None, '2.27', None), 'rs5': (None, None, '3.9757573696164945', ''), 'rs4': (None, None, '5.6', None)}, 'Ste18': {'rs2': (None, 'palmytoylated', '2.45', None), 'rs1': (None, 'prenylated', '0.71', None)}, 'Bem1': {}, 'Cdc24': {'rs1': (None, None, '2.26', None)}, 'GTP': {}, 'Cdc42': {}, 'Ste20': {'rs1': (None, 'phosphorylated', '2.35', None)}}
+Modification type: P+
+LHSp:[]
+
+############
+re104_0
+Reaction:['Fus3']->['Fus3']#Ptp3
+Single components:['Fus3@1']->['Fus3@1']
+Rxn type: False
+PPIs LHS: []
+PPIs RHS: []
+Modifications LHS: {'Fus3': {'rs2': ('Y182', 'phosphorylated', '0.76', None), 'rs1': ('T180', 'phosphorylated', '2.35', None)}}
+Modifications RHS: {'Fus3': {'rs2': ('Y182', None, '0.76', None), 'rs1': ('T180', None, '2.35', None)}}
+Modification type: P-
+LHSp:[]
+
+############
+re104_1
+Reaction:['Fus3']->['Fus3']#Msg5
+Single components:['Fus3@1', 'Fus3@1']->['Fus3@1', 'Fus3@1']
+Rxn type: False
+PPIs LHS: []
+PPIs RHS: []
+Modifications LHS: {'Fus3': {'rs2': ('Y182', 'phosphorylated', '0.76', None), 'rs1': ('T180', 'phosphorylated', '2.35', None)}}
+Modifications RHS: {'Fus3': {'rs2': ('Y182', None, '0.76', None), 'rs1': ('T180', None, '2.35', None)}}
+Modification type: P-
+LHSp:[]
+
+############
+re111_0
+Reaction:['Dig1Dig2Ste12']->['Dig1Dig2Ste12']#Fus3
+Single components:['Dig1@1', 'Dig2@2', 'Ste12@3', 'Ste12@4']->['Dig1@1', 'Dig2@2', 'Ste12@3', 'Ste12@4']
+Rxn type: False
+PPIs LHS: ['Ste12@1--Ste12@2', 'Dig1@1--Ste12@3', 'Dig2@2--Ste12@4']
+PPIs RHS: ['Ste12@1--Ste12@2', 'Dig1@1--Ste12@3', 'Dig2@2--Ste12@4']
+Modifications LHS: {'Ste12': {'rs1': (None, None, '2.35', None)}, 'Dig2': {'rs1': (None, None, '2.356194490192345', None)}, 'Dig1': {'rs1': (None, None, '2.356194490192345', None)}}
+Modifications RHS: {'Ste12': {'rs1': (None, 'phosphorylated', '2.35', None)}, 'Dig2': {'rs1': (None, 'phosphorylated', '2.356194490192345', None)}, 'Dig1': {'rs1': (None, 'phosphorylated', '2.356194490192345', None)}}
+Modification type: P+
+LHSp:[]
+
+############
+re111_1
+Reaction:['Dig1Dig2Ste12']->['Dig1Dig2Ste12']#Kss1
+Single components:['Dig1@1', 'Dig1@1', 'Dig2@2', 'Dig2@2', 'Ste12@3', 'Ste12@3', 'Ste12@4', 'Ste12@4']->['Dig1@1', 'Dig1@1', 'Dig2@2', 'Dig2@2', 'Ste12@3', 'Ste12@3', 'Ste12@4', 'Ste12@4']
+Rxn type: False
+PPIs LHS: ['Ste12@1--Ste12@2', 'Dig1@1--Ste12@3', 'Dig2@2--Ste12@4']
+PPIs RHS: ['Ste12@1--Ste12@2', 'Dig1@1--Ste12@3', 'Dig2@2--Ste12@4']
+Modifications LHS: {'Ste12': {'rs1': (None, None, '2.35', None)}, 'Dig2': {'rs1': (None, None, '2.356194490192345', None)}, 'Dig1': {'rs1': (None, None, '2.356194490192345', None)}}
+Modifications RHS: {'Ste12': {'rs1': (None, 'phosphorylated', '2.35', None)}, 'Dig2': {'rs1': (None, 'phosphorylated', '2.356194490192345', None)}, 'Dig1': {'rs1': (None, 'phosphorylated', '2.356194490192345', None)}}
+Modification type: P+
+LHSp:[]
+
+############
+re146_0
+Reaction:['Tec1']->['Tec1']#ScfCdc4Complex
+Single components:['Tec1@1']->['Tec1@1']
+Rxn type: False
+PPIs LHS: []
+PPIs RHS: []
+Modifications LHS: {'Tec1': {'rs2': (None, None, '0.8161980913738187', ''), 'rs1': ('T273', 'phosphorylated', '2.3', None)}}
+Modifications RHS: {'Tec1': {'rs2': (None, 'ubiquitinated', '0.8161980913738187', ''), 'rs1': ('T273', 'phosphorylated', '2.3', None)}}
+Modification type: Ub+
+LHSp:[]
+
+############
+re146_1
+Reaction:['Tec1']->['Tec1']#Dia2ScfComplex
+Single components:['Tec1@1', 'Tec1@1']->['Tec1@1', 'Tec1@1']
+Rxn type: False
+PPIs LHS: []
+PPIs RHS: []
+Modifications LHS: {'Tec1': {'rs2': (None, None, '0.8161980913738187', ''), 'rs1': ('T273', 'phosphorylated', '2.3', None)}}
+Modifications RHS: {'Tec1': {'rs2': (None, 'ubiquitinated', '0.8161980913738187', ''), 'rs1': ('T273', 'phosphorylated', '2.3', None)}}
+Modification type: Ub+
+LHSp:[]
+
+############
+re154_0
+Reaction:['AFactorSte3Asg7']->['AFactorSte3Asg7']#Yck1
+Single components:['Asg7@3', 'Mfa12@1', 'Ste3@2']->['Asg7@3', 'Mfa12@1', 'Ste3@2']
+Rxn type: False
+PPIs LHS: ['Mfa12@1--Ste3@2', 'Asg7@3--Ste3@2']
+PPIs RHS: ['Mfa12@1--Ste3@2', 'Asg7@3--Ste3@2']
+Modifications LHS: {'Asg7': {}, 'Mfa12': {}, 'Ste3': {'rs3': (None, None, '5.84', None), 'rs2': (None, None, '0.81', None), 'rs1': (None, None, '2.4', None)}}
+Modifications RHS: {'Asg7': {}, 'Mfa12': {}, 'Ste3': {'rs3': (None, None, '5.84', None), 'rs2': (None, 'phosphorylated', '0.81', None), 'rs1': (None, None, '2.4', None)}}
+Modification type: P+
+LHSp:[]
+
+############
+re154_1
+Reaction:['AFactorSte3Asg7']->['AFactorSte3Asg7']#Yck2
+Single components:['Asg7@3', 'Asg7@3', 'Mfa12@1', 'Mfa12@1', 'Ste3@2', 'Ste3@2']->['Asg7@3', 'Asg7@3', 'Mfa12@1', 'Mfa12@1', 'Ste3@2', 'Ste3@2']
+Rxn type: False
+PPIs LHS: ['Mfa12@1--Ste3@2', 'Asg7@3--Ste3@2']
+PPIs RHS: ['Mfa12@1--Ste3@2', 'Asg7@3--Ste3@2']
+Modifications LHS: {'Asg7': {}, 'Mfa12': {}, 'Ste3': {'rs3': (None, None, '5.84', None), 'rs2': (None, None, '0.81', None), 'rs1': (None, None, '2.4', None)}}
+Modifications RHS: {'Asg7': {}, 'Mfa12': {}, 'Ste3': {'rs3': (None, None, '5.84', None), 'rs2': (None, 'phosphorylated', '0.81', None), 'rs1': (None, None, '2.4', None)}}
+Modification type: P+
+LHSp:[]
+
+############
+re155_0
+Reaction:['AFactorSte3Asg7']->['AFactorSte3Asg7']#Ubc4
+Single components:['Asg7@3', 'Mfa12@1', 'Ste3@2']->['Asg7@3', 'Mfa12@1', 'Ste3@2']
+Rxn type: False
+PPIs LHS: ['Mfa12@1--Ste3@2', 'Asg7@3--Ste3@2']
+PPIs RHS: ['Mfa12@1--Ste3@2', 'Asg7@3--Ste3@2']
+Modifications LHS: {'Asg7': {}, 'Mfa12': {}, 'Ste3': {'rs3': (None, None, '5.84', None), 'rs2': (None, 'phosphorylated', '0.81', None), 'rs1': (None, None, '2.4', None)}}
+Modifications RHS: {'Asg7': {}, 'Mfa12': {}, 'Ste3': {'rs3': (None, 'ubiquitinated', '5.84', None), 'rs2': (None, 'phosphorylated', '0.81', None), 'rs1': (None, None, '2.4', None)}}
+Modification type: Ub+
+LHSp:[]
+
+############
+re155_1
+Reaction:['AFactorSte3Asg7']->['AFactorSte3Asg7']#Ubc5
+Single components:['Asg7@3', 'Asg7@3', 'Mfa12@1', 'Mfa12@1', 'Ste3@2', 'Ste3@2']->['Asg7@3', 'Asg7@3', 'Mfa12@1', 'Mfa12@1', 'Ste3@2', 'Ste3@2']
+Rxn type: False
+PPIs LHS: ['Mfa12@1--Ste3@2', 'Asg7@3--Ste3@2']
+PPIs RHS: ['Mfa12@1--Ste3@2', 'Asg7@3--Ste3@2']
+Modifications LHS: {'Asg7': {}, 'Mfa12': {}, 'Ste3': {'rs3': (None, None, '5.84', None), 'rs2': (None, 'phosphorylated', '0.81', None), 'rs1': (None, None, '2.4', None)}}
+Modifications RHS: {'Asg7': {}, 'Mfa12': {}, 'Ste3': {'rs3': (None, 'ubiquitinated', '5.84', None), 'rs2': (None, 'phosphorylated', '0.81', None), 'rs1': (None, None, '2.4', None)}}
+Modification type: Ub+
+LHSp:[]
+
+############
+re161_0
+Reaction:['AlphaFactorSte2Sst2']->['AlphaFactorSte2Sst2']#Yck1
+Single components:['MfAlpha12@1', 'Sst2@4', 'Ste2@2', 'Ste2@3']->['MfAlpha12@1', 'Sst2@4', 'Ste2@2', 'Ste2@3']
+Rxn type: False
+PPIs LHS: ['Sst2@4--Ste2@2', 'Ste2@1--Ste2@2', 'MfAlpha12@1--Ste2@2']
+PPIs RHS: ['Sst2@4--Ste2@2', 'Ste2@1--Ste2@2', 'MfAlpha12@1--Ste2@2']
+Modifications LHS: {'Ste2@2': {'rs3': ('S339', None, '3.4905064718238514', None), 'rs2': ('S338', None, '5.928321020727583', None), 'rs4': ('K337', None, '0.8269780661655485', None), 'rs1': ('S331', None, '2.3832305715485393', None)}, 'Ste2@3': {'rs3': ('S339', None, '3.4905064718238514', None), 'rs2': ('S338', None, '5.928321020727583', None), 'rs4': ('K337', None, '0.8269780661655485', None), 'rs1': ('S331', None, '2.3832305715485393', None)}, 'MfAlpha12': {}, 'Sst2': {'rs2': ('S539', None, '2.32', None), 'rs1': (None, None, '0.7838611806902125', '')}}
+Modifications RHS: {'Ste2@2': {'rs3': ('S339', 'phosphorylated', '3.4905064718238514', None), 'rs2': ('S338', 'phosphorylated', '5.928321020727583', None), 'rs4': ('K337', None, '0.8269780661655485', None), 'rs1': ('S331', 'phosphorylated', '2.3832305715485393', None)}, 'Ste2@3': {'rs3': ('S339', 'phosphorylated', '3.4905064718238514', None), 'rs2': ('S338', 'phosphorylated', '5.928321020727583', None), 'rs4': ('K337', None, '0.8269780661655485', None), 'rs1': ('S331', 'phosphorylated', '2.3832305715485393', None)}, 'MfAlpha12': {}, 'Sst2': {'rs2': ('S539', None, '2.32', None), 'rs1': (None, None, '0.7838611806902125', '')}}
+Modification type: P+
+LHSp:[]
+
+############
+re161_1
+Reaction:['AlphaFactorSte2Sst2']->['AlphaFactorSte2Sst2']#Yck2
+Single components:['MfAlpha12@1', 'MfAlpha12@1', 'Sst2@4', 'Sst2@4', 'Ste2@2', 'Ste2@2', 'Ste2@3', 'Ste2@3']->['MfAlpha12@1', 'MfAlpha12@1', 'Sst2@4', 'Sst2@4', 'Ste2@2', 'Ste2@2', 'Ste2@3', 'Ste2@3']
+Rxn type: False
+PPIs LHS: ['Sst2@4--Ste2@2', 'Ste2@1--Ste2@2', 'MfAlpha12@1--Ste2@2']
+PPIs RHS: ['Sst2@4--Ste2@2', 'Ste2@1--Ste2@2', 'MfAlpha12@1--Ste2@2']
+Modifications LHS: {'Ste2@2': {'rs3': ('S339', None, '3.4905064718238514', None), 'rs2': ('S338', None, '5.928321020727583', None), 'rs4': ('K337', None, '0.8269780661655485', None), 'rs1': ('S331', None, '2.3832305715485393', None)}, 'Ste2@3': {'rs3': ('S339', None, '3.4905064718238514', None), 'rs2': ('S338', None, '5.928321020727583', None), 'rs4': ('K337', None, '0.8269780661655485', None), 'rs1': ('S331', None, '2.3832305715485393', None)}, 'MfAlpha12': {}, 'Sst2': {'rs2': ('S539', None, '2.32', None), 'rs1': (None, None, '0.7838611806902125', '')}}
+Modifications RHS: {'Ste2@2': {'rs3': ('S339', 'phosphorylated', '3.4905064718238514', None), 'rs2': ('S338', 'phosphorylated', '5.928321020727583', None), 'rs4': ('K337', None, '0.8269780661655485', None), 'rs1': ('S331', 'phosphorylated', '2.3832305715485393', None)}, 'Ste2@3': {'rs3': ('S339', 'phosphorylated', '3.4905064718238514', None), 'rs2': ('S338', 'phosphorylated', '5.928321020727583', None), 'rs4': ('K337', None, '0.8269780661655485', None), 'rs1': ('S331', 'phosphorylated', '2.3832305715485393', None)}, 'MfAlpha12': {}, 'Sst2': {'rs2': ('S539', None, '2.32', None), 'rs1': (None, None, '0.7838611806902125', '')}}
+Modification type: P+
+LHSp:[]
+
+############
+re162_0
+Reaction:['AlphaFactorSte2Sst2']->['AlphaFactorSte2Sst2']#Ubc1
+Single components:['MfAlpha12@1', 'Sst2@4', 'Ste2@2', 'Ste2@3']->['MfAlpha12@1', 'Sst2@4', 'Ste2@2', 'Ste2@3']
+Rxn type: False
+PPIs LHS: ['Sst2@4--Ste2@2', 'Ste2@1--Ste2@2', 'MfAlpha12@1--Ste2@2']
+PPIs RHS: ['Sst2@4--Ste2@2', 'Ste2@1--Ste2@2', 'MfAlpha12@1--Ste2@2']
+Modifications LHS: {'Ste2@2': {'rs3': ('S339', 'phosphorylated', '3.4905064718238514', None), 'rs2': ('S338', 'phosphorylated', '5.928321020727583', None), 'rs4': ('K337', None, '0.8269780661655485', None), 'rs1': ('S331', 'phosphorylated', '2.3832305715485393', None)}, 'Ste2@3': {'rs3': ('S339', 'phosphorylated', '3.4905064718238514', None), 'rs2': ('S338', 'phosphorylated', '5.928321020727583', None), 'rs4': ('K337', None, '0.8269780661655485', None), 'rs1': ('S331', 'phosphorylated', '2.3832305715485393', None)}, 'MfAlpha12': {}, 'Sst2': {'rs2': ('S539', None, '2.32', None), 'rs1': (None, None, '0.7838611806902125', '')}}
+Modifications RHS: {'Ste2@2': {'rs3': ('S339', 'phosphorylated', '3.4905064718238514', None), 'rs2': ('S338', 'phosphorylated', '5.928321020727583', None), 'rs4': ('K337', 'ubiquitinated', '0.8269780661655485', None), 'rs1': ('S331', 'phosphorylated', '2.3832305715485393', None)}, 'Ste2@3': {'rs3': ('S339', 'phosphorylated', '3.4905064718238514', None), 'rs2': ('S338', 'phosphorylated', '5.928321020727583', None), 'rs4': ('K337', 'ubiquitinated', '0.8269780661655485', None), 'rs1': ('S331', 'phosphorylated', '2.3832305715485393', None)}, 'MfAlpha12': {}, 'Sst2': {'rs2': ('S539', None, '2.32', None), 'rs1': (None, None, '0.7838611806902125', '')}}
+Modification type: Ub+
+LHSp:[]
+
+############
+re162_1
+Reaction:['AlphaFactorSte2Sst2']->['AlphaFactorSte2Sst2']#Ubc5
+Single components:['MfAlpha12@1', 'MfAlpha12@1', 'Sst2@4', 'Sst2@4', 'Ste2@2', 'Ste2@2', 'Ste2@3', 'Ste2@3']->['MfAlpha12@1', 'MfAlpha12@1', 'Sst2@4', 'Sst2@4', 'Ste2@2', 'Ste2@2', 'Ste2@3', 'Ste2@3']
+Rxn type: False
+PPIs LHS: ['Sst2@4--Ste2@2', 'Ste2@1--Ste2@2', 'MfAlpha12@1--Ste2@2']
+PPIs RHS: ['Sst2@4--Ste2@2', 'Ste2@1--Ste2@2', 'MfAlpha12@1--Ste2@2']
+Modifications LHS: {'Ste2@2': {'rs3': ('S339', 'phosphorylated', '3.4905064718238514', None), 'rs2': ('S338', 'phosphorylated', '5.928321020727583', None), 'rs4': ('K337', None, '0.8269780661655485', None), 'rs1': ('S331', 'phosphorylated', '2.3832305715485393', None)}, 'Ste2@3': {'rs3': ('S339', 'phosphorylated', '3.4905064718238514', None), 'rs2': ('S338', 'phosphorylated', '5.928321020727583', None), 'rs4': ('K337', None, '0.8269780661655485', None), 'rs1': ('S331', 'phosphorylated', '2.3832305715485393', None)}, 'MfAlpha12': {}, 'Sst2': {'rs2': ('S539', None, '2.32', None), 'rs1': (None, None, '0.7838611806902125', '')}}
+Modifications RHS: {'Ste2@2': {'rs3': ('S339', 'phosphorylated', '3.4905064718238514', None), 'rs2': ('S338', 'phosphorylated', '5.928321020727583', None), 'rs4': ('K337', 'ubiquitinated', '0.8269780661655485', None), 'rs1': ('S331', 'phosphorylated', '2.3832305715485393', None)}, 'Ste2@3': {'rs3': ('S339', 'phosphorylated', '3.4905064718238514', None), 'rs2': ('S338', 'phosphorylated', '5.928321020727583', None), 'rs4': ('K337', 'ubiquitinated', '0.8269780661655485', None), 'rs1': ('S331', 'phosphorylated', '2.3832305715485393', None)}, 'MfAlpha12': {}, 'Sst2': {'rs2': ('S539', None, '2.32', None), 'rs1': (None, None, '0.7838611806902125', '')}}
+Modification type: Ub+
+LHSp:[]
+
+############
+re162_2
+Reaction:['AlphaFactorSte2Sst2']->['AlphaFactorSte2Sst2']#Ubc4
+Single components:['MfAlpha12@1', 'MfAlpha12@1', 'MfAlpha12@1', 'Sst2@4', 'Sst2@4', 'Sst2@4', 'Ste2@2', 'Ste2@2', 'Ste2@2', 'Ste2@3', 'Ste2@3', 'Ste2@3']->['MfAlpha12@1', 'MfAlpha12@1', 'MfAlpha12@1', 'Sst2@4', 'Sst2@4', 'Sst2@4', 'Ste2@2', 'Ste2@2', 'Ste2@2', 'Ste2@3', 'Ste2@3', 'Ste2@3']
+Rxn type: False
+PPIs LHS: ['Sst2@4--Ste2@2', 'Ste2@1--Ste2@2', 'MfAlpha12@1--Ste2@2']
+PPIs RHS: ['Sst2@4--Ste2@2', 'Ste2@1--Ste2@2', 'MfAlpha12@1--Ste2@2']
+Modifications LHS: {'Ste2@2': {'rs3': ('S339', 'phosphorylated', '3.4905064718238514', None), 'rs2': ('S338', 'phosphorylated', '5.928321020727583', None), 'rs4': ('K337', None, '0.8269780661655485', None), 'rs1': ('S331', 'phosphorylated', '2.3832305715485393', None)}, 'Ste2@3': {'rs3': ('S339', 'phosphorylated', '3.4905064718238514', None), 'rs2': ('S338', 'phosphorylated', '5.928321020727583', None), 'rs4': ('K337', None, '0.8269780661655485', None), 'rs1': ('S331', 'phosphorylated', '2.3832305715485393', None)}, 'MfAlpha12': {}, 'Sst2': {'rs2': ('S539', None, '2.32', None), 'rs1': (None, None, '0.7838611806902125', '')}}
+Modifications RHS: {'Ste2@2': {'rs3': ('S339', 'phosphorylated', '3.4905064718238514', None), 'rs2': ('S338', 'phosphorylated', '5.928321020727583', None), 'rs4': ('K337', 'ubiquitinated', '0.8269780661655485', None), 'rs1': ('S331', 'phosphorylated', '2.3832305715485393', None)}, 'Ste2@3': {'rs3': ('S339', 'phosphorylated', '3.4905064718238514', None), 'rs2': ('S338', 'phosphorylated', '5.928321020727583', None), 'rs4': ('K337', 'ubiquitinated', '0.8269780661655485', None), 'rs1': ('S331', 'phosphorylated', '2.3832305715485393', None)}, 'MfAlpha12': {}, 'Sst2': {'rs2': ('S539', None, '2.32', None), 'rs1': (None, None, '0.7838611806902125', '')}}
+Modification type: Ub+
+LHSp:[]
+
+############
+re177_0
+Reaction:['Fus3']->['Fus3']#Ptp2
+Single components:['Fus3@1']->['Fus3@1']
+Rxn type: False
+PPIs LHS: []
+PPIs RHS: []
+Modifications LHS: {'Fus3': {'rs2': ('Y182', 'phosphorylated', '0.76', None), 'rs1': ('T180', 'phosphorylated', '2.35', None)}}
+Modifications RHS: {'Fus3': {'rs2': ('Y182', None, '0.76', None), 'rs1': ('T180', None, '2.35', None)}}
+Modification type: P-
+LHSp:[]
+
+############
+re177_1
+Reaction:['Fus3']->['Fus3']#Msg5
+Single components:['Fus3@1', 'Fus3@1']->['Fus3@1', 'Fus3@1']
+Rxn type: False
+PPIs LHS: []
+PPIs RHS: []
+Modifications LHS: {'Fus3': {'rs2': ('Y182', 'phosphorylated', '0.76', None), 'rs1': ('T180', 'phosphorylated', '2.35', None)}}
+Modifications RHS: {'Fus3': {'rs2': ('Y182', None, '0.76', None), 'rs1': ('T180', None, '2.35', None)}}
+Modification type: P-
+LHSp:[]
+
+############
+re207_0
+Reaction:['GTPCdc42']->['GDPCdc42', 'Pi']#Bem3
+Single components:['Cdc42@1', 'GTP@2']->['Cdc42@1', 'GDP@2', 'Pi@1']
+Rxn type: synthesis/degradation
+PPIs LHS: ['Cdc42@1--GTP@2']
+PPIs RHS: ['Cdc42@1--GDP@2']
+Cdc42_[GTP]_i-_GTP_[Cdc42],Cdc42,GTP,,i-,GTP,Cdc42,,,,
+Cdc42_[GDP]_i+_GDP_[Cdc42],Cdc42,GDP,,i+,GDP,Cdc42,,,,
+Modification type: False
+LHSp:[]
+
+############
+re207_1
+Reaction:['GTPCdc42']->['GDPCdc42', 'Pi']#Rga1
+Single components:['Cdc42@1', 'Cdc42@1', 'GTP@2', 'GTP@2']->['Cdc42@1', 'Cdc42@1', 'GDP@2', 'GDP@2', 'Pi@1', 'Pi@1']
+Rxn type: synthesis/degradation
+PPIs LHS: ['Cdc42@1--GTP@2']
+PPIs RHS: ['Cdc42@1--GDP@2']
+Cdc42_[GTP]_i-_GTP_[Cdc42],Cdc42,GTP,,i-,GTP,Cdc42,,,,
+Cdc42_[GDP]_i+_GDP_[Cdc42],Cdc42,GDP,,i+,GDP,Cdc42,,,,
+Modification type: False
+LHSp:[]
+
+############
+re207_2
+Reaction:['GTPCdc42']->['GDPCdc42', 'Pi']#Rga2
+Single components:['Cdc42@1', 'Cdc42@1', 'Cdc42@1', 'GTP@2', 'GTP@2', 'GTP@2']->['Cdc42@1', 'Cdc42@1', 'Cdc42@1', 'GDP@2', 'GDP@2', 'GDP@2', 'Pi@1', 'Pi@1', 'Pi@1']
+Rxn type: synthesis/degradation
+PPIs LHS: ['Cdc42@1--GTP@2']
+PPIs RHS: ['Cdc42@1--GDP@2']
+Cdc42_[GTP]_i-_GTP_[Cdc42],Cdc42,GTP,,i-,GTP,Cdc42,,,,
+Cdc42_[GDP]_i+_GDP_[Cdc42],Cdc42,GDP,,i+,GDP,Cdc42,,,,
+Modification type: False
+LHSp:[]
+
+############
+re235_0
+Reaction:['Bcy1']->['Bcy1']#Tpk2
+Single components:['Bcy1@1']->['Bcy1@1']
+Rxn type: False
+PPIs LHS: []
+PPIs RHS: []
+Modifications LHS: {'Bcy1': {'rs2': ('S145', None, '2.35', None), 'rs1': (None, None, '0.7853981633974483', None)}}
+Modifications RHS: {'Bcy1': {'rs2': ('S145', 'phosphorylated', '2.35', None), 'rs1': (None, None, '0.7853981633974483', None)}}
+Modification type: P+
+LHSp:[]
+
+############
+re235_1
+Reaction:['Bcy1']->['Bcy1']#Tpk3
+Single components:['Bcy1@1', 'Bcy1@1']->['Bcy1@1', 'Bcy1@1']
+Rxn type: False
+PPIs LHS: []
+PPIs RHS: []
+Modifications LHS: {'Bcy1': {'rs2': ('S145', None, '2.35', None), 'rs1': (None, None, '0.7853981633974483', None)}}
+Modifications RHS: {'Bcy1': {'rs2': ('S145', 'phosphorylated', '2.35', None), 'rs1': (None, None, '0.7853981633974483', None)}}
+Modification type: P+
+LHSp:[]
+
+############
+re235_2
+Reaction:['Bcy1']->['Bcy1']#Tpk1
+Single components:['Bcy1@1', 'Bcy1@1', 'Bcy1@1']->['Bcy1@1', 'Bcy1@1', 'Bcy1@1']
+Rxn type: False
+PPIs LHS: []
+PPIs RHS: []
+Modifications LHS: {'Bcy1': {'rs2': ('S145', None, '2.35', None), 'rs1': (None, None, '0.7853981633974483', None)}}
+Modifications RHS: {'Bcy1': {'rs2': ('S145', 'phosphorylated', '2.35', None), 'rs1': (None, None, '0.7853981633974483', None)}}
+Modification type: P+
+LHSp:[]
+
+############
+re51_0
+Reaction:['Flo11Gene']->['Flo11mRNA']#Flo8
+Single components:['Flo11Gene@1']->['Flo11mRNA@1']
+
+############
+re51_1
+Reaction:['Flo11Gene']->['Flo11mRNA']#Ste12Tec1
+Single components:['Flo11Gene@1', 'Flo11Gene@1']->['Flo11mRNA@1', 'Flo11mRNA@1']
+
+############
+re51_2
+Reaction:['Flo11Gene']->['Flo11mRNA']#Cyc8Tup1Sfl1
+Single components:['Flo11Gene@1', 'Flo11Gene@1', 'Flo11Gene@1']->['Flo11mRNA@1', 'Flo11mRNA@1', 'Flo11mRNA@1']
+Rxn type: synthesis/degradation
+PPIs LHS: []
+PPIs RHS: []
+Modification type: False
+LHSp:[]
+
+############
+re113_0
+Reaction:['Ste2Gene']->['Ste2mRNA']#Mcm1
+Single components:['Ste2Gene@1']->['Ste2mRNA@1']
+
+############
+re113_1
+Reaction:['Ste2Gene']->['Ste2mRNA']#Mcm1Matalpha2
+Single components:['Ste2Gene@1', 'Ste2Gene@1']->['Ste2mRNA@1', 'Ste2mRNA@1']
+Rxn type: synthesis/degradation
+PPIs LHS: []
+PPIs RHS: []
+Modification type: False
+LHSp:[]
+
+############
+re224_0
+Reaction:['Ste6Gene']->['Ste6mRNA']#Mcm1
+Single components:['Ste6Gene@1']->['Ste6mRNA@1']
+
+############
+re224_1
+Reaction:['Ste6Gene']->['Ste6mRNA']#Mcm1Matalpha2
+Single components:['Ste6Gene@1', 'Ste6Gene@1']->['Ste6mRNA@1', 'Ste6mRNA@1']
+Rxn type: synthesis/degradation
+PPIs LHS: []
+PPIs RHS: []
+Modification type: False
+LHSp:[]
+
+############
+re225_0
+Reaction:['Mfa1Gene']->['Mfa1mRNA']#Mcm1
+Single components:['Mfa1Gene@1']->['Mfa1mRNA@1']
+
+############
+re225_1
+Reaction:['Mfa1Gene']->['Mfa1mRNA']#Mcm1Matalpha2
+Single components:['Mfa1Gene@1', 'Mfa1Gene@1']->['Mfa1mRNA@1', 'Mfa1mRNA@1']
+Rxn type: synthesis/degradation
+PPIs LHS: []
+PPIs RHS: []
+Modification type: False
+LHSp:[]
+
+############
+re226_0
+Reaction:['Bar1Gene']->['Bar1mRNA']#Mcm1Ste12
+Single components:['Bar1Gene@1']->['Bar1mRNA@1']
+
+############
+re226_1
+Reaction:['Bar1Gene']->['Bar1mRNA']#Mcm1
+Single components:['Bar1Gene@1', 'Bar1Gene@1']->['Bar1mRNA@1', 'Bar1mRNA@1']
+
+############
+re226_2
+Reaction:['Bar1Gene']->['Bar1mRNA']#Mcm1Matalpha2
+Single components:['Bar1Gene@1', 'Bar1Gene@1', 'Bar1Gene@1']->['Bar1mRNA@1', 'Bar1mRNA@1', 'Bar1mRNA@1']
+Rxn type: synthesis/degradation
+PPIs LHS: []
+PPIs RHS: []
+Modification type: False
+LHSp:[]
+
+############
+re274_0
+Reaction:['GDPGpa1Ste4Ste18', 'GTP']->['GTPGpa1Ste4Ste18', 'GDP']#AFactorSte3
+Single components:['GDP@1', 'GTP@1', 'Gpa1@2', 'Ste18@3', 'Ste4@4']->['GDP@1', 'GTP@1', 'Gpa1@2', 'Ste18@3', 'Ste4@4']
+Rxn type: False
+PPIs LHS: ['Ste18@3--Ste4@4', 'GDP@1--Gpa1@2', 'Gpa1@2--Ste4@4', 'Ste18@1--Ste4@2']
+PPIs RHS: ['Ste18@3--Ste4@4', 'Gpa1@2--Ste4@4', 'GTP@1--Gpa1@2', 'Ste18@1--Ste4@2']
+Gpa1_[GDP]_i-_GDP_[Gpa1],Gpa1,GDP,,i-,GDP,Gpa1,,,,
+Gpa1_[GTP]_i+_GTP_[Gpa1],Gpa1,GTP,,i+,GTP,Gpa1,,,,
+Modification type: False
+LHSp:[]
+
+############
+re274_1
+Reaction:['GDPGpa1Ste4Ste18', 'GTP']->['GTPGpa1Ste4Ste18', 'GDP']#AlphaFactorSte2
+Single components:['GDP@1', 'GDP@1', 'GTP@1', 'GTP@1', 'Gpa1@2', 'Gpa1@2', 'Ste18@3', 'Ste18@3', 'Ste4@4', 'Ste4@4']->['GDP@1', 'GDP@1', 'GTP@1', 'GTP@1', 'Gpa1@2', 'Gpa1@2', 'Ste18@3', 'Ste18@3', 'Ste4@4', 'Ste4@4']
+Rxn type: False
+PPIs LHS: ['Ste18@3--Ste4@4', 'GDP@1--Gpa1@2', 'Gpa1@2--Ste4@4', 'Ste18@1--Ste4@2']
+PPIs RHS: ['Ste18@3--Ste4@4', 'Gpa1@2--Ste4@4', 'GTP@1--Gpa1@2', 'Ste18@1--Ste4@2']
+Gpa1_[GDP]_i-_GDP_[Gpa1],Gpa1,GDP,,i-,GDP,Gpa1,,,,
+Gpa1_[GTP]_i+_GTP_[Gpa1],Gpa1,GTP,,i+,GTP,Gpa1,,,,
+Modification type: False
+LHSp:[]
+Warning: The modifier <Sst2_re166> has not been initialised. Please initialise or remove line ['<Rad6UbplusSst2_re166>,AND,<Sst2_re166>']
+Line <Rad6UbplusSst2_re166>,AND,<Sst2_re166> has been removed.
+Warning: The modifier <Rad6UbplusSst2_re166> has not been initialised. Please initialise or remove line ['<Rad6UbplusSst2(rs1)>,AND,<Rad6UbplusSst2_re166>']
+Line <Rad6UbplusSst2(rs1)>,AND,<Rad6UbplusSst2_re166> has been removed.
+Warning: The modifier <Rad6UbplusSst2(rs1)> has not been initialised. Please initialise or remove line ['Rad6_Ub+_Sst2_[(rs1)],!,<Rad6UbplusSst2(rs1)>']
+Line Rad6_Ub+_Sst2_[(rs1)],!,<Rad6UbplusSst2(rs1)> has been removed.
