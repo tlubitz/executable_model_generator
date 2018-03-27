@@ -325,6 +325,7 @@ class Rule:
         self.single_substrates = []
         self.single_products = []
         self.temp_ident = False
+        self.mod_targets = []
 
     def set_temp_ident(self, temp_ident):
         self.temp_ident = temp_ident
@@ -417,3 +418,5 @@ class Rule:
 
     def get_modification_types(self):
         return self.modification_types
+
+        

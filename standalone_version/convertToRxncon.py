@@ -205,7 +205,7 @@ def convert(file_name: str):
 
     def delta_ppi(lhs_ppis, rhs_ppis):
         '''
-        evaluates changes in ppi composition of left and right hand side
+        evaluate changes in ppi composition of left and right hand side
         '''
         global log_file
         log_file += 'PPIs LHS: %s\n' % (lhs_ppis)
@@ -219,9 +219,10 @@ def convert(file_name: str):
 
         return [lost, new]
 
+    
     def delta_m(rule, lhs, rhs):
         '''
-        evaluates changes in modification states of left and right hand side
+        evaluate changes in modification states of left and right hand side
         '''
         global log_file
         global writelines
@@ -353,7 +354,6 @@ def convert(file_name: str):
         global contingencies
         global merge_instances
         global initialisations
-        #global rxn2typeComp
 
         rxn2state = {'P+': 'P', 'Ub+': 'Ub', 'Palm+': 'Palm', 'Ace+': 'Ace',
                      'Pre+': 'pre', 'P-': '0', 'Ub-': '0', 'Palm-': '0',
@@ -361,7 +361,6 @@ def convert(file_name: str):
         instance_identifier = '<%s%s%s_%s>' % (modifier, rxn, component,
                                                rule.get_id())
         statement = '%s_%s_%s_[(%s)]' % (modifier, rxn, component, res)
-        #rxn2typeComp[rule.get_id()] = [rxn,component]
 
         if statement in merge_instances.keys():
             if not type(merge_instances[statement]) == list:
@@ -715,6 +714,7 @@ def convert(file_name: str):
         if a reaction has a component with a state (modified or unmodified),
         this needs to be initialised as a contingency
         '''
+        global log_file
         global contingencies
         global initialisations
         global mod_triplets_new
@@ -724,8 +724,34 @@ def convert(file_name: str):
                       'ubiquitinated': 'Ub', 'palmytoylated': 'palm',
                       'prenylated': 'pre', None: '0'}
 
+        # first we need to find the states that must not appear in contingencies
+        # these include modification residues, which are changed during the
+        # course of the reaction
+        oppressed_mod_states = {}
+        for component_l in rule.get_left_hand_side():
+            name_l = component_l.get_name()
+            for component_r in rule.get_right_hand_side():
+                name_r = component_r.get_name()
+                if name_l == name_r:
+                    mods_l = get_mods(component_l)
+                    mods_r = get_mods(component_r)
+                    for component in mods_l:
+                        try:
+                            mods_c_l = mods_l[component]
+                            mods_c_r = mods_r[component]
+                        except:
+                            log_file += 'Could not find matching modification '\
+                                        'residues for %s in rule %s' \
+                                        '\n' % (component, rule.get_id())
+                            break
+                        for i, res in enumerate(mods_c_l):
+                            if mods_c_l[res][1] != mods_c_r[res][1]:
+                                oppressed_mod_states[component] = mods_c_r[res][0]
+                                break
+
         for component in rule.get_left_hand_side():
             component_mods = get_mods(component)
+
             if not component.get_class().lower() != 'complex':
                 equivalencies = create_equivalencies(component)
                 contingencies.append('<%s_%s>,AND,<%s>%s' % (component.get_name(),
@@ -762,10 +788,17 @@ def convert(file_name: str):
                                 '%s in rule %s.\n' % (k, rule.get_id())
                     continue
 
+                
                 for l in single_dict.keys():
+                    # if this is one of the oppressed states: continue
+                    if component.get_name() in oppressed_mod_states:
+                        if oppressed_mod_states[component.get_name()] == single_dict[l][0]:
+                            continue
+
                     if single_dict[l][0]: residue = single_dict[l][0]
                     else: residue = l
                     residue_content = single_dict[l]
+                    
                     if k_obj.get_class().lower() == 'complex':
                         contingency = '<%s_%s>,AND,%s_[(%s)]-{%s}' % (component.get_name(),
                                                                       rule.get_id(), k,
@@ -773,7 +806,7 @@ def convert(file_name: str):
                                                                       long2short[residue_content[1]])
                     else:
                         if '@' not in k:
-                            contingency = '<%s_%s>,AND,%s@%s_[(%s)]-{%s}' % (component.get_name(),
+                            contingency = '<%s_%s>,2AND,%s@%s_[(%s)]-{%s}' % (component.get_name(),
                                                                              rule.get_id(), k,
                                                                              k_obj.get_index(),
                                                                              residue,
@@ -899,7 +932,6 @@ def convert(file_name: str):
     global mod_triplets_new
     global oppress_empty_residues
     log_file = ''
-    #global rxn2typeComp
     ppi_duplets_new = []
     mod_triplets = []
     mod_triplets_new = []
@@ -912,7 +944,6 @@ def convert(file_name: str):
     reaction2singlecat = {}
     singlecat2residue = {}
     oppress_empty_residues = {}
-    #rxn2typeComp = {}
 
     # 1: prepare the conversion by adding knowledge about complex topology
     model_object, ppi_duplets, contingencies = prepare(file_name)
@@ -1108,7 +1139,6 @@ def convert(file_name: str):
         if rule.get_id() in reaction2singlecat.keys():
             rule.set_modifier_name(reaction2singlecat[rule.get_id()])
 
-    # if events != {}:
     new_wl.append('\n\n!!SBtab TableType="contingencies" TableName="Contingency'\
                   'List"\n!ID,!Target,!Contingency,!Modifier')
 
@@ -1322,7 +1352,6 @@ def correct_contingency_lines(contingencies, dismiss):
     '''
     global reaction2singlecat
     global singlecat2residue
-    #global rxn2typeComp
     
     rmv_special_chars = {'P\\+': 'Pplus', 'Ub\\+': 'Ubplus',
                          'Palm\\+': 'Palmplus', 'Ace\\+': 'Aceplus',
@@ -1345,18 +1374,7 @@ def correct_contingency_lines(contingencies, dismiss):
                     if component in line and '_[(' + residue + ')]-{0}' in line:
                         empty_residue = True
             if empty_residue:  continue
-            '''
-            # 1b: cutout source states from modification reactions
-            for typeCompKey in rxn2typeComp.keys():
-                if typeCompKey+'>' in line and  ')]-{0}' in line:
-                    tC = rxn2typeComp[typeCompKey]
-                    #print(tC)
-                    #input()
-                    if tC[0] in modifications:
-                        print(line)
-                        print(tC)
-                        input()
-            '''
+
             # 2: replace ambiguous catalysts with correct catalysts for the
             #    different cases
             if '|' in line:
