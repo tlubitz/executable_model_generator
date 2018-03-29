@@ -1,100 +1,100 @@
-!!SBtab TableType="rxnconContingencyList"TableName="ContingencyList" Document="files/S2.6_PheromoneResponse"
-!UID:Contingency,!Target,!Contingency,!Modifier,!Reference:Identifiers:pubmed,!Quality,!Comment,!InternalComplexID
-1,<AFactorSte3>,AND,Mfa12@1--Ste3@2,,,,<AFactorSte3>-pr20-pr9
-2,<AFactorSte3Asg7>,AND,<AFactorSte3>#Mfa12@1=Mfa12@1#Ste3@2=Ste3@2,,,,<AFactorSte3>-<AFactorSte3Asg7>-pr20-pr548-pr9
-3,<AFactorSte3Asg7>,AND,Asg7@3,,,,<AFactorSte3>-<AFactorSte3Asg7>-pr20-pr548-pr9
-4,<AlphaFactorSte2>,AND,<Ste2-Dimer>#Ste2@2=Ste2@1#Ste2@3=Ste2@2,,,,<AlphaFactorSte2>-pr10-pr19
-5,<AlphaFactorSte2>,AND,MfAlpha12@1,,,,<AlphaFactorSte2>-pr10-pr19
-6,<AlphaFactorSte2Sst2>,AND,<AlphaFactorSte2>#MfAlpha12@1=MfAlpha12@1#Ste2@2=Ste2@2,,,,<AlphaFactorSte2>-<AlphaFactorSte2Sst2>-pr10-pr19-pr25
-7,<AlphaFactorSte2Sst2>,AND,Sst2@4,,,,<AlphaFactorSte2>-<AlphaFactorSte2Sst2>-pr10-pr19-pr25
-8,<Bcy1Tpk1>,AND,Bcy1@1--Tpk1@2,,,,<Bcy1Tpk1>-pr375-pr411
-9,<Bcy1Tpk1>,AND,Bcy1@1--Tpk3@2,,,,<Bcy1Tpk1>-pr375-pr412
-10,<Bcy1Tpk2>,AND,Bcy1@1--Tpk2@2,,,,<Bcy1Tpk2>-pr375-pr399
-11,<Bem1GDPCdc42>,AND,<GDPCdc42>#Cdc42@2=Cdc42@1#GDP@3=GDP@2,,,,<Bem1GDPCdc42>-<GDPCdc42>-GDP-pr16-pr30
-12,<Bem1GDPCdc42>,AND,Bem1@1,,,,<Bem1GDPCdc42>-<GDPCdc42>-GDP-pr16-pr30
-13,<Bem1GDPCdc42Cdc24Far1Ste4Ste18>,AND,<Bem1GDPCdc42>#Bem1@1=Bem1@1#Cdc42@2=Cdc42@1#GDP@3=GDP@2,,,,<Bem1GDPCdc42>-<Bem1GDPCdc42Cdc24Far1Ste4Ste18>-<Cdc24Far1>-<Cdc24Far1Ste4Ste18>-<GDPCdc42>-<Ste4Ste18>-GDP-pr14-pr16-pr2-pr30-pr5-pr6
-14,<Bem1GDPCdc42Cdc24Far1Ste4Ste18>,AND,<Cdc24Far1Ste4Ste18>#Cdc24@4=Cdc24@1#Far1@5=Far1@2#Ste18@6=Ste18@1#Ste4@7=Ste4@2,,,,<Bem1GDPCdc42>-<Bem1GDPCdc42Cdc24Far1Ste4Ste18>-<Cdc24Far1>-<Cdc24Far1Ste4Ste18>-<GDPCdc42>-<Ste4Ste18>-GDP-pr14-pr16-pr2-pr30-pr5-pr6
-15,<Bem1GDPCdc42Cdc24GTPRsr1>,AND,<Cdc24GTPRsr1>#Cdc24@2=Cdc24@1#GDP@3=GDP@1#Rsr1@4=Rsr1@2,,,,<Bem1GDPCdc42Cdc24GTPRsr1>-<Cdc24GTPRsr1>-<GDPCdc42>-<GDPRsr1>-GDP-GDP-pr16-pr2-pr30-pr33
-16,<Bem1GDPCdc42Cdc24GTPRsr1>,AND,<GDPCdc42>#Cdc42@5=Cdc42@1#GDP@6=GDP@2,,,,<Bem1GDPCdc42Cdc24GTPRsr1>-<Cdc24GTPRsr1>-<GDPCdc42>-<GDPRsr1>-GDP-GDP-pr16-pr2-pr30-pr33
-17,<Bem1GDPCdc42Cdc24GTPRsr1>,AND,Bem1@1,,,,<Bem1GDPCdc42Cdc24GTPRsr1>-<Cdc24GTPRsr1>-<GDPCdc42>-<GDPRsr1>-GDP-GDP-pr16-pr2-pr30-pr33
-18,<Bem1GTPCdc42>,AND,<GTPCdc42>#Cdc42@2=Cdc42@1#GDP@3=GDP@2,,,,<Bem1GTPCdc42>-<GTPCdc42>-GDP-pr16-pr30
-19,<Bem1GTPCdc42>,AND,<GTPCdc42>#Cdc42@2=Cdc42@1#GTP@3=GTP@2,,,,<Bem1GTPCdc42>-<GTPCdc42>-GTP-pr16-pr30
-20,<Bem1GTPCdc42>,AND,Bem1@1,,,,<Bem1GTPCdc42>-<GTPCdc42>-GDP-pr16-pr30
-21,<Bem1GTPCdc42>,AND,Bem1@1,,,,<Bem1GTPCdc42>-<GTPCdc42>-GTP-pr16-pr30
-22,<Bem1GTPCdc42Cdc24Far1Ste4Ste18>,AND,<Bem1GTPCdc42>#Bem1@1=Bem1@1#Cdc42@2=Cdc42@1#GDP@3=GDP@2,,,,<Bem1GTPCdc42>-<Bem1GTPCdc42Cdc24Far1Ste4Ste18>-<Cdc24Far1>-<Cdc24Far1Ste4Ste18>-<GTPCdc42>-<Ste4Ste18>-GDP-pr14-pr16-pr2-pr30-pr5-pr6
-23,<Bem1GTPCdc42Cdc24Far1Ste4Ste18>,AND,<Cdc24Far1Ste4Ste18>#Cdc24@4=Cdc24@1#Far1@5=Far1@2#Ste18@6=Ste18@1#Ste4@7=Ste4@2,,,,<Bem1GTPCdc42>-<Bem1GTPCdc42Cdc24Far1Ste4Ste18>-<Cdc24Far1>-<Cdc24Far1Ste4Ste18>-<GTPCdc42>-<Ste4Ste18>-GDP-pr14-pr16-pr2-pr30-pr5-pr6
-24,<Bem1GTPCdc42Cdc24Far1Ste4Ste18Ste20>,AND,<Bem1GTPCdc42>#Bem1@1=Bem1@1#Cdc42@2=Cdc42@1#GTP@3=GTP@2,,,,<Bem1GTPCdc42>-<Bem1GTPCdc42Cdc24Far1Ste4Ste18Ste20>-<Cdc24Far1>-<Cdc24Far1Ste4Ste18>-<GTPCdc42>-<Ste4Ste18>-GTP-pr14-pr16-pr18-pr2-pr30-pr5-pr6
-25,<Bem1GTPCdc42Cdc24Far1Ste4Ste18Ste20>,AND,<Cdc24Far1Ste4Ste18>#Cdc24@4=Cdc24@1#Far1@5=Far1@2#Ste18@6=Ste18@1#Ste4@7=Ste4@2,,,,<Bem1GTPCdc42>-<Bem1GTPCdc42Cdc24Far1Ste4Ste18Ste20>-<Cdc24Far1>-<Cdc24Far1Ste4Ste18>-<GTPCdc42>-<Ste4Ste18>-GTP-pr14-pr16-pr18-pr2-pr30-pr5-pr6
-26,<Bem1GTPCdc42Cdc24Far1Ste4Ste18Ste20>,AND,Ste20@8,,,,<Bem1GTPCdc42>-<Bem1GTPCdc42Cdc24Far1Ste4Ste18Ste20>-<Cdc24Far1>-<Cdc24Far1Ste4Ste18>-<GTPCdc42>-<Ste4Ste18>-GTP-pr14-pr16-pr18-pr2-pr30-pr5-pr6
-27,<Bem1GTPCdc42Cdc24GTPRsr1>,AND,<Cdc24GTPRsr1>#Cdc24@2=Cdc24@1#GTP@3=GTP@1#Rsr1@4=Rsr1@2,,,,<Bem1GTPCdc42Cdc24GTPRsr1>-<Cdc24GTPRsr1>-<GTPCdc42>-<GTPRsr1>-GTP-GTP-pr16-pr2-pr30-pr33
-28,<Bem1GTPCdc42Cdc24GTPRsr1>,AND,<GTPCdc42>#Cdc42@5=Cdc42@1#GTP@6=GTP@2,,,,<Bem1GTPCdc42Cdc24GTPRsr1>-<Cdc24GTPRsr1>-<GTPCdc42>-<GTPRsr1>-GTP-GTP-pr16-pr2-pr30-pr33
-29,<Bem1GTPCdc42Cdc24GTPRsr1>,AND,Bem1@1,,,,<Bem1GTPCdc42Cdc24GTPRsr1>-<Cdc24GTPRsr1>-<GTPCdc42>-<GTPRsr1>-GTP-GTP-pr16-pr2-pr30-pr33
-30,<Bem1GTPCdc42GTPRsr1>,AND,<GTPCdc42>#Cdc42@2=Cdc42@1#GTP@3=GTP@2,,,,<Bem1GTPCdc42GTPRsr1>-<GTPCdc42>-<GTPRsr1>-GTP-GTP-pr16-pr30-pr33
-31,<Bem1GTPCdc42GTPRsr1>,AND,<GTPRsr1>#GTP@4=GTP@1#Rsr1@5=Rsr1@2,,,,<Bem1GTPCdc42GTPRsr1>-<GTPCdc42>-<GTPRsr1>-GTP-GTP-pr16-pr30-pr33
-32,<Bem1GTPCdc42GTPRsr1>,AND,Bem1@1,,,,<Bem1GTPCdc42GTPRsr1>-<GTPCdc42>-<GTPRsr1>-GTP-GTP-pr16-pr30-pr33
-33,<Cdc24Far1>,AND,Cdc24@1--Far1@2,,,,<Cdc24Far1>-pr14-pr2
-34,<Cdc24Far1Ste4Ste18>,AND,<Cdc24Far1>#Cdc24@1=Cdc24@1#Far1@2=Far1@2,,,,<Cdc24Far1>-<Cdc24Far1Ste4Ste18>-<Ste4Ste18>-pr14-pr2-pr5-pr6
-35,<Cdc24Far1Ste4Ste18>,AND,<Ste4Ste18>#Ste18@3=Ste18@1#Ste4@4=Ste4@2,,,,<Cdc24Far1>-<Cdc24Far1Ste4Ste18>-<Ste4Ste18>-pr14-pr2-pr5-pr6
-36,<Cdc24GTPRsr1>,AND,<GDPRsr1>#GDP@3=GDP@1#Rsr1@4=Rsr1@2,,,,<Cdc24GTPRsr1>-<GDPRsr1>-GDP-pr2-pr33
-37,<Cdc24GTPRsr1>,AND,<GTPRsr1>#GTP@2=GTP@1#Rsr1@3=Rsr1@2,,,,<Cdc24GTPRsr1>-<GTPRsr1>-GTP-pr2-pr33
-38,<Cdc24GTPRsr1>,AND,Cdc24@1,,,,<Cdc24GTPRsr1>-<GTPRsr1>-GTP-pr2-pr33
-39,<Cdc24GTPRsr1>,AND,Cdc24@2,,,,<Cdc24GTPRsr1>-<GDPRsr1>-GDP-pr2-pr33
-40,<Cdc28Cln1>,AND,Cdc28@1--Cln1@2,,,,<Cdc28Cln1>-pr26-pr550
-41,<Cdc28Cln1Far1>,AND,<Cdc28Cln1>#Cdc28@1=Cdc28@1#Cln1@2=Cln1@2,,,,<Cdc28Cln1>-<Cdc28Cln1Far1>-pr14-pr26-pr550
-42,<Cdc28Cln1Far1>,AND,Far1@3,,,,<Cdc28Cln1>-<Cdc28Cln1Far1>-pr14-pr26-pr550
-43,<Cdc28Cln2>,AND,Cdc28@1--Cln2@2,,,,<Cdc28Cln2>-pr13-pr26
-44,<Cdc28Cln2Far1>,AND,<Cdc28Cln2>#Cdc28@1=Cdc28@1#Cln2@2=Cln2@2,,,,<Cdc28Cln2>-<Cdc28Cln2Far1>-pr13-pr14-pr26
-45,<Cdc28Cln2Far1>,AND,Far1@3,,,,<Cdc28Cln2>-<Cdc28Cln2Far1>-pr13-pr14-pr26
-46,<Cyc8Tup1>,AND,Cyc8@1--Tup1@2,,,,<Cyc8Tup1>-pr401-pr402
-47,<Cyc8Tup1Sfl1>,AND,<Cyc8Tup1>#Cyc8@1=Cyc8@1#Tup1@2=Tup1@2,,,,<Cyc8Tup1>-<Cyc8Tup1Sfl1>-pr398-pr401-pr402
-48,<Cyc8Tup1Sfl1>,AND,<Sfl1-Dimer>#Sfl1@3=Sfl1@1#Sfl1@4=Sfl1@2,,,,<Cyc8Tup1>-<Cyc8Tup1Sfl1>-pr398-pr401-pr402
-49,<Dia2ScfComplex>,AND,<ScfComplex>#Cdc34@2=Cdc34@1#Cdc53@3=Cdc53@2#Hrt1@4=Hrt1@3#Skp1@5=Skp1@4,,,,<Dia2ScfComplex>-<ScfComplex>-pr410-pr528-pr529-pr530-pr531
-50,<Dia2ScfComplex>,AND,Dia2@1,,,,<Dia2ScfComplex>-<ScfComplex>-pr410-pr528-pr529-pr530-pr531
-51,<Dig1Dig2Ste12>,AND,<Ste12-Dimer>#Ste12@3=Ste12@1#Ste12@4=Ste12@2,,,,<Dig1Dig2Ste12>-pr395-pr396-pr7
-52,<Dig1Dig2Ste12>,AND,Dig1@1,,,,<Dig1Dig2Ste12>-pr395-pr396-pr7
-53,<Dig1Dig2Ste12>,AND,Dig2@2,,,,<Dig1Dig2Ste12>-pr395-pr396-pr7
-54,<Dig1Ste12Tec1>,AND,<Ste12-Dimer>#Ste12@2=Ste12@1#Ste12@3=Ste12@2,,,,<Dig1Ste12Tec1>-pr395-pr397-pr7
-55,<Dig1Ste12Tec1>,AND,Dig1@1,,,,<Dig1Ste12Tec1>-pr395-pr397-pr7
-56,<Dig1Ste12Tec1>,AND,Tec1@4,,,,<Dig1Ste12Tec1>-pr395-pr397-pr7
-57,<GDPCdc42>,AND,Cdc42@1--GDP@2,,,,<GDPCdc42>-GDP-pr16
-58,<GDPGpa1>,AND,GDP@1--Gpa1@2,,,,<GDPGpa1>-GDP-pr4
-59,<GDPGpa1Ste4Ste18>,AND,<Ste4Ste18>#Ste18@3=Ste18@1#Ste4@4=Ste4@2,,,,<GDPGpa1Ste4Ste18>-<Ste4Ste18>-GDP-pr4-pr5-pr6
-60,<GDPGpa1Ste4Ste18>,AND,GDP@1,,,,<GDPGpa1Ste4Ste18>-<Ste4Ste18>-GDP-pr4-pr5-pr6
-61,<GDPGpa1Ste4Ste18>,AND,Gpa1@2,,,,<GDPGpa1Ste4Ste18>-<Ste4Ste18>-GDP-pr4-pr5-pr6
-62,<GDPRsr1>,AND,GDP@1--Rsr1@2,,,,<GDPRsr1>-GDP-pr33
-63,<GTPCdc42>,AND,Cdc42@2--GDP@3,,,,<GTPCdc42>-GDP-pr16
-64,<GTPCdc42>,AND,Cdc42@2--GTP@3,,,,<GTPCdc42>-GTP-pr16
-65,<GTPGpa1>,AND,GTP@1--Gpa1@2,,,,<GTPGpa1>-GTP-pr4
-66,<GTPGpa1Ste4Ste18>,AND,<Ste4Ste18>#Ste18@3=Ste18@1#Ste4@4=Ste4@2,,,,<GTPGpa1Ste4Ste18>-<Ste4Ste18>-GTP-pr4-pr5-pr6
-67,<GTPGpa1Ste4Ste18>,AND,GTP@1,,,,<GTPGpa1Ste4Ste18>-<Ste4Ste18>-GTP-pr4-pr5-pr6
-68,<GTPGpa1Ste4Ste18>,AND,Gpa1@2,,,,<GTPGpa1Ste4Ste18>-<Ste4Ste18>-GTP-pr4-pr5-pr6
-69,<GTPRsr1>,AND,GTP@1--Rsr1@2,,,,<GTPRsr1>-GTP-pr33
-70,<Mcm1Matalpha1>,AND,Matalpha1@1--Mcm1@2,,,,<Mcm1Matalpha1>-pr21-pr553
-71,<Mcm1Matalpha2>,AND,Matalpha2@1--Mcm1@2,,,,<Mcm1Matalpha2>-pr21-pr554
-72,<Mcm1Ste12>,AND,<Ste12-Dimer>#Ste12@2=Ste12@1#Ste12@3=Ste12@2,,,,<Mcm1Ste12>-pr21-pr7
-73,<Mcm1Ste12>,AND,Mcm1@1,,,,<Mcm1Ste12>-pr21-pr7
-74,<Mpt5Sst2>,AND,Mpt5@1--Sst2@2,,,,<Mpt5Sst2>-pr25-pr394
-75,<ScfCdc4Complex>,AND,<ScfComplex>#Cdc34@2=Cdc34@1#Cdc53@3=Cdc53@2#Hrt1@4=Hrt1@3#Skp1@5=Skp1@4,,,,<ScfCdc4Complex>-<ScfComplex>-pr528-pr529-pr530-pr531-pr532
-76,<ScfCdc4Complex>,AND,Cdc4@1,,,,<ScfCdc4Complex>-<ScfComplex>-pr528-pr529-pr530-pr531-pr532
-77,<ScfComplex>,AND,Cdc34@2,,,,<ScfComplex>-pr528-pr529-pr530-pr531
-78,<ScfComplex>,AND,Cdc53@3,,,,<ScfComplex>-pr528-pr529-pr530-pr531
-79,<ScfComplex>,AND,Hrt1@4,,,,<ScfComplex>-pr528-pr529-pr530-pr531
-80,<ScfComplex>,AND,Skp1@5,,,,<ScfComplex>-pr528-pr529-pr530-pr531
-81,<Sfl1-Dimer>,AND,Sfl1@1--Sfl1@2,,,,<Sfl1-Dimer>-Sfl1@1-Sfl1@2
-82,<Ste11-Dimer>,AND,Ste11@1--Ste11@2,,,,<Ste11-Dimer>-Ste11@1-Ste11@2
-83,<Ste12-Dimer>,AND,Ste12@1--Ste12@2,,,,<Ste12-Dimer>-Ste12@1-Ste12@2
-84,<Ste12Tec1>,AND,<Ste12-Dimer>#Ste12@1=Ste12@1#Ste12@2=Ste12@2,,,,<Ste12Tec1>-pr397-pr7
-85,<Ste12Tec1>,AND,Tec1@3,,,,<Ste12Tec1>-pr397-pr7
-86,<Ste2-Dimer>,AND,Ste2@1--Ste2@2,,,,<Ste2-Dimer>-Ste2@1-Ste2@2
-87,<Ste4Ste18>,AND,Ste18@3--Ste4@4,,,,<Ste4Ste18>-pr5-pr6
-88,<Ste5-Dimer>,AND,Ste5@1--Ste5@2,,,,<Ste5-Dimer>-Ste5@1-Ste5@2
-89,<Ste50Ste11>,AND,<Ste11-Dimer>#Ste11@1=Ste11@1#Ste11@2=Ste11@2,,,,<Ste50Ste11>-pr32-pr34
-90,<Ste50Ste11>,AND,Ste50@3,,,,<Ste50Ste11>-pr32-pr34
-91,<Ste5Ste50Ste11Ste7Fus3>,AND,<Ste5-Dimer>#Ste5@2=Ste5@1#Ste5@3=Ste5@2,,,,<Ste50Ste11>-<Ste5Ste50Ste11Ste7Fus3>-pr1-pr11-pr3-pr32-pr34
-92,<Ste5Ste50Ste11Ste7Fus3>,AND,<Ste50Ste11>#Ste11@4=Ste11@1#Ste50@6=Ste50@3,,,,<Ste50Ste11>-<Ste5Ste50Ste11Ste7Fus3>-pr1-pr11-pr3-pr32-pr34
-93,<Ste5Ste50Ste11Ste7Fus3>,AND,Fus3@1,,,,<Ste50Ste11>-<Ste5Ste50Ste11Ste7Fus3>-pr1-pr11-pr3-pr32-pr34
-94,<Ste5Ste50Ste11Ste7Fus3>,AND,Ste7@7,,,,<Ste50Ste11>-<Ste5Ste50Ste11Ste7Fus3>-pr1-pr11-pr3-pr32-pr34
-95,<Ste5Ste50Ste11Ste7Kss1>,AND,<Ste5-Dimer>#Ste5@2=Ste5@1#Ste5@3=Ste5@2,,,,<Ste50Ste11>-<Ste5Ste50Ste11Ste7Kss1>-pr11-pr3-pr32-pr34-pr8
-96,<Ste5Ste50Ste11Ste7Kss1>,AND,<Ste50Ste11>#Ste11@4=Ste11@1#Ste50@6=Ste50@3,,,,<Ste50Ste11>-<Ste5Ste50Ste11Ste7Kss1>-pr11-pr3-pr32-pr34-pr8
-97,<Ste5Ste50Ste11Ste7Kss1>,AND,Kss1@1,,,,<Ste50Ste11>-<Ste5Ste50Ste11Ste7Kss1>-pr11-pr3-pr32-pr34-pr8
-98,<Ste5Ste50Ste11Ste7Kss1>,AND,Ste7@7,,,,<Ste50Ste11>-<Ste5Ste50Ste11Ste7Kss1>-pr11-pr3-pr32-pr34-pr8
+!!SBtab TableType='rxnconContingencyList' TableName='ContingencyList' Document='files/S2.6_PheromoneResponse'
+!UID:Contingency	!Target	!Contingency	!Modifier	!Reference:Identifiers:pubmed	!Quality	!Comment	!InternalComplexID
+1	<AFactorSte3>	AND	Mfa12@1--Ste3@2				<AFactorSte3>-pr20-pr9
+2	<AFactorSte3Asg7>	AND	<AFactorSte3>#Mfa12@1=Mfa12@1#Ste3@2=Ste3@2				<AFactorSte3>-<AFactorSte3Asg7>-pr20-pr548-pr9
+3	<AFactorSte3Asg7>	AND	Asg7@3				<AFactorSte3>-<AFactorSte3Asg7>-pr20-pr548-pr9
+4	<AlphaFactorSte2>	AND	<Ste2-Dimer>#Ste2@2=Ste2@1#Ste2@3=Ste2@2				<AlphaFactorSte2>-pr10-pr19
+5	<AlphaFactorSte2>	AND	MfAlpha12@1				<AlphaFactorSte2>-pr10-pr19
+6	<AlphaFactorSte2Sst2>	AND	<AlphaFactorSte2>#MfAlpha12@1=MfAlpha12@1#Ste2@2=Ste2@2				<AlphaFactorSte2>-<AlphaFactorSte2Sst2>-pr10-pr19-pr25
+7	<AlphaFactorSte2Sst2>	AND	Sst2@4				<AlphaFactorSte2>-<AlphaFactorSte2Sst2>-pr10-pr19-pr25
+8	<Bcy1Tpk1>	AND	Bcy1@1--Tpk1@2				<Bcy1Tpk1>-pr375-pr411
+9	<Bcy1Tpk1>	AND	Bcy1@1--Tpk3@2				<Bcy1Tpk1>-pr375-pr412
+10	<Bcy1Tpk2>	AND	Bcy1@1--Tpk2@2				<Bcy1Tpk2>-pr375-pr399
+11	<Bem1GDPCdc42>	AND	<GDPCdc42>#Cdc42@2=Cdc42@1#GDP@3=GDP@2				<Bem1GDPCdc42>-<GDPCdc42>-GDP-pr16-pr30
+12	<Bem1GDPCdc42>	AND	Bem1@1				<Bem1GDPCdc42>-<GDPCdc42>-GDP-pr16-pr30
+13	<Bem1GDPCdc42Cdc24Far1Ste4Ste18>	AND	<Bem1GDPCdc42>#Bem1@1=Bem1@1#Cdc42@2=Cdc42@1#GDP@3=GDP@2				<Bem1GDPCdc42>-<Bem1GDPCdc42Cdc24Far1Ste4Ste18>-<Cdc24Far1>-<Cdc24Far1Ste4Ste18>-<GDPCdc42>-<Ste4Ste18>-GDP-pr14-pr16-pr2-pr30-pr5-pr6
+14	<Bem1GDPCdc42Cdc24Far1Ste4Ste18>	AND	<Cdc24Far1Ste4Ste18>#Cdc24@4=Cdc24@1#Far1@5=Far1@2#Ste18@6=Ste18@1#Ste4@7=Ste4@2				<Bem1GDPCdc42>-<Bem1GDPCdc42Cdc24Far1Ste4Ste18>-<Cdc24Far1>-<Cdc24Far1Ste4Ste18>-<GDPCdc42>-<Ste4Ste18>-GDP-pr14-pr16-pr2-pr30-pr5-pr6
+15	<Bem1GDPCdc42Cdc24GTPRsr1>	AND	<Cdc24GTPRsr1>#Cdc24@2=Cdc24@1#GDP@3=GDP@1#Rsr1@4=Rsr1@2				<Bem1GDPCdc42Cdc24GTPRsr1>-<Cdc24GTPRsr1>-<GDPCdc42>-<GDPRsr1>-GDP-GDP-pr16-pr2-pr30-pr33
+16	<Bem1GDPCdc42Cdc24GTPRsr1>	AND	<GDPCdc42>#Cdc42@5=Cdc42@1#GDP@6=GDP@2				<Bem1GDPCdc42Cdc24GTPRsr1>-<Cdc24GTPRsr1>-<GDPCdc42>-<GDPRsr1>-GDP-GDP-pr16-pr2-pr30-pr33
+17	<Bem1GDPCdc42Cdc24GTPRsr1>	AND	Bem1@1				<Bem1GDPCdc42Cdc24GTPRsr1>-<Cdc24GTPRsr1>-<GDPCdc42>-<GDPRsr1>-GDP-GDP-pr16-pr2-pr30-pr33
+18	<Bem1GTPCdc42>	AND	<GTPCdc42>#Cdc42@2=Cdc42@1#GDP@3=GDP@2				<Bem1GTPCdc42>-<GTPCdc42>-GDP-pr16-pr30
+19	<Bem1GTPCdc42>	AND	<GTPCdc42>#Cdc42@2=Cdc42@1#GTP@3=GTP@2				<Bem1GTPCdc42>-<GTPCdc42>-GTP-pr16-pr30
+20	<Bem1GTPCdc42>	AND	Bem1@1				<Bem1GTPCdc42>-<GTPCdc42>-GDP-pr16-pr30
+21	<Bem1GTPCdc42>	AND	Bem1@1				<Bem1GTPCdc42>-<GTPCdc42>-GTP-pr16-pr30
+22	<Bem1GTPCdc42Cdc24Far1Ste4Ste18>	AND	<Bem1GTPCdc42>#Bem1@1=Bem1@1#Cdc42@2=Cdc42@1#GDP@3=GDP@2				<Bem1GTPCdc42>-<Bem1GTPCdc42Cdc24Far1Ste4Ste18>-<Cdc24Far1>-<Cdc24Far1Ste4Ste18>-<GTPCdc42>-<Ste4Ste18>-GDP-pr14-pr16-pr2-pr30-pr5-pr6
+23	<Bem1GTPCdc42Cdc24Far1Ste4Ste18>	AND	<Cdc24Far1Ste4Ste18>#Cdc24@4=Cdc24@1#Far1@5=Far1@2#Ste18@6=Ste18@1#Ste4@7=Ste4@2				<Bem1GTPCdc42>-<Bem1GTPCdc42Cdc24Far1Ste4Ste18>-<Cdc24Far1>-<Cdc24Far1Ste4Ste18>-<GTPCdc42>-<Ste4Ste18>-GDP-pr14-pr16-pr2-pr30-pr5-pr6
+24	<Bem1GTPCdc42Cdc24Far1Ste4Ste18Ste20>	AND	<Bem1GTPCdc42>#Bem1@1=Bem1@1#Cdc42@2=Cdc42@1#GTP@3=GTP@2				<Bem1GTPCdc42>-<Bem1GTPCdc42Cdc24Far1Ste4Ste18Ste20>-<Cdc24Far1>-<Cdc24Far1Ste4Ste18>-<GTPCdc42>-<Ste4Ste18>-GTP-pr14-pr16-pr18-pr2-pr30-pr5-pr6
+25	<Bem1GTPCdc42Cdc24Far1Ste4Ste18Ste20>	AND	<Cdc24Far1Ste4Ste18>#Cdc24@4=Cdc24@1#Far1@5=Far1@2#Ste18@6=Ste18@1#Ste4@7=Ste4@2				<Bem1GTPCdc42>-<Bem1GTPCdc42Cdc24Far1Ste4Ste18Ste20>-<Cdc24Far1>-<Cdc24Far1Ste4Ste18>-<GTPCdc42>-<Ste4Ste18>-GTP-pr14-pr16-pr18-pr2-pr30-pr5-pr6
+26	<Bem1GTPCdc42Cdc24Far1Ste4Ste18Ste20>	AND	Ste20@8				<Bem1GTPCdc42>-<Bem1GTPCdc42Cdc24Far1Ste4Ste18Ste20>-<Cdc24Far1>-<Cdc24Far1Ste4Ste18>-<GTPCdc42>-<Ste4Ste18>-GTP-pr14-pr16-pr18-pr2-pr30-pr5-pr6
+27	<Bem1GTPCdc42Cdc24GTPRsr1>	AND	<Cdc24GTPRsr1>#Cdc24@2=Cdc24@1#GTP@3=GTP@1#Rsr1@4=Rsr1@2				<Bem1GTPCdc42Cdc24GTPRsr1>-<Cdc24GTPRsr1>-<GTPCdc42>-<GTPRsr1>-GTP-GTP-pr16-pr2-pr30-pr33
+28	<Bem1GTPCdc42Cdc24GTPRsr1>	AND	<GTPCdc42>#Cdc42@5=Cdc42@1#GTP@6=GTP@2				<Bem1GTPCdc42Cdc24GTPRsr1>-<Cdc24GTPRsr1>-<GTPCdc42>-<GTPRsr1>-GTP-GTP-pr16-pr2-pr30-pr33
+29	<Bem1GTPCdc42Cdc24GTPRsr1>	AND	Bem1@1				<Bem1GTPCdc42Cdc24GTPRsr1>-<Cdc24GTPRsr1>-<GTPCdc42>-<GTPRsr1>-GTP-GTP-pr16-pr2-pr30-pr33
+30	<Bem1GTPCdc42GTPRsr1>	AND	<GTPCdc42>#Cdc42@2=Cdc42@1#GTP@3=GTP@2				<Bem1GTPCdc42GTPRsr1>-<GTPCdc42>-<GTPRsr1>-GTP-GTP-pr16-pr30-pr33
+31	<Bem1GTPCdc42GTPRsr1>	AND	<GTPRsr1>#GTP@4=GTP@1#Rsr1@5=Rsr1@2				<Bem1GTPCdc42GTPRsr1>-<GTPCdc42>-<GTPRsr1>-GTP-GTP-pr16-pr30-pr33
+32	<Bem1GTPCdc42GTPRsr1>	AND	Bem1@1				<Bem1GTPCdc42GTPRsr1>-<GTPCdc42>-<GTPRsr1>-GTP-GTP-pr16-pr30-pr33
+33	<Cdc24Far1>	AND	Cdc24@1--Far1@2				<Cdc24Far1>-pr14-pr2
+34	<Cdc24Far1Ste4Ste18>	AND	<Cdc24Far1>#Cdc24@1=Cdc24@1#Far1@2=Far1@2				<Cdc24Far1>-<Cdc24Far1Ste4Ste18>-<Ste4Ste18>-pr14-pr2-pr5-pr6
+35	<Cdc24Far1Ste4Ste18>	AND	<Ste4Ste18>#Ste18@3=Ste18@1#Ste4@4=Ste4@2				<Cdc24Far1>-<Cdc24Far1Ste4Ste18>-<Ste4Ste18>-pr14-pr2-pr5-pr6
+36	<Cdc24GTPRsr1>	AND	<GDPRsr1>#GDP@3=GDP@1#Rsr1@4=Rsr1@2				<Cdc24GTPRsr1>-<GDPRsr1>-GDP-pr2-pr33
+37	<Cdc24GTPRsr1>	AND	<GTPRsr1>#GTP@2=GTP@1#Rsr1@3=Rsr1@2				<Cdc24GTPRsr1>-<GTPRsr1>-GTP-pr2-pr33
+38	<Cdc24GTPRsr1>	AND	Cdc24@1				<Cdc24GTPRsr1>-<GTPRsr1>-GTP-pr2-pr33
+39	<Cdc24GTPRsr1>	AND	Cdc24@2				<Cdc24GTPRsr1>-<GDPRsr1>-GDP-pr2-pr33
+40	<Cdc28Cln1>	AND	Cdc28@1--Cln1@2				<Cdc28Cln1>-pr26-pr550
+41	<Cdc28Cln1Far1>	AND	<Cdc28Cln1>#Cdc28@1=Cdc28@1#Cln1@2=Cln1@2				<Cdc28Cln1>-<Cdc28Cln1Far1>-pr14-pr26-pr550
+42	<Cdc28Cln1Far1>	AND	Far1@3				<Cdc28Cln1>-<Cdc28Cln1Far1>-pr14-pr26-pr550
+43	<Cdc28Cln2>	AND	Cdc28@1--Cln2@2				<Cdc28Cln2>-pr13-pr26
+44	<Cdc28Cln2Far1>	AND	<Cdc28Cln2>#Cdc28@1=Cdc28@1#Cln2@2=Cln2@2				<Cdc28Cln2>-<Cdc28Cln2Far1>-pr13-pr14-pr26
+45	<Cdc28Cln2Far1>	AND	Far1@3				<Cdc28Cln2>-<Cdc28Cln2Far1>-pr13-pr14-pr26
+46	<Cyc8Tup1>	AND	Cyc8@1--Tup1@2				<Cyc8Tup1>-pr401-pr402
+47	<Cyc8Tup1Sfl1>	AND	<Cyc8Tup1>#Cyc8@1=Cyc8@1#Tup1@2=Tup1@2				<Cyc8Tup1>-<Cyc8Tup1Sfl1>-pr398-pr401-pr402
+48	<Cyc8Tup1Sfl1>	AND	<Sfl1-Dimer>#Sfl1@3=Sfl1@1#Sfl1@4=Sfl1@2				<Cyc8Tup1>-<Cyc8Tup1Sfl1>-pr398-pr401-pr402
+49	<Dia2ScfComplex>	AND	<ScfComplex>#Cdc34@2=Cdc34@1#Cdc53@3=Cdc53@2#Hrt1@4=Hrt1@3#Skp1@5=Skp1@4				<Dia2ScfComplex>-<ScfComplex>-pr410-pr528-pr529-pr530-pr531
+50	<Dia2ScfComplex>	AND	Dia2@1				<Dia2ScfComplex>-<ScfComplex>-pr410-pr528-pr529-pr530-pr531
+51	<Dig1Dig2Ste12>	AND	<Ste12-Dimer>#Ste12@3=Ste12@1#Ste12@4=Ste12@2				<Dig1Dig2Ste12>-pr395-pr396-pr7
+52	<Dig1Dig2Ste12>	AND	Dig1@1				<Dig1Dig2Ste12>-pr395-pr396-pr7
+53	<Dig1Dig2Ste12>	AND	Dig2@2				<Dig1Dig2Ste12>-pr395-pr396-pr7
+54	<Dig1Ste12Tec1>	AND	<Ste12-Dimer>#Ste12@2=Ste12@1#Ste12@3=Ste12@2				<Dig1Ste12Tec1>-pr395-pr397-pr7
+55	<Dig1Ste12Tec1>	AND	Dig1@1				<Dig1Ste12Tec1>-pr395-pr397-pr7
+56	<Dig1Ste12Tec1>	AND	Tec1@4				<Dig1Ste12Tec1>-pr395-pr397-pr7
+57	<GDPCdc42>	AND	Cdc42@1--GDP@2				<GDPCdc42>-GDP-pr16
+58	<GDPGpa1>	AND	GDP@1--Gpa1@2				<GDPGpa1>-GDP-pr4
+59	<GDPGpa1Ste4Ste18>	AND	<Ste4Ste18>#Ste18@3=Ste18@1#Ste4@4=Ste4@2				<GDPGpa1Ste4Ste18>-<Ste4Ste18>-GDP-pr4-pr5-pr6
+60	<GDPGpa1Ste4Ste18>	AND	GDP@1				<GDPGpa1Ste4Ste18>-<Ste4Ste18>-GDP-pr4-pr5-pr6
+61	<GDPGpa1Ste4Ste18>	AND	Gpa1@2				<GDPGpa1Ste4Ste18>-<Ste4Ste18>-GDP-pr4-pr5-pr6
+62	<GDPRsr1>	AND	GDP@1--Rsr1@2				<GDPRsr1>-GDP-pr33
+63	<GTPCdc42>	AND	Cdc42@2--GDP@3				<GTPCdc42>-GDP-pr16
+64	<GTPCdc42>	AND	Cdc42@2--GTP@3				<GTPCdc42>-GTP-pr16
+65	<GTPGpa1>	AND	GTP@1--Gpa1@2				<GTPGpa1>-GTP-pr4
+66	<GTPGpa1Ste4Ste18>	AND	<Ste4Ste18>#Ste18@3=Ste18@1#Ste4@4=Ste4@2				<GTPGpa1Ste4Ste18>-<Ste4Ste18>-GTP-pr4-pr5-pr6
+67	<GTPGpa1Ste4Ste18>	AND	GTP@1				<GTPGpa1Ste4Ste18>-<Ste4Ste18>-GTP-pr4-pr5-pr6
+68	<GTPGpa1Ste4Ste18>	AND	Gpa1@2				<GTPGpa1Ste4Ste18>-<Ste4Ste18>-GTP-pr4-pr5-pr6
+69	<GTPRsr1>	AND	GTP@1--Rsr1@2				<GTPRsr1>-GTP-pr33
+70	<Mcm1Matalpha1>	AND	Matalpha1@1--Mcm1@2				<Mcm1Matalpha1>-pr21-pr553
+71	<Mcm1Matalpha2>	AND	Matalpha2@1--Mcm1@2				<Mcm1Matalpha2>-pr21-pr554
+72	<Mcm1Ste12>	AND	<Ste12-Dimer>#Ste12@2=Ste12@1#Ste12@3=Ste12@2				<Mcm1Ste12>-pr21-pr7
+73	<Mcm1Ste12>	AND	Mcm1@1				<Mcm1Ste12>-pr21-pr7
+74	<Mpt5Sst2>	AND	Mpt5@1--Sst2@2				<Mpt5Sst2>-pr25-pr394
+75	<ScfCdc4Complex>	AND	<ScfComplex>#Cdc34@2=Cdc34@1#Cdc53@3=Cdc53@2#Hrt1@4=Hrt1@3#Skp1@5=Skp1@4				<ScfCdc4Complex>-<ScfComplex>-pr528-pr529-pr530-pr531-pr532
+76	<ScfCdc4Complex>	AND	Cdc4@1				<ScfCdc4Complex>-<ScfComplex>-pr528-pr529-pr530-pr531-pr532
+77	<ScfComplex>	AND	Cdc34@2				<ScfComplex>-pr528-pr529-pr530-pr531
+78	<ScfComplex>	AND	Cdc53@3				<ScfComplex>-pr528-pr529-pr530-pr531
+79	<ScfComplex>	AND	Hrt1@4				<ScfComplex>-pr528-pr529-pr530-pr531
+80	<ScfComplex>	AND	Skp1@5				<ScfComplex>-pr528-pr529-pr530-pr531
+81	<Sfl1-Dimer>	AND	Sfl1@1--Sfl1@2				<Sfl1-Dimer>-Sfl1@1-Sfl1@2
+82	<Ste11-Dimer>	AND	Ste11@1--Ste11@2				<Ste11-Dimer>-Ste11@1-Ste11@2
+83	<Ste12-Dimer>	AND	Ste12@1--Ste12@2				<Ste12-Dimer>-Ste12@1-Ste12@2
+84	<Ste12Tec1>	AND	<Ste12-Dimer>#Ste12@1=Ste12@1#Ste12@2=Ste12@2				<Ste12Tec1>-pr397-pr7
+85	<Ste12Tec1>	AND	Tec1@3				<Ste12Tec1>-pr397-pr7
+86	<Ste2-Dimer>	AND	Ste2@1--Ste2@2				<Ste2-Dimer>-Ste2@1-Ste2@2
+87	<Ste4Ste18>	AND	Ste18@3--Ste4@4				<Ste4Ste18>-pr5-pr6
+88	<Ste5-Dimer>	AND	Ste5@1--Ste5@2				<Ste5-Dimer>-Ste5@1-Ste5@2
+89	<Ste50Ste11>	AND	<Ste11-Dimer>#Ste11@1=Ste11@1#Ste11@2=Ste11@2				<Ste50Ste11>-pr32-pr34
+90	<Ste50Ste11>	AND	Ste50@3				<Ste50Ste11>-pr32-pr34
+91	<Ste5Ste50Ste11Ste7Fus3>	AND	<Ste5-Dimer>#Ste5@2=Ste5@1#Ste5@3=Ste5@2				<Ste50Ste11>-<Ste5Ste50Ste11Ste7Fus3>-pr1-pr11-pr3-pr32-pr34
+92	<Ste5Ste50Ste11Ste7Fus3>	AND	<Ste50Ste11>#Ste11@4=Ste11@1#Ste50@6=Ste50@3				<Ste50Ste11>-<Ste5Ste50Ste11Ste7Fus3>-pr1-pr11-pr3-pr32-pr34
+93	<Ste5Ste50Ste11Ste7Fus3>	AND	Fus3@1				<Ste50Ste11>-<Ste5Ste50Ste11Ste7Fus3>-pr1-pr11-pr3-pr32-pr34
+94	<Ste5Ste50Ste11Ste7Fus3>	AND	Ste7@7				<Ste50Ste11>-<Ste5Ste50Ste11Ste7Fus3>-pr1-pr11-pr3-pr32-pr34
+95	<Ste5Ste50Ste11Ste7Kss1>	AND	<Ste5-Dimer>#Ste5@2=Ste5@1#Ste5@3=Ste5@2				<Ste50Ste11>-<Ste5Ste50Ste11Ste7Kss1>-pr11-pr3-pr32-pr34-pr8
+96	<Ste5Ste50Ste11Ste7Kss1>	AND	<Ste50Ste11>#Ste11@4=Ste11@1#Ste50@6=Ste50@3				<Ste50Ste11>-<Ste5Ste50Ste11Ste7Kss1>-pr11-pr3-pr32-pr34-pr8
+97	<Ste5Ste50Ste11Ste7Kss1>	AND	Kss1@1				<Ste50Ste11>-<Ste5Ste50Ste11Ste7Kss1>-pr11-pr3-pr32-pr34-pr8
+98	<Ste5Ste50Ste11Ste7Kss1>	AND	Ste7@7				<Ste50Ste11>-<Ste5Ste50Ste11Ste7Kss1>-pr11-pr3-pr32-pr34-pr8
