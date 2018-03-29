@@ -1,0 +1,167 @@
+!!SBtab TableType='rxnconReactionList' TableName='ReactionList'
+!ID	!UID:Reaction	!ComponentA:Name	!ComponentA:Domain	!ComponentA:Residue	!Reaction	!ComponentB:Name	!ComponentB:Domain	!ComponentB:Residue	!Quality	!Literature:Identifiers:pubmed	!Comment
+1	Gpa1_[Ste4]_ppi-_Ste4_[Gpa1]	Gpa1	Ste4		ppi-	Ste4	Gpa1				
+2	Dig1_[Ste12]_ppi-_Ste12_[Dig1]	Dig1	Ste12		ppi-	Ste12	Dig1				
+3	Ste12_[Ste12]_ppi-_Ste12_[Ste12]	Ste12	Ste12		ppi-	Ste12	Ste12				
+4	Dig2_[Ste12]_ppi-_Ste12_[Dig2]	Dig2	Ste12		ppi-	Ste12	Dig2				
+5	Cdc28_[Far1]_ppi-_Far1_[Cdc28]	Cdc28	Far1		ppi-	Far1	Cdc28				
+6	Ste5_[Ste7]_ppi-_Ste7_[Ste5]	Ste5	Ste7		ppi-	Ste7	Ste5				
+7	Fus3_[Ste5]_ppi-_Ste5_[Fus3]	Fus3	Ste5		ppi-	Ste5	Fus3				
+8	Ste11_[Ste5]_ppi-_Ste5_[Ste11]	Ste11	Ste5		ppi-	Ste5	Ste11				
+9	Ste5_[Ste5]_ppi-_Ste5_[Ste5]	Ste5	Ste5		ppi-	Ste5	Ste5				
+10	Kss1_[Ste5]_ppi-_Ste5_[Kss1]	Kss1	Ste5		ppi-	Ste5	Kss1				
+11	Cdc24_[Rsr1]_ppi-_Rsr1_[Cdc24]	Cdc24	Rsr1		ppi-	Rsr1	Cdc24				
+12	Ste12_[Tec1]_ppi-_Tec1_[Ste12]	Ste12	Tec1		ppi-	Tec1	Ste12				
+13	Ste12_[Tec1]_ppi+_Tec1_[Ste12]	Ste12	Tec1		ppi+	Tec1	Ste12				
+14	Cyc8_[Sfl1]_ppi-_Sfl1_[Cyc8]	Cyc8	Sfl1		ppi-	Sfl1	Cyc8				
+15	Sfl1_[Sfl1]_ppi-_Sfl1_[Sfl1]	Sfl1	Sfl1		ppi-	Sfl1	Sfl1				
+16	Mfa12_[Ste3]_ppi-_Ste3_[Mfa12]	Mfa12	Ste3		ppi-	Ste3	Mfa12				
+17	Asg7_[Ste3]_ppi-_Ste3_[Asg7]	Asg7	Ste3		ppi-	Ste3	Asg7				
+18	Ste2_[Ste2]_ppi-_Ste2_[Ste2]	Ste2	Ste2		ppi-	Ste2	Ste2				
+19	Sst2_[Ste2]_ppi-_Ste2_[Sst2]	Sst2	Ste2		ppi-	Ste2	Sst2				
+20	MfAlpha12_[Ste2]_ppi-_Ste2_[MfAlpha12]	MfAlpha12	Ste2		ppi-	Ste2	MfAlpha12				
+21	Bcy1_[Tpk2]_ppi-_Tpk2_[Bcy1]	Bcy1	Tpk2		ppi-	Tpk2	Bcy1				
+22	Bcy1_[Tpk3]_ppi-_Tpk3_[Bcy1]	Bcy1	Tpk3		ppi-	Tpk3	Bcy1				
+23	Bcy1_[Tpk1]_ppi-_Tpk1_[Bcy1]	Bcy1	Tpk1		ppi-	Tpk1	Bcy1				
+24	Ste2_[Ste2]_ppi+_Ste2_[Ste2]	Ste2	Ste2		ppi+	Ste2	Ste2				
+25	MfAlpha12_[Ste2]_ppi+_Ste2_[MfAlpha12]	MfAlpha12	Ste2		ppi+	Ste2	MfAlpha12				
+26	Mfa12_[Ste3]_ppi+_Ste3_[Mfa12]	Mfa12	Ste3		ppi+	Ste3	Mfa12				
+27	Gpa1_[Ste4]_ppi+_Ste4_[Gpa1]	Gpa1	Ste4		ppi+	Ste4	Gpa1				
+28	Ste5_[Ste7]_ppi+_Ste7_[Ste5]	Ste5	Ste7		ppi+	Ste7	Ste5				
+29	Fus3_[Ste5]_ppi+_Ste5_[Fus3]	Fus3	Ste5		ppi+	Ste5	Fus3				
+30	Ste11_[Ste5]_ppi+_Ste5_[Ste11]	Ste11	Ste5		ppi+	Ste5	Ste11				
+31	Dig1_[Ste12]_ppi+_Ste12_[Dig1]	Dig1	Ste12		ppi+	Ste12	Dig1				
+32	Ste12_[Ste12]_ppi+_Ste12_[Ste12]	Ste12	Ste12		ppi+	Ste12	Ste12				
+33	Dig2_[Ste12]_ppi+_Ste12_[Dig2]	Dig2	Ste12		ppi+	Ste12	Dig2				
+34	Mpt5_[Sst2]_ppi+_Sst2_[Mpt5]	Mpt5	Sst2		ppi+	Sst2	Mpt5				
+35	Cdc28_[Far1]_ppi+_Far1_[Cdc28]	Cdc28	Far1		ppi+	Far1	Cdc28				
+36	Cdc24_[Far1]_ppi+_Far1_[Cdc24]	Cdc24	Far1		ppi+	Far1	Cdc24				
+37	Cdc4_[Skp1]_ppi+_Skp1_[Cdc4]	Cdc4	Skp1		ppi+	Skp1	Cdc4				
+38	Bem1_[Cdc42]_ppi+_Cdc42_[Bem1]	Bem1	Cdc42		ppi+	Cdc42	Bem1				
+39	Far1_[Ste4]_ppi+_Ste4_[Far1]	Far1	Ste4		ppi+	Ste4	Far1				
+40	Bem1_[Cdc24]_ppi+_Cdc24_[Bem1]	Bem1	Cdc24		ppi+	Cdc24	Bem1				
+41	Cdc42_[Ste20]_ppi+_Ste20_[Cdc42]	Cdc42	Ste20		ppi+	Ste20	Cdc42				
+42	Ste11_[Ste11]_ppi+_Ste11_[Ste11]	Ste11	Ste11		ppi+	Ste11	Ste11				
+43	Ste11_[Ste50]_ppi+_Ste50_[Ste11]	Ste11	Ste50		ppi+	Ste50	Ste11				
+44	Ste5_[Ste5]_ppi+_Ste5_[Ste5]	Ste5	Ste5		ppi+	Ste5	Ste5				
+45	Kss1_[Ste5]_ppi+_Ste5_[Kss1]	Kss1	Ste5		ppi+	Ste5	Kss1				
+46	Cdc24_[Rsr1]_ppi+_Rsr1_[Cdc24]	Cdc24	Rsr1		ppi+	Rsr1	Cdc24				
+47	Mcm1_[Ste12]_ppi+_Ste12_[Mcm1]	Mcm1	Ste12		ppi+	Ste12	Mcm1				
+48	Cyc8_[Sfl1]_ppi+_Sfl1_[Cyc8]	Cyc8	Sfl1		ppi+	Sfl1	Cyc8				
+49	Sfl1_[Sfl1]_ppi+_Sfl1_[Sfl1]	Sfl1	Sfl1		ppi+	Sfl1	Sfl1				
+50	Sst2_[Ste2]_ppi+_Ste2_[Sst2]	Sst2	Ste2		ppi+	Ste2	Sst2				
+51	Cdc28_[Cln2]_ppi+_Cln2_[Cdc28]	Cdc28	Cln2		ppi+	Cln2	Cdc28				
+52	Dia2_[Skp1]_ppi+_Skp1_[Dia2]	Dia2	Skp1		ppi+	Skp1	Dia2				
+53	Asg7_[Ste3]_ppi+_Ste3_[Asg7]	Asg7	Ste3		ppi+	Ste3	Asg7				
+54	Cdc28_[Cln1]_ppi+_Cln1_[Cdc28]	Cdc28	Cln1		ppi+	Cln1	Cdc28				
+55	Cdc42_[Rsr1]_ppi+_Rsr1_[Cdc42]	Cdc42	Rsr1		ppi+	Rsr1	Cdc42				
+56	Matalpha1_[Mcm1]_ppi+_Mcm1_[Matalpha1]	Matalpha1	Mcm1		ppi+	Mcm1	Matalpha1				
+57	Matalpha2_[Mcm1]_ppi+_Mcm1_[Matalpha2]	Matalpha2	Mcm1		ppi+	Mcm1	Matalpha2				
+58	Bcy1_[Tpk2]_ppi+_Tpk2_[Bcy1]	Bcy1	Tpk2		ppi+	Tpk2	Bcy1				
+59	Bcy1_[Tpk3]_ppi+_Tpk3_[Bcy1]	Bcy1	Tpk3		ppi+	Tpk3	Bcy1				
+60	Bcy1_[Tpk1]_ppi+_Tpk1_[Bcy1]	Bcy1	Tpk1		ppi+	Tpk1	Bcy1				
+61	Tpk2_P+_Flo8_[(rs1)]	Tpk2			P+	Flo8		rs1			
+62	Fus3_P+_Far1_[(T306)]	Fus3			P+	Far1		T306			
+63	Cdc28_P+_Far1_[(S87)]	Cdc28			P+	Far1		S87			
+64	Cdc34_Ub+_Far1_[(rs5)]	Cdc34			Ub+	Far1		rs5			
+65	Fus3_P+_Ste4_[(T320)]	Fus3			P+	Ste4		T320			
+66	Fus3_P+_Ste4_[(S335)]	Fus3			P+	Ste4		S335			
+67	Fus3_P+_Ste4_[(T322)]	Fus3			P+	Ste4		T322			
+68	Ste20_P+_Ste11_[(S285)]	Ste20			P+	Ste11		S285			
+69	Ste20_P+_Ste11_[(T286)]	Ste20			P+	Ste11		T286			
+70	Ste20_P+_Ste11_[(S281)]	Ste20			P+	Ste11		S281			
+71	Ste11_P+_Ste7_[(S363)]	Ste11			P+	Ste7		S363			
+72	Ste11_P+_Ste7_[(S359)]	Ste11			P+	Ste7		S359			
+73	Ste7_P+_Fus3_[(Y182)]	Ste7			P+	Fus3		Y182			
+74	Ste7_P+_Fus3_[(T180)]	Ste7			P+	Fus3		T180			
+75	Ste11_P+_Ste7_[(S363)]	Ste11			P+	Ste7		S363			
+76	Ste11_P+_Ste7_[(S359)]	Ste11			P+	Ste7		S359			
+77	Ste7_P+_Kss1_[(Y185)]	Ste7			P+	Kss1		Y185			
+78	Ste7_P+_Kss1_[(T183)]	Ste7			P+	Kss1		T183			
+79	Kss1_P+_Dig1_[(rs1)]	Kss1			P+	Dig1		rs1			
+80	Kss1_P+_Ste12_[(rs1)]	Kss1			P+	Ste12		rs1			
+81	Tpk2_P+_Sfl1_[(rs1)]	Tpk2			P+	Sfl1		rs1			
+82	Fus3_P+_Tec1_[(T273)]	Fus3			P+	Tec1		T273			
+83	Fus3_P+_Ste3_[(rs1)]	Fus3			P+	Ste3		rs1			
+84	Rad6_Ub+_Sst2_[(rs1)]	Rad6			Ub+	Sst2		rs1			
+85	Fus3_P+_Sst2_[(S539)]	Fus3			P+	Sst2		S539			
+86	Cdc34_Ub+_Ste7_[(rs3)]	Cdc34			Ub+	Ste7		rs3			
+87	Cdc42_[GDP]_i-_GDP_[Cdc42]	Cdc42	GDP		i-	GDP	Cdc42				
+88	Cdc42_[GTP]_i+_GTP_[Cdc42]	Cdc42	GTP		i+	GTP	Cdc42				
+89	Cdc28_P+_Far1_[(S87)]	Cdc28			P+	Far1		S87			
+90	Cla4_P+_Cdc24_[(rs1)]	Cla4			P+	Cdc24		rs1			
+91	UnknownComponent_TRSL_Msg5	UnknownComponent			TRSL	Msg5					
+92	UnknownComponent_TRSL_Tec1	UnknownComponent			TRSL	Tec1					
+93	UnknownComponent_TRSL_Sst2	UnknownComponent			TRSL	Sst2					
+94	UnknownComponent_TRSL_Ste3	UnknownComponent			TRSL	Ste3					
+95	UnknownComponent_TRSL_Ste2	UnknownComponent			TRSL	Ste2					
+96	UnknownComponent_TRSL_Bar1	UnknownComponent			TRSL	Bar1					
+97	UnknownComponent_TRSL_Fus3	UnknownComponent			TRSL	Fus3					
+98	UnknownComponent_TRSL_Far1	UnknownComponent			TRSL	Far1					
+99	UnknownComponent_TRSL_Gpa1	UnknownComponent			TRSL	Gpa1					
+100	Ptp3_P-_Kss1_[(Y185)]	Ptp3			P-	Kss1		Y185			
+101	Ptp3_P-_Kss1_[(T183)]	Ptp3			P-	Kss1		T183			
+102	UnknownComponent_TRSL_Ste6	UnknownComponent			TRSL	Ste6					
+103	Ste20_AP+_Ste20_[(rs1)]	Ste20			AP+	Ste20		rs1			
+104	Cdc28_P+_Ste20_[(rs1)]	Cdc28			P+	Ste20		rs1			
+105	Cdc28_P+_Ste20_[(rs1)]	Cdc28			P+	Ste20		rs1			
+106	Ptp3_P-_Fus3_[(Y182)]	Ptp3			P-	Fus3		Y182			
+107	Ptp3_P-_Fus3_[(T180)]	Ptp3			P-	Fus3		T180			
+108	Msg5_P-_Fus3_[(Y182)]	Msg5			P-	Fus3		Y182			
+109	Msg5_P-_Fus3_[(T180)]	Msg5			P-	Fus3		T180			
+110	Fus3_P+_Dig2_[(rs1)]	Fus3			P+	Dig2		rs1			
+111	Fus3_P+_Dig1_[(rs1)]	Fus3			P+	Dig1		rs1			
+112	Fus3_P+_Ste12_[(rs1)]	Fus3			P+	Ste12		rs1			
+113	Kss1_P+_Dig2_[(rs1)]	Kss1			P+	Dig2		rs1			
+114	Cdc34_Ub+_Tec1_[(rs2)]	Cdc34			Ub+	Tec1		rs2			
+115	Cdc34_Ub+_Tec1_[(rs2)]	Cdc34			Ub+	Tec1		rs2			
+116	Yck1_P+_Ste3_[(rs2)]	Yck1			P+	Ste3		rs2			
+117	Yck2_P+_Ste3_[(rs2)]	Yck2			P+	Ste3		rs2			
+118	Ubc4_Ub+_Ste3_[(rs3)]	Ubc4			Ub+	Ste3		rs3			
+119	Ubc5_Ub+_Ste3_[(rs3)]	Ubc5			Ub+	Ste3		rs3			
+120	Yck1_P+_Ste2_[(S338)]	Yck1			P+	Ste2		S338			
+121	Yck1_P+_Ste2_[(S339)]	Yck1			P+	Ste2		S339			
+122	Yck1_P+_Ste2_[(S331)]	Yck1			P+	Ste2		S331			
+123	Yck2_P+_Ste2_[(S338)]	Yck2			P+	Ste2		S338			
+124	Yck2_P+_Ste2_[(S339)]	Yck2			P+	Ste2		S339			
+125	Yck2_P+_Ste2_[(S331)]	Yck2			P+	Ste2		S331			
+126	Ubc1_Ub+_Ste2_[(K337)]	Ubc1			Ub+	Ste2		K337			
+127	Ubc5_Ub+_Ste2_[(K337)]	Ubc5			Ub+	Ste2		K337			
+128	Ubc4_Ub+_Ste2_[(K337)]	Ubc4			Ub+	Ste2		K337			
+129	Ptp2_P-_Fus3_[(Y182)]	Ptp2			P-	Fus3		Y182			
+130	Ptp2_P-_Fus3_[(T180)]	Ptp2			P-	Fus3		T180			
+131	Cdc42_[GTP]_i-_GTP_[Cdc42]	Cdc42	GTP		i-	GTP	Cdc42				
+132	Cdc42_[GDP]_i+_GDP_[Cdc42]	Cdc42	GDP		i+	GDP	Cdc42				
+133	Tpk2_P+_Bcy1_[(S145)]	Tpk2			P+	Bcy1		S145			
+134	Tpk3_P+_Bcy1_[(S145)]	Tpk3			P+	Bcy1		S145			
+135	Tpk1_P+_Bcy1_[(S145)]	Tpk1			P+	Bcy1		S145			
+136	Flo8_TRSC_Flo11Gene	Flo8			TRSC	Flo11Gene					
+137	Ste12_TRSC_Flo11Gene	Ste12			TRSC	Flo11Gene					
+138	Mcm1_TRSC_Ste2Gene	Mcm1			TRSC	Ste2Gene					
+139	Mcm1_TRSC_Ste6Gene	Mcm1			TRSC	Ste6Gene					
+140	Mcm1_TRSC_Mfa1Gene	Mcm1			TRSC	Mfa1Gene					
+141	Ste12_TRSC_Bar1Gene	Ste12			TRSC	Bar1Gene					
+142	Mcm1_TRSC_Bar1Gene	Mcm1			TRSC	Bar1Gene					
+143	Ste18_[Ste4]_ppi-_Ste4_[Ste18]	Ste18	Ste4		ppi-	Ste4	Ste18				
+144	Ste18_[Ste4]_ppi+_Ste4_[Ste18]	Ste18	Ste4		ppi+	Ste4	Ste18				
+145	Bem1_[Cdc42]_ppi-_Cdc42_[Bem1]	Bem1	Cdc42		ppi-	Cdc42	Bem1				
+146	Mpt5_[Sst2]_ppi-_Sst2_[Mpt5]	Mpt5	Sst2		ppi-	Sst2	Mpt5				
+147	Cdc42_[Rsr1]_ppi-_Rsr1_[Cdc42]	Cdc42	Rsr1		ppi-	Rsr1	Cdc42				
+148	Cdc28_[Cln1]_ppi-_Cln1_[Cdc28]	Cdc28	Cln1		ppi-	Cln1	Cdc28				
+149	Cdc28_[Cln2]_ppi-_Cln2_[Cdc28]	Cdc28	Cln2		ppi-	Cln2	Cdc28				
+150	GTP_[Gpa1]_i+_Gpa1_[GTP]	GTP	Gpa1		i+	Gpa1	GTP				
+151	GDP_[Gpa1]_i+_Gpa1_[GDP]	GDP	Gpa1		i+	Gpa1	GDP				
+152	GTP_[Rsr1]_i+_Rsr1_[GTP]	GTP	Rsr1		i+	Rsr1	GTP				
+153	Cyc8_[Tup1]_ppi+_Tup1_[Cyc8]	Cyc8	Tup1		ppi+	Tup1	Cyc8				
+154	GDP_[Rsr1]_i+_Rsr1_[GDP]	GDP	Rsr1		i+	Rsr1	GDP				
+155	Gpa1_[GDP]_i-_GDP_[Gpa1]	Gpa1	GDP		i-	GDP	Gpa1				
+156	Gpa1_[GTP]_i+_GTP_[Gpa1]	Gpa1	GTP		i+	GTP	Gpa1				
+157	Gpa1_[GTP]_i-_GTP_[Gpa1]	Gpa1	GTP		i-	GTP	Gpa1				
+158	Gpa1_[GDP]_i+_GDP_[Gpa1]	Gpa1	GDP		i+	GDP	Gpa1				
+159	Rsr1_[GTP]_i+_GTP_[Rsr1]	Rsr1	GTP		i+	GTP	Rsr1				
+160	Rsr1_[GTP]_i-_GTP_[Rsr1]	Rsr1	GTP		i-	GTP	Rsr1				
+161	Rsr1_[GDP]_i+_GDP_[Rsr1]	Rsr1	GDP		i+	GDP	Rsr1				
+162	Rsr1_[GDP]_i-_GDP_[Rsr1]	Rsr1	GDP		i-	GDP	Rsr1				
+163	UnknownModifier_palm+_Ste18_[rs2]	UnknownModifier			palm+	Ste18	rs2				
+164	UnknownModifier_pre+_Ste18_[rs1]	UnknownModifier			pre+	Ste18	rs1				
+165	UnknownModifier_pre+_Rsr1_[rs1]	UnknownModifier			pre+	Rsr1	rs1				

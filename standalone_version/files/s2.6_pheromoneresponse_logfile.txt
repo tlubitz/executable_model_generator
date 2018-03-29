@@ -18,9 +18,9 @@ Single components:['Dig1@1', 'Dig2@2', 'Ste12@3', 'Ste12@4']->['Dig1@1', 'Dig2@1
 Rxn type: False
 PPIs LHS: ['Ste12@1--Ste12@2', 'Dig1@1--Ste12@3', 'Dig2@2--Ste12@4']
 PPIs RHS: []
-Dig2_[Ste12]_ppi-_Ste12_[Dig2],Dig2,Ste12,,ppi-,Ste12,Dig2,,,,
 Dig1_[Ste12]_ppi-_Ste12_[Dig1],Dig1,Ste12,,ppi-,Ste12,Dig1,,,,
 Ste12_[Ste12]_ppi-_Ste12_[Ste12],Ste12,Ste12,,ppi-,Ste12,Ste12,,,,
+Dig2_[Ste12]_ppi-_Ste12_[Dig2],Dig2,Ste12,,ppi-,Ste12,Dig2,,,,
 Modification type: False
 LHSp:[]
 
@@ -42,9 +42,9 @@ Single components:['Fus3@1', 'Ste11@4', 'Ste11@5', 'Ste50@6', 'Ste5@2', 'Ste5@3'
 Rxn type: False
 PPIs LHS: ['Ste5@2--Ste7@7', 'Fus3@1--Ste5@3', 'Ste11@4--Ste5@2', 'Ste11@1--Ste11@2', 'Ste11@1--Ste50@2']
 PPIs RHS: ['Ste11@1--Ste11@2', 'Ste11@1--Ste50@2']
-Ste5_[Ste7]_ppi-_Ste7_[Ste5],Ste5,Ste7,,ppi-,Ste7,Ste5,,,,
-Ste11_[Ste5]_ppi-_Ste5_[Ste11],Ste11,Ste5,,ppi-,Ste5,Ste11,,,,
 Fus3_[Ste5]_ppi-_Ste5_[Fus3],Fus3,Ste5,,ppi-,Ste5,Fus3,,,,
+Ste11_[Ste5]_ppi-_Ste5_[Ste11],Ste11,Ste5,,ppi-,Ste5,Ste11,,,,
+Ste5_[Ste7]_ppi-_Ste7_[Ste5],Ste5,Ste7,,ppi-,Ste7,Ste5,,,,
 Modification type: False
 LHSp:[]
 
@@ -55,9 +55,9 @@ Single components:['Kss1@1', 'Ste11@4', 'Ste11@5', 'Ste50@6', 'Ste5@2', 'Ste5@3'
 Rxn type: False
 PPIs LHS: ['Ste5@1--Ste5@2', 'Kss1@1--Ste5@2', 'Ste5@2--Ste7@7', 'Ste11@4--Ste5@3', 'Ste11@1--Ste11@2', 'Ste11@1--Ste50@2']
 PPIs RHS: ['Ste11@1--Ste11@2', 'Ste11@1--Ste50@2']
+Ste5_[Ste5]_ppi-_Ste5_[Ste5],Ste5,Ste5,,ppi-,Ste5,Ste5,,,,
 Kss1_[Ste5]_ppi-_Ste5_[Kss1],Kss1,Ste5,,ppi-,Ste5,Kss1,,,,
 Ste5_[Ste7]_ppi-_Ste7_[Ste5],Ste5,Ste7,,ppi-,Ste7,Ste5,,,,
-Ste5_[Ste5]_ppi-_Ste5_[Ste5],Ste5,Ste5,,ppi-,Ste5,Ste5,,,,
 Ste11_[Ste5]_ppi-_Ste5_[Ste11],Ste11,Ste5,,ppi-,Ste5,Ste11,,,,
 Modification type: False
 LHSp:[]
@@ -69,8 +69,8 @@ Single components:['Bem1@1', 'Cdc24@2', 'Cdc42@5', 'GTP@3', 'GTP@6', 'Rsr1@4']->
 Rxn type: False
 PPIs LHS: ['Bem1@1--Cdc42@5', 'Cdc42@5--Rsr1@4', 'Cdc24@1--Rsr1@3', 'GTP@1--Rsr1@2', 'Cdc42@1--GTP@2', 'GDP@1--Rsr1@2']
 PPIs RHS: ['Bem1@1--Cdc42@5', 'Cdc42@5--Rsr1@4', 'Cdc42@1--GTP@2', 'GTP@1--Rsr1@2']
-Cdc24_[Rsr1]_ppi-_Rsr1_[Cdc24],Cdc24,Rsr1,,ppi-,Rsr1,Cdc24,,,,
 Rsr1_[GDP]_i-_GDP_[Rsr1],Rsr1,GDP,,i-,GDP,Rsr1,,,,
+Cdc24_[Rsr1]_ppi-_Rsr1_[Cdc24],Cdc24,Rsr1,,ppi-,Rsr1,Cdc24,,,,
 Modification type: False
 LHSp:[]
 
@@ -81,8 +81,8 @@ Single components:['Dig1@1', 'Ste12@2', 'Ste12@3', 'Tec1@4']->['Dig1@1', 'Ste12@
 Rxn type: False
 PPIs LHS: ['Dig1@1--Ste12@2', 'Ste12@3--Tec1@4']
 PPIs RHS: ['Ste12@1--Tec1@2']
-Dig1_[Ste12]_ppi-_Ste12_[Dig1],Dig1,Ste12,,ppi-,Ste12,Dig1,,,,
 Ste12_[Tec1]_ppi-_Tec1_[Ste12],Ste12,Tec1,,ppi-,Tec1,Ste12,,,,
+Dig1_[Ste12]_ppi-_Ste12_[Dig1],Dig1,Ste12,,ppi-,Ste12,Dig1,,,,
 Ste12_[Tec1]_ppi+_Tec1_[Ste12],Ste12,Tec1,,ppi+,Tec1,Ste12,,,,
 Modification type: False
 LHSp:[]
@@ -94,8 +94,8 @@ Single components:['Cyc8@1', 'Sfl1@3', 'Tup1@2']->['Cyc8@1', 'Sfl1@1', 'Tup1@2']
 Rxn type: False
 PPIs LHS: ['Cyc8@1--Tup1@2', 'Sfl1@1--Sfl1@2', 'Cyc8@1--Sfl1@3']
 PPIs RHS: ['Cyc8@1--Tup1@2']
-Sfl1_[Sfl1]_ppi-_Sfl1_[Sfl1],Sfl1,Sfl1,,ppi-,Sfl1,Sfl1,,,,
 Cyc8_[Sfl1]_ppi-_Sfl1_[Cyc8],Cyc8,Sfl1,,ppi-,Sfl1,Cyc8,,,,
+Sfl1_[Sfl1]_ppi-_Sfl1_[Sfl1],Sfl1,Sfl1,,ppi-,Sfl1,Sfl1,,,,
 Modification type: False
 LHSp:[]
 
@@ -106,8 +106,8 @@ Single components:['Asg7@3', 'Mfa12@1', 'Ste3@2']->['Asg7@1', 'Mfa12@1', 'Ste3@1
 Rxn type: False
 PPIs LHS: ['Mfa12@1--Ste3@2', 'Asg7@3--Ste3@2']
 PPIs RHS: []
-Mfa12_[Ste3]_ppi-_Ste3_[Mfa12],Mfa12,Ste3,,ppi-,Ste3,Mfa12,,,,
 Asg7_[Ste3]_ppi-_Ste3_[Asg7],Asg7,Ste3,,ppi-,Ste3,Asg7,,,,
+Mfa12_[Ste3]_ppi-_Ste3_[Mfa12],Mfa12,Ste3,,ppi-,Ste3,Mfa12,,,,
 Modification type: False
 LHSp:[]
 
@@ -119,8 +119,8 @@ Rxn type: False
 PPIs LHS: ['Sst2@4--Ste2@2', 'Ste2@1--Ste2@2', 'MfAlpha12@1--Ste2@2']
 PPIs RHS: []
 MfAlpha12_[Ste2]_ppi-_Ste2_[MfAlpha12],MfAlpha12,Ste2,,ppi-,Ste2,MfAlpha12,,,,
-Sst2_[Ste2]_ppi-_Ste2_[Sst2],Sst2,Ste2,,ppi-,Ste2,Sst2,,,,
 Ste2_[Ste2]_ppi-_Ste2_[Ste2],Ste2,Ste2,,ppi-,Ste2,Ste2,,,,
+Sst2_[Ste2]_ppi-_Ste2_[Sst2],Sst2,Ste2,,ppi-,Ste2,Sst2,,,,
 Modification type: False
 LHSp:[]
 
@@ -211,9 +211,9 @@ Single components:['Fus3@1', 'Ste11@1', 'Ste11@2', 'Ste50@3', 'Ste5@1', 'Ste5@2'
 Rxn type: False
 PPIs LHS: ['Ste11@1--Ste11@2', 'Ste11@1--Ste50@2']
 PPIs RHS: ['Ste5@2--Ste7@7', 'Fus3@1--Ste5@3', 'Ste11@4--Ste5@2', 'Ste11@1--Ste11@2', 'Ste11@1--Ste50@2']
-Ste5_[Ste7]_ppi+_Ste7_[Ste5],Ste5,Ste7,,ppi+,Ste7,Ste5,,,,
-Ste11_[Ste5]_ppi+_Ste5_[Ste11],Ste11,Ste5,,ppi+,Ste5,Ste11,,,,
 Fus3_[Ste5]_ppi+_Ste5_[Fus3],Fus3,Ste5,,ppi+,Ste5,Fus3,,,,
+Ste11_[Ste5]_ppi+_Ste5_[Ste11],Ste11,Ste5,,ppi+,Ste5,Ste11,,,,
+Ste5_[Ste7]_ppi+_Ste7_[Ste5],Ste5,Ste7,,ppi+,Ste7,Ste5,,,,
 Modification type: False
 LHSp:[]
 
@@ -224,9 +224,9 @@ Single components:['Dig1@1', 'Dig2@1', 'Ste12@1', 'Ste12@2']->['Dig1@1', 'Dig2@2
 Rxn type: False
 PPIs LHS: []
 PPIs RHS: ['Ste12@1--Ste12@2', 'Dig1@1--Ste12@3', 'Dig2@2--Ste12@4']
-Dig2_[Ste12]_ppi+_Ste12_[Dig2],Dig2,Ste12,,ppi+,Ste12,Dig2,,,,
 Dig1_[Ste12]_ppi+_Ste12_[Dig1],Dig1,Ste12,,ppi+,Ste12,Dig1,,,,
 Ste12_[Ste12]_ppi+_Ste12_[Ste12],Ste12,Ste12,,ppi+,Ste12,Ste12,,,,
+Dig2_[Ste12]_ppi+_Ste12_[Dig2],Dig2,Ste12,,ppi+,Ste12,Dig2,,,,
 Modification type: False
 LHSp:[]
 
@@ -326,8 +326,8 @@ Single components:['Ste11@1', 'Ste11@2', 'Ste50@1']->['Ste11@1', 'Ste11@2', 'Ste
 Rxn type: False
 PPIs LHS: []
 PPIs RHS: ['Ste11@1--Ste11@2', 'Ste11@1--Ste50@2']
-Ste11_[Ste11]_ppi+_Ste11_[Ste11],Ste11,Ste11,,ppi+,Ste11,Ste11,,,,
 Ste11_[Ste50]_ppi+_Ste50_[Ste11],Ste11,Ste50,,ppi+,Ste50,Ste11,,,,
+Ste11_[Ste11]_ppi+_Ste11_[Ste11],Ste11,Ste11,,ppi+,Ste11,Ste11,,,,
 Modification type: False
 LHSp:[]
 
@@ -338,9 +338,9 @@ Single components:['Kss1@1', 'Ste11@1', 'Ste11@2', 'Ste50@3', 'Ste5@1', 'Ste5@2'
 Rxn type: False
 PPIs LHS: ['Ste11@1--Ste11@2', 'Ste11@1--Ste50@2']
 PPIs RHS: ['Ste5@1--Ste5@2', 'Kss1@1--Ste5@2', 'Ste5@2--Ste7@7', 'Ste11@4--Ste5@3', 'Ste11@1--Ste11@2', 'Ste11@1--Ste50@2']
+Ste5_[Ste5]_ppi+_Ste5_[Ste5],Ste5,Ste5,,ppi+,Ste5,Ste5,,,,
 Kss1_[Ste5]_ppi+_Ste5_[Kss1],Kss1,Ste5,,ppi+,Ste5,Kss1,,,,
 Ste5_[Ste7]_ppi+_Ste7_[Ste5],Ste5,Ste7,,ppi+,Ste7,Ste5,,,,
-Ste5_[Ste5]_ppi+_Ste5_[Ste5],Ste5,Ste5,,ppi+,Ste5,Ste5,,,,
 Ste11_[Ste5]_ppi+_Ste5_[Ste11],Ste11,Ste5,,ppi+,Ste5,Ste11,,,,
 Modification type: False
 LHSp:[]
@@ -375,8 +375,8 @@ Rxn type: False
 PPIs LHS: ['Ste12@1--Tec1@2']
 PPIs RHS: ['Dig1@1--Ste12@2', 'Ste12@3--Tec1@4']
 Ste12_[Tec1]_ppi-_Tec1_[Ste12],Ste12,Tec1,,ppi-,Tec1,Ste12,,,,
-Dig1_[Ste12]_ppi+_Ste12_[Dig1],Dig1,Ste12,,ppi+,Ste12,Dig1,,,,
 Ste12_[Tec1]_ppi+_Tec1_[Ste12],Ste12,Tec1,,ppi+,Tec1,Ste12,,,,
+Dig1_[Ste12]_ppi+_Ste12_[Dig1],Dig1,Ste12,,ppi+,Ste12,Dig1,,,,
 Modification type: False
 LHSp:[]
 
@@ -387,8 +387,8 @@ Single components:['Cyc8@1', 'Sfl1@1', 'Sfl1@2', 'Tup1@2']->['Cyc8@1', 'Sfl1@3',
 Rxn type: False
 PPIs LHS: ['Cyc8@1--Tup1@2']
 PPIs RHS: ['Sfl1@1--Sfl1@2', 'Cyc8@1--Tup1@2', 'Cyc8@1--Sfl1@3']
-Sfl1_[Sfl1]_ppi+_Sfl1_[Sfl1],Sfl1,Sfl1,,ppi+,Sfl1,Sfl1,,,,
 Cyc8_[Sfl1]_ppi+_Sfl1_[Cyc8],Cyc8,Sfl1,,ppi+,Sfl1,Cyc8,,,,
+Sfl1_[Sfl1]_ppi+_Sfl1_[Sfl1],Sfl1,Sfl1,,ppi+,Sfl1,Sfl1,,,,
 Modification type: False
 LHSp:[]
 
@@ -478,8 +478,8 @@ PPIs LHS: ['Bem1@1--Cdc42@2', 'Cdc42@1--GDP@2', 'Cdc24@1--Rsr1@3', 'GTP@1--Rsr1@
 PPIs RHS: ['Bem1@1--Cdc42@5', 'Cdc42@5--Rsr1@4', 'Cdc24@1--Rsr1@3', 'GTP@1--Rsr1@2', 'GDP@1--Rsr1@2', 'Cdc42@1--GDP@2']
 Bem1_[Cdc42]_ppi-_Cdc42_[Bem1],Bem1,Cdc42,,ppi-,Cdc42,Bem1,,,,
 Cdc42_[Rsr1]_ppi+_Rsr1_[Cdc42],Cdc42,Rsr1,,ppi+,Rsr1,Cdc42,,,,
-Bem1_[Cdc42]_ppi+_Cdc42_[Bem1],Bem1,Cdc42,,ppi+,Cdc42,Bem1,,,,
 Rsr1_[GDP]_i+_GDP_[Rsr1],Rsr1,GDP,,i+,GDP,Rsr1,,,,
+Bem1_[Cdc42]_ppi+_Cdc42_[Bem1],Bem1,Cdc42,,ppi+,Cdc42,Bem1,,,,
 Modification type: False
 LHSp:[]
 
@@ -583,8 +583,8 @@ Single components:['Far1@1']->['Far1@1']
 Rxn type: False
 PPIs LHS: []
 PPIs RHS: []
-Modifications LHS: {'Far1': {'rs5': (None, None, '3.9757573696164945', ''), 'rs4': (None, None, '5.6', None), 'rs3': ('T306', None, '0.78', None), 'rs2': ('S87', None, '2.27', None)}}
-Modifications RHS: {'Far1': {'rs5': (None, None, '3.9757573696164945', ''), 'rs3': ('T306', 'phosphorylated', '0.78', None), 'rs4': (None, None, '5.6', None), 'rs2': ('S87', None, '2.27', None)}}
+Modifications LHS: {'Far1': {'rs4': (None, None, '5.6', None), 'rs2': ('S87', None, '2.27', None), 'rs3': ('T306', None, '0.78', None), 'rs5': (None, None, '3.9757573696164945', '')}}
+Modifications RHS: {'Far1': {'rs4': (None, None, '5.6', None), 'rs2': ('S87', None, '2.27', None), 'rs3': ('T306', 'phosphorylated', '0.78', None), 'rs5': (None, None, '3.9757573696164945', '')}}
 Modification type: P+
 LHSp:[]
 
@@ -595,8 +595,8 @@ Single components:['Cdc28@1', 'Cln2@2', 'Far1@3']->['Cdc28@1', 'Cln2@2', 'Far1@3
 Rxn type: False
 PPIs LHS: ['Cdc28@1--Cln2@2', 'Cdc28@1--Far1@3']
 PPIs RHS: ['Cdc28@1--Cln2@2', 'Cdc28@1--Far1@3']
-Modifications LHS: {'Cdc28': {}, 'Far1': {'rs5': (None, None, '3.9757573696164945', ''), 'rs3': ('T306', 'phosphorylated', '0.78', None), 'rs4': (None, None, '5.6', None), 'rs2': ('S87', None, '2.27', None)}, 'Cln2': {}}
-Modifications RHS: {'Cdc28': {}, 'Far1': {'rs5': (None, None, '3.9757573696164945', ''), 'rs3': ('T306', 'phosphorylated', '0.78', None), 'rs4': (None, None, '5.6', None), 'rs2': ('S87', 'phosphorylated', '2.27', None)}, 'Cln2': {}}
+Modifications LHS: {'Far1': {'rs4': (None, None, '5.6', None), 'rs2': ('S87', None, '2.27', None), 'rs3': ('T306', 'phosphorylated', '0.78', None), 'rs5': (None, None, '3.9757573696164945', '')}, 'Cln2': {}, 'Cdc28': {}}
+Modifications RHS: {'Far1': {'rs4': (None, None, '5.6', None), 'rs2': ('S87', 'phosphorylated', '2.27', None), 'rs3': ('T306', 'phosphorylated', '0.78', None), 'rs5': (None, None, '3.9757573696164945', '')}, 'Cln2': {}, 'Cdc28': {}}
 Modification type: P+
 LHSp:[]
 
@@ -607,8 +607,8 @@ Single components:['Cdc28@1', 'Cln2@2', 'Far1@3']->['Cdc28@1', 'Cln2@2', 'Far1@3
 Rxn type: False
 PPIs LHS: ['Cdc28@1--Cln2@2', 'Cdc28@1--Far1@3']
 PPIs RHS: ['Cdc28@1--Cln2@2', 'Cdc28@1--Far1@3']
-Modifications LHS: {'Cdc28': {}, 'Far1': {'rs5': (None, None, '3.9757573696164945', ''), 'rs3': ('T306', 'phosphorylated', '0.78', None), 'rs4': (None, None, '5.6', None), 'rs2': ('S87', 'phosphorylated', '2.27', None)}, 'Cln2': {}}
-Modifications RHS: {'Cdc28': {}, 'Far1': {'rs5': (None, 'ubiquitinated', '3.9757573696164945', ''), 'rs3': ('T306', 'phosphorylated', '0.78', None), 'rs4': (None, None, '5.6', None), 'rs2': ('S87', 'phosphorylated', '2.27', None)}, 'Cln2': {}}
+Modifications LHS: {'Far1': {'rs4': (None, None, '5.6', None), 'rs2': ('S87', 'phosphorylated', '2.27', None), 'rs3': ('T306', 'phosphorylated', '0.78', None), 'rs5': (None, None, '3.9757573696164945', '')}, 'Cln2': {}, 'Cdc28': {}}
+Modifications RHS: {'Far1': {'rs4': (None, None, '5.6', None), 'rs2': ('S87', 'phosphorylated', '2.27', None), 'rs3': ('T306', 'phosphorylated', '0.78', None), 'rs5': (None, 'ubiquitinated', '3.9757573696164945', '')}, 'Cln2': {}, 'Cdc28': {}}
 Modification type: Ub+
 LHSp:[]
 
@@ -619,8 +619,8 @@ Single components:['GDP@1', 'Gpa1@2', 'Ste18@3', 'Ste4@4']->['GDP@1', 'Gpa1@2', 
 Rxn type: False
 PPIs LHS: ['Ste18@3--Ste4@4', 'GDP@1--Gpa1@2', 'Gpa1@2--Ste4@4', 'Ste18@1--Ste4@2']
 PPIs RHS: ['Ste18@3--Ste4@4', 'GDP@1--Gpa1@2', 'Gpa1@2--Ste4@4', 'Ste18@1--Ste4@2']
-Modifications LHS: {'GDP': {}, 'Gpa1': {}, 'Ste4': {'rs1': ('T322', None, '5.61', None), 'rs2': ('T320', None, '0.72', None), 'rs3': ('S335', None, '2.29', None)}, 'Ste18': {'rs1': (None, 'prenylated', '0.71', None), 'rs2': (None, 'palmytoylated', '2.45', None)}}
-Modifications RHS: {'GDP': {}, 'Gpa1': {}, 'Ste4': {'rs1': ('T322', 'phosphorylated', '5.61', None), 'rs2': ('T320', 'phosphorylated', '0.72', None), 'rs3': ('S335', 'phosphorylated', '2.29', None)}, 'Ste18': {'rs1': (None, 'prenylated', '0.71', None), 'rs2': (None, 'palmytoylated', '2.45', None)}}
+Modifications LHS: {'Gpa1': {}, 'Ste18': {'rs1': (None, 'prenylated', '0.71', None), 'rs2': (None, 'palmytoylated', '2.45', None)}, 'GDP': {}, 'Ste4': {'rs1': ('T322', None, '5.61', None), 'rs2': ('T320', None, '0.72', None), 'rs3': ('S335', None, '2.29', None)}}
+Modifications RHS: {'Gpa1': {}, 'Ste18': {'rs1': (None, 'prenylated', '0.71', None), 'rs2': (None, 'palmytoylated', '2.45', None)}, 'GDP': {}, 'Ste4': {'rs1': ('T322', 'phosphorylated', '5.61', None), 'rs2': ('T320', 'phosphorylated', '0.72', None), 'rs3': ('S335', 'phosphorylated', '2.29', None)}}
 Modification type: P+
 LHSp:[]
 
@@ -631,8 +631,8 @@ Single components:['Fus3@1', 'Ste11@4', 'Ste11@5', 'Ste50@6', 'Ste5@2', 'Ste5@3'
 Rxn type: False
 PPIs LHS: ['Ste5@2--Ste7@7', 'Fus3@1--Ste5@3', 'Ste11@4--Ste5@2', 'Ste11@1--Ste11@2', 'Ste11@1--Ste50@2']
 PPIs RHS: ['Ste5@2--Ste7@7', 'Fus3@1--Ste5@3', 'Ste11@4--Ste5@2', 'Ste11@1--Ste11@2', 'Ste11@1--Ste50@2']
-Modifications LHS: {'Ste11@5': {'rs1': ('S281', None, '2.284177011541714', None), 'rs2': ('S285', None, '0.8048507494877875', None), 'rs3': ('T286', None, '5.52511784910183', None)}, 'Ste11@4': {'rs1': ('S281', None, '2.284177011541714', None), 'rs2': ('S285', None, '0.8048507494877875', None), 'rs3': ('T286', None, '5.52511784910183', None)}, 'Ste5': {}, 'Fus3': {'rs1': ('T180', None, '2.35', None), 'rs2': ('Y182', None, '0.76', None)}, 'Ste7': {'rs1': ('S359', None, '2.35', None), 'rs2': ('S363', None, '0.78', None), 'rs3': (None, None, '5.633859166012091', '')}, 'Ste50': {'rs5': ('T244', None, '4.7', None), 'rs6': ('S248', None, '5.49', None), 'rs3': ('S155', None, '2.35', None), 'rs4': ('S202', None, '0.78', None), 'rs7': ('S196', None, '1.57', None)}}
-Modifications RHS: {'Ste11@5': {'rs1': ('S281', 'phosphorylated', '2.284177011541714', None), 'rs2': ('S285', 'phosphorylated', '0.8048507494877875', None), 'rs3': ('T286', 'phosphorylated', '5.52511784910183', None)}, 'Ste11@4': {'rs1': ('S281', 'phosphorylated', '2.284177011541714', None), 'rs2': ('S285', 'phosphorylated', '0.8048507494877875', None), 'rs3': ('T286', 'phosphorylated', '5.52511784910183', None)}, 'Ste5': {}, 'Fus3': {'rs1': ('T180', None, '2.35', None), 'rs2': ('Y182', None, '0.76', None)}, 'Ste7': {'rs1': ('S359', None, '2.35', None), 'rs2': ('S363', None, '0.78', None), 'rs3': (None, None, '5.633859166012091', '')}, 'Ste50': {'rs5': ('T244', None, '4.7', None), 'rs6': ('S248', None, '5.49', None), 'rs3': ('S155', None, '2.35', None), 'rs4': ('S202', None, '0.78', None), 'rs7': ('S196', None, '1.57', None)}}
+Modifications LHS: {'Ste5': {}, 'Ste11@5': {'rs1': ('S281', None, '2.284177011541714', None), 'rs2': ('S285', None, '0.8048507494877875', None), 'rs3': ('T286', None, '5.52511784910183', None)}, 'Ste11@4': {'rs1': ('S281', None, '2.284177011541714', None), 'rs2': ('S285', None, '0.8048507494877875', None), 'rs3': ('T286', None, '5.52511784910183', None)}, 'Fus3': {'rs1': ('T180', None, '2.35', None), 'rs2': ('Y182', None, '0.76', None)}, 'Ste50': {'rs7': ('S196', None, '1.57', None), 'rs4': ('S202', None, '0.78', None), 'rs5': ('T244', None, '4.7', None), 'rs3': ('S155', None, '2.35', None), 'rs6': ('S248', None, '5.49', None)}, 'Ste7': {'rs1': ('S359', None, '2.35', None), 'rs2': ('S363', None, '0.78', None), 'rs3': (None, None, '5.633859166012091', '')}}
+Modifications RHS: {'Ste5': {}, 'Ste11@5': {'rs1': ('S281', 'phosphorylated', '2.284177011541714', None), 'rs2': ('S285', 'phosphorylated', '0.8048507494877875', None), 'rs3': ('T286', 'phosphorylated', '5.52511784910183', None)}, 'Ste11@4': {'rs1': ('S281', 'phosphorylated', '2.284177011541714', None), 'rs2': ('S285', 'phosphorylated', '0.8048507494877875', None), 'rs3': ('T286', 'phosphorylated', '5.52511784910183', None)}, 'Fus3': {'rs1': ('T180', None, '2.35', None), 'rs2': ('Y182', None, '0.76', None)}, 'Ste50': {'rs7': ('S196', None, '1.57', None), 'rs4': ('S202', None, '0.78', None), 'rs5': ('T244', None, '4.7', None), 'rs3': ('S155', None, '2.35', None), 'rs6': ('S248', None, '5.49', None)}, 'Ste7': {'rs1': ('S359', None, '2.35', None), 'rs2': ('S363', None, '0.78', None), 'rs3': (None, None, '5.633859166012091', '')}}
 Modification type: P+
 LHSp:[]
 
@@ -643,8 +643,8 @@ Single components:['Fus3@1', 'Ste11@4', 'Ste11@5', 'Ste50@6', 'Ste5@2', 'Ste5@3'
 Rxn type: False
 PPIs LHS: ['Ste5@2--Ste7@7', 'Fus3@1--Ste5@3', 'Ste11@4--Ste5@2', 'Ste11@1--Ste11@2', 'Ste11@1--Ste50@2']
 PPIs RHS: ['Ste5@2--Ste7@7', 'Fus3@1--Ste5@3', 'Ste11@4--Ste5@2', 'Ste11@1--Ste11@2', 'Ste11@1--Ste50@2']
-Modifications LHS: {'Ste11@5': {'rs1': ('S281', 'phosphorylated', '2.284177011541714', None), 'rs2': ('S285', 'phosphorylated', '0.8048507494877875', None), 'rs3': ('T286', 'phosphorylated', '5.52511784910183', None)}, 'Ste11@4': {'rs1': ('S281', 'phosphorylated', '2.284177011541714', None), 'rs2': ('S285', 'phosphorylated', '0.8048507494877875', None), 'rs3': ('T286', 'phosphorylated', '5.52511784910183', None)}, 'Ste5': {}, 'Fus3': {'rs1': ('T180', None, '2.35', None), 'rs2': ('Y182', None, '0.76', None)}, 'Ste7': {'rs1': ('S359', None, '2.35', None), 'rs2': ('S363', None, '0.78', None), 'rs3': (None, None, '5.633859166012091', '')}, 'Ste50': {'rs5': ('T244', None, '4.7', None), 'rs6': ('S248', None, '5.49', None), 'rs3': ('S155', None, '2.35', None), 'rs4': ('S202', None, '0.78', None), 'rs7': ('S196', None, '1.57', None)}}
-Modifications RHS: {'Ste11@5': {'rs1': ('S281', 'phosphorylated', '2.284177011541714', None), 'rs2': ('S285', 'phosphorylated', '0.8048507494877875', None), 'rs3': ('T286', 'phosphorylated', '5.52511784910183', None)}, 'Ste11@4': {'rs1': ('S281', 'phosphorylated', '2.284177011541714', None), 'rs2': ('S285', 'phosphorylated', '0.8048507494877875', None), 'rs3': ('T286', 'phosphorylated', '5.52511784910183', None)}, 'Ste5': {}, 'Fus3': {'rs1': ('T180', None, '2.35', None), 'rs2': ('Y182', None, '0.76', None)}, 'Ste7': {'rs1': ('S359', 'phosphorylated', '2.35', None), 'rs2': ('S363', 'phosphorylated', '0.78', None), 'rs3': (None, None, '5.633859166012091', '')}, 'Ste50': {'rs5': ('T244', None, '4.7', None), 'rs6': ('S248', None, '5.49', None), 'rs3': ('S155', None, '2.35', None), 'rs4': ('S202', None, '0.78', None), 'rs7': ('S196', None, '1.57', None)}}
+Modifications LHS: {'Ste5': {}, 'Ste11@5': {'rs1': ('S281', 'phosphorylated', '2.284177011541714', None), 'rs2': ('S285', 'phosphorylated', '0.8048507494877875', None), 'rs3': ('T286', 'phosphorylated', '5.52511784910183', None)}, 'Ste11@4': {'rs1': ('S281', 'phosphorylated', '2.284177011541714', None), 'rs2': ('S285', 'phosphorylated', '0.8048507494877875', None), 'rs3': ('T286', 'phosphorylated', '5.52511784910183', None)}, 'Fus3': {'rs1': ('T180', None, '2.35', None), 'rs2': ('Y182', None, '0.76', None)}, 'Ste50': {'rs7': ('S196', None, '1.57', None), 'rs4': ('S202', None, '0.78', None), 'rs5': ('T244', None, '4.7', None), 'rs3': ('S155', None, '2.35', None), 'rs6': ('S248', None, '5.49', None)}, 'Ste7': {'rs1': ('S359', None, '2.35', None), 'rs2': ('S363', None, '0.78', None), 'rs3': (None, None, '5.633859166012091', '')}}
+Modifications RHS: {'Ste5': {}, 'Ste11@5': {'rs1': ('S281', 'phosphorylated', '2.284177011541714', None), 'rs2': ('S285', 'phosphorylated', '0.8048507494877875', None), 'rs3': ('T286', 'phosphorylated', '5.52511784910183', None)}, 'Ste11@4': {'rs1': ('S281', 'phosphorylated', '2.284177011541714', None), 'rs2': ('S285', 'phosphorylated', '0.8048507494877875', None), 'rs3': ('T286', 'phosphorylated', '5.52511784910183', None)}, 'Fus3': {'rs1': ('T180', None, '2.35', None), 'rs2': ('Y182', None, '0.76', None)}, 'Ste50': {'rs7': ('S196', None, '1.57', None), 'rs4': ('S202', None, '0.78', None), 'rs5': ('T244', None, '4.7', None), 'rs3': ('S155', None, '2.35', None), 'rs6': ('S248', None, '5.49', None)}, 'Ste7': {'rs1': ('S359', 'phosphorylated', '2.35', None), 'rs2': ('S363', 'phosphorylated', '0.78', None), 'rs3': (None, None, '5.633859166012091', '')}}
 Modification type: P+
 LHSp:[]
 
@@ -655,8 +655,8 @@ Single components:['Fus3@1', 'Ste11@4', 'Ste11@5', 'Ste50@6', 'Ste5@2', 'Ste5@3'
 Rxn type: False
 PPIs LHS: ['Ste5@2--Ste7@7', 'Fus3@1--Ste5@3', 'Ste11@4--Ste5@2', 'Ste11@1--Ste11@2', 'Ste11@1--Ste50@2']
 PPIs RHS: ['Ste5@2--Ste7@7', 'Fus3@1--Ste5@3', 'Ste11@4--Ste5@2', 'Ste11@1--Ste11@2', 'Ste11@1--Ste50@2']
-Modifications LHS: {'Ste11@5': {'rs1': ('S281', 'phosphorylated', '2.284177011541714', None), 'rs2': ('S285', 'phosphorylated', '0.8048507494877875', None), 'rs3': ('T286', 'phosphorylated', '5.52511784910183', None)}, 'Ste11@4': {'rs1': ('S281', 'phosphorylated', '2.284177011541714', None), 'rs2': ('S285', 'phosphorylated', '0.8048507494877875', None), 'rs3': ('T286', 'phosphorylated', '5.52511784910183', None)}, 'Ste5': {}, 'Fus3': {'rs1': ('T180', None, '2.35', None), 'rs2': ('Y182', None, '0.76', None)}, 'Ste7': {'rs1': ('S359', 'phosphorylated', '2.35', None), 'rs2': ('S363', 'phosphorylated', '0.78', None), 'rs3': (None, None, '5.633859166012091', '')}, 'Ste50': {'rs5': ('T244', None, '4.7', None), 'rs6': ('S248', None, '5.49', None), 'rs3': ('S155', None, '2.35', None), 'rs4': ('S202', None, '0.78', None), 'rs7': ('S196', None, '1.57', None)}}
-Modifications RHS: {'Ste11@5': {'rs1': ('S281', 'phosphorylated', '2.284177011541714', None), 'rs2': ('S285', 'phosphorylated', '0.8048507494877875', None), 'rs3': ('T286', 'phosphorylated', '5.52511784910183', None)}, 'Ste11@4': {'rs1': ('S281', 'phosphorylated', '2.284177011541714', None), 'rs2': ('S285', 'phosphorylated', '0.8048507494877875', None), 'rs3': ('T286', 'phosphorylated', '5.52511784910183', None)}, 'Ste5': {}, 'Fus3': {'rs1': ('T180', 'phosphorylated', '2.35', None), 'rs2': ('Y182', 'phosphorylated', '0.76', None)}, 'Ste7': {'rs1': ('S359', 'phosphorylated', '2.35', None), 'rs2': ('S363', 'phosphorylated', '0.78', None), 'rs3': (None, None, '5.633859166012091', '')}, 'Ste50': {'rs5': ('T244', None, '4.7', None), 'rs6': ('S248', None, '5.49', None), 'rs3': ('S155', None, '2.35', None), 'rs4': ('S202', None, '0.78', None), 'rs7': ('S196', None, '1.57', None)}}
+Modifications LHS: {'Ste5': {}, 'Ste11@5': {'rs1': ('S281', 'phosphorylated', '2.284177011541714', None), 'rs2': ('S285', 'phosphorylated', '0.8048507494877875', None), 'rs3': ('T286', 'phosphorylated', '5.52511784910183', None)}, 'Ste11@4': {'rs1': ('S281', 'phosphorylated', '2.284177011541714', None), 'rs2': ('S285', 'phosphorylated', '0.8048507494877875', None), 'rs3': ('T286', 'phosphorylated', '5.52511784910183', None)}, 'Fus3': {'rs1': ('T180', None, '2.35', None), 'rs2': ('Y182', None, '0.76', None)}, 'Ste50': {'rs7': ('S196', None, '1.57', None), 'rs4': ('S202', None, '0.78', None), 'rs5': ('T244', None, '4.7', None), 'rs3': ('S155', None, '2.35', None), 'rs6': ('S248', None, '5.49', None)}, 'Ste7': {'rs1': ('S359', 'phosphorylated', '2.35', None), 'rs2': ('S363', 'phosphorylated', '0.78', None), 'rs3': (None, None, '5.633859166012091', '')}}
+Modifications RHS: {'Ste5': {}, 'Ste11@5': {'rs1': ('S281', 'phosphorylated', '2.284177011541714', None), 'rs2': ('S285', 'phosphorylated', '0.8048507494877875', None), 'rs3': ('T286', 'phosphorylated', '5.52511784910183', None)}, 'Ste11@4': {'rs1': ('S281', 'phosphorylated', '2.284177011541714', None), 'rs2': ('S285', 'phosphorylated', '0.8048507494877875', None), 'rs3': ('T286', 'phosphorylated', '5.52511784910183', None)}, 'Fus3': {'rs1': ('T180', 'phosphorylated', '2.35', None), 'rs2': ('Y182', 'phosphorylated', '0.76', None)}, 'Ste50': {'rs7': ('S196', None, '1.57', None), 'rs4': ('S202', None, '0.78', None), 'rs5': ('T244', None, '4.7', None), 'rs3': ('S155', None, '2.35', None), 'rs6': ('S248', None, '5.49', None)}, 'Ste7': {'rs1': ('S359', 'phosphorylated', '2.35', None), 'rs2': ('S363', 'phosphorylated', '0.78', None), 'rs3': (None, None, '5.633859166012091', '')}}
 Modification type: P+
 LHSp:[]
 
@@ -667,8 +667,8 @@ Single components:['Kss1@1', 'Ste11@4', 'Ste11@5', 'Ste50@6', 'Ste5@2', 'Ste5@3'
 Rxn type: False
 PPIs LHS: ['Ste5@1--Ste5@2', 'Kss1@1--Ste5@2', 'Ste5@2--Ste7@7', 'Ste11@4--Ste5@3', 'Ste11@1--Ste11@2', 'Ste11@1--Ste50@2']
 PPIs RHS: ['Ste5@1--Ste5@2', 'Kss1@1--Ste5@2', 'Ste5@2--Ste7@7', 'Ste11@4--Ste5@3', 'Ste11@1--Ste11@2', 'Ste11@1--Ste50@2']
-Modifications LHS: {'Ste11@5': {'rs1': ('S281', None, '2.284177011541714', None), 'rs2': ('S285', None, '0.8048507494877875', None), 'rs3': ('T286', None, '5.52511784910183', None)}, 'Ste11@4': {'rs1': ('S281', None, '2.284177011541714', None), 'rs2': ('S285', None, '0.8048507494877875', None), 'rs3': ('T286', None, '5.52511784910183', None)}, 'Ste5': {}, 'Kss1': {'rs1': ('T183', None, '2.35', None), 'rs2': ('Y185', None, '0.75', None)}, 'Ste7': {'rs1': ('S359', None, '2.35', None), 'rs2': ('S363', None, '0.78', None), 'rs3': (None, None, '5.633859166012091', '')}, 'Ste50': {'rs5': ('T244', None, '4.7', None), 'rs6': ('S248', None, '5.49', None), 'rs3': ('S155', None, '2.35', None), 'rs4': ('S202', None, '0.78', None), 'rs7': ('S196', None, '1.57', None)}}
-Modifications RHS: {'Ste11@5': {'rs1': ('S281', 'phosphorylated', '2.284177011541714', None), 'rs2': ('S285', 'phosphorylated', '0.8048507494877875', None), 'rs3': ('T286', 'phosphorylated', '5.52511784910183', None)}, 'Ste11@4': {'rs1': ('S281', 'phosphorylated', '2.284177011541714', None), 'rs2': ('S285', 'phosphorylated', '0.8048507494877875', None), 'rs3': ('T286', 'phosphorylated', '5.52511784910183', None)}, 'Ste5': {}, 'Kss1': {'rs1': ('T183', None, '2.35', None), 'rs2': ('Y185', None, '0.75', None)}, 'Ste7': {'rs1': ('S359', None, '2.35', None), 'rs2': ('S363', None, '0.78', None), 'rs3': (None, None, '5.633859166012091', '')}, 'Ste50': {'rs5': ('T244', None, '4.7', None), 'rs6': ('S248', None, '5.49', None), 'rs3': ('S155', None, '2.35', None), 'rs4': ('S202', None, '0.78', None), 'rs7': ('S196', None, '1.57', None)}}
+Modifications LHS: {'Ste5': {}, 'Ste11@5': {'rs1': ('S281', None, '2.284177011541714', None), 'rs2': ('S285', None, '0.8048507494877875', None), 'rs3': ('T286', None, '5.52511784910183', None)}, 'Ste11@4': {'rs1': ('S281', None, '2.284177011541714', None), 'rs2': ('S285', None, '0.8048507494877875', None), 'rs3': ('T286', None, '5.52511784910183', None)}, 'Kss1': {'rs1': ('T183', None, '2.35', None), 'rs2': ('Y185', None, '0.75', None)}, 'Ste50': {'rs7': ('S196', None, '1.57', None), 'rs4': ('S202', None, '0.78', None), 'rs5': ('T244', None, '4.7', None), 'rs3': ('S155', None, '2.35', None), 'rs6': ('S248', None, '5.49', None)}, 'Ste7': {'rs1': ('S359', None, '2.35', None), 'rs2': ('S363', None, '0.78', None), 'rs3': (None, None, '5.633859166012091', '')}}
+Modifications RHS: {'Ste5': {}, 'Ste11@5': {'rs1': ('S281', 'phosphorylated', '2.284177011541714', None), 'rs2': ('S285', 'phosphorylated', '0.8048507494877875', None), 'rs3': ('T286', 'phosphorylated', '5.52511784910183', None)}, 'Ste11@4': {'rs1': ('S281', 'phosphorylated', '2.284177011541714', None), 'rs2': ('S285', 'phosphorylated', '0.8048507494877875', None), 'rs3': ('T286', 'phosphorylated', '5.52511784910183', None)}, 'Kss1': {'rs1': ('T183', None, '2.35', None), 'rs2': ('Y185', None, '0.75', None)}, 'Ste50': {'rs7': ('S196', None, '1.57', None), 'rs4': ('S202', None, '0.78', None), 'rs5': ('T244', None, '4.7', None), 'rs3': ('S155', None, '2.35', None), 'rs6': ('S248', None, '5.49', None)}, 'Ste7': {'rs1': ('S359', None, '2.35', None), 'rs2': ('S363', None, '0.78', None), 'rs3': (None, None, '5.633859166012091', '')}}
 Modification type: P+
 LHSp:[]
 
@@ -679,8 +679,8 @@ Single components:['Kss1@1', 'Ste11@4', 'Ste11@5', 'Ste50@6', 'Ste5@2', 'Ste5@3'
 Rxn type: False
 PPIs LHS: ['Ste5@1--Ste5@2', 'Kss1@1--Ste5@2', 'Ste5@2--Ste7@7', 'Ste11@4--Ste5@3', 'Ste11@1--Ste11@2', 'Ste11@1--Ste50@2']
 PPIs RHS: ['Ste5@1--Ste5@2', 'Kss1@1--Ste5@2', 'Ste5@2--Ste7@7', 'Ste11@4--Ste5@3', 'Ste11@1--Ste11@2', 'Ste11@1--Ste50@2']
-Modifications LHS: {'Ste11@5': {'rs1': ('S281', 'phosphorylated', '2.284177011541714', None), 'rs2': ('S285', 'phosphorylated', '0.8048507494877875', None), 'rs3': ('T286', 'phosphorylated', '5.52511784910183', None)}, 'Ste11@4': {'rs1': ('S281', 'phosphorylated', '2.284177011541714', None), 'rs2': ('S285', 'phosphorylated', '0.8048507494877875', None), 'rs3': ('T286', 'phosphorylated', '5.52511784910183', None)}, 'Ste5': {}, 'Kss1': {'rs1': ('T183', None, '2.35', None), 'rs2': ('Y185', None, '0.75', None)}, 'Ste7': {'rs1': ('S359', None, '2.35', None), 'rs2': ('S363', None, '0.78', None), 'rs3': (None, None, '5.633859166012091', '')}, 'Ste50': {'rs5': ('T244', None, '4.7', None), 'rs6': ('S248', None, '5.49', None), 'rs3': ('S155', None, '2.35', None), 'rs4': ('S202', None, '0.78', None), 'rs7': ('S196', None, '1.57', None)}}
-Modifications RHS: {'Ste11@5': {'rs1': ('S281', 'phosphorylated', '2.284177011541714', None), 'rs2': ('S285', 'phosphorylated', '0.8048507494877875', None), 'rs3': ('T286', 'phosphorylated', '5.52511784910183', None)}, 'Ste11@4': {'rs1': ('S281', 'phosphorylated', '2.284177011541714', None), 'rs2': ('S285', 'phosphorylated', '0.8048507494877875', None), 'rs3': ('T286', 'phosphorylated', '5.52511784910183', None)}, 'Ste5': {}, 'Kss1': {'rs1': ('T183', None, '2.35', None), 'rs2': ('Y185', None, '0.75', None)}, 'Ste7': {'rs1': ('S359', 'phosphorylated', '2.35', None), 'rs2': ('S363', 'phosphorylated', '0.78', None), 'rs3': (None, None, '5.633859166012091', '')}, 'Ste50': {'rs5': ('T244', None, '4.7', None), 'rs6': ('S248', None, '5.49', None), 'rs3': ('S155', None, '2.35', None), 'rs4': ('S202', None, '0.78', None), 'rs7': ('S196', None, '1.57', None)}}
+Modifications LHS: {'Ste5': {}, 'Ste11@5': {'rs1': ('S281', 'phosphorylated', '2.284177011541714', None), 'rs2': ('S285', 'phosphorylated', '0.8048507494877875', None), 'rs3': ('T286', 'phosphorylated', '5.52511784910183', None)}, 'Ste11@4': {'rs1': ('S281', 'phosphorylated', '2.284177011541714', None), 'rs2': ('S285', 'phosphorylated', '0.8048507494877875', None), 'rs3': ('T286', 'phosphorylated', '5.52511784910183', None)}, 'Kss1': {'rs1': ('T183', None, '2.35', None), 'rs2': ('Y185', None, '0.75', None)}, 'Ste50': {'rs7': ('S196', None, '1.57', None), 'rs4': ('S202', None, '0.78', None), 'rs5': ('T244', None, '4.7', None), 'rs3': ('S155', None, '2.35', None), 'rs6': ('S248', None, '5.49', None)}, 'Ste7': {'rs1': ('S359', None, '2.35', None), 'rs2': ('S363', None, '0.78', None), 'rs3': (None, None, '5.633859166012091', '')}}
+Modifications RHS: {'Ste5': {}, 'Ste11@5': {'rs1': ('S281', 'phosphorylated', '2.284177011541714', None), 'rs2': ('S285', 'phosphorylated', '0.8048507494877875', None), 'rs3': ('T286', 'phosphorylated', '5.52511784910183', None)}, 'Ste11@4': {'rs1': ('S281', 'phosphorylated', '2.284177011541714', None), 'rs2': ('S285', 'phosphorylated', '0.8048507494877875', None), 'rs3': ('T286', 'phosphorylated', '5.52511784910183', None)}, 'Kss1': {'rs1': ('T183', None, '2.35', None), 'rs2': ('Y185', None, '0.75', None)}, 'Ste50': {'rs7': ('S196', None, '1.57', None), 'rs4': ('S202', None, '0.78', None), 'rs5': ('T244', None, '4.7', None), 'rs3': ('S155', None, '2.35', None), 'rs6': ('S248', None, '5.49', None)}, 'Ste7': {'rs1': ('S359', 'phosphorylated', '2.35', None), 'rs2': ('S363', 'phosphorylated', '0.78', None), 'rs3': (None, None, '5.633859166012091', '')}}
 Modification type: P+
 LHSp:[]
 
@@ -691,8 +691,8 @@ Single components:['Kss1@1', 'Ste11@4', 'Ste11@5', 'Ste50@6', 'Ste5@2', 'Ste5@3'
 Rxn type: False
 PPIs LHS: ['Ste5@1--Ste5@2', 'Kss1@1--Ste5@2', 'Ste5@2--Ste7@7', 'Ste11@4--Ste5@3', 'Ste11@1--Ste11@2', 'Ste11@1--Ste50@2']
 PPIs RHS: ['Ste5@1--Ste5@2', 'Kss1@1--Ste5@2', 'Ste5@2--Ste7@7', 'Ste11@4--Ste5@3', 'Ste11@1--Ste11@2', 'Ste11@1--Ste50@2']
-Modifications LHS: {'Ste11@5': {'rs1': ('S281', 'phosphorylated', '2.284177011541714', None), 'rs2': ('S285', 'phosphorylated', '0.8048507494877875', None), 'rs3': ('T286', 'phosphorylated', '5.52511784910183', None)}, 'Ste11@4': {'rs1': ('S281', 'phosphorylated', '2.284177011541714', None), 'rs2': ('S285', 'phosphorylated', '0.8048507494877875', None), 'rs3': ('T286', 'phosphorylated', '5.52511784910183', None)}, 'Ste5': {}, 'Kss1': {'rs1': ('T183', None, '2.35', None), 'rs2': ('Y185', None, '0.75', None)}, 'Ste7': {'rs1': ('S359', 'phosphorylated', '2.35', None), 'rs2': ('S363', 'phosphorylated', '0.78', None), 'rs3': (None, None, '5.633859166012091', '')}, 'Ste50': {'rs5': ('T244', None, '4.7', None), 'rs6': ('S248', None, '5.49', None), 'rs3': ('S155', None, '2.35', None), 'rs4': ('S202', None, '0.78', None), 'rs7': ('S196', None, '1.57', None)}}
-Modifications RHS: {'Ste11@5': {'rs1': ('S281', 'phosphorylated', '2.284177011541714', None), 'rs2': ('S285', 'phosphorylated', '0.8048507494877875', None), 'rs3': ('T286', 'phosphorylated', '5.52511784910183', None)}, 'Ste11@4': {'rs1': ('S281', 'phosphorylated', '2.284177011541714', None), 'rs2': ('S285', 'phosphorylated', '0.8048507494877875', None), 'rs3': ('T286', 'phosphorylated', '5.52511784910183', None)}, 'Ste5': {}, 'Kss1': {'rs1': ('T183', 'phosphorylated', '2.35', None), 'rs2': ('Y185', 'phosphorylated', '0.75', None)}, 'Ste7': {'rs1': ('S359', 'phosphorylated', '2.35', None), 'rs2': ('S363', 'phosphorylated', '0.78', None), 'rs3': (None, None, '5.633859166012091', '')}, 'Ste50': {'rs5': ('T244', None, '4.7', None), 'rs6': ('S248', None, '5.49', None), 'rs3': ('S155', None, '2.35', None), 'rs4': ('S202', None, '0.78', None), 'rs7': ('S196', None, '1.57', None)}}
+Modifications LHS: {'Ste5': {}, 'Ste11@5': {'rs1': ('S281', 'phosphorylated', '2.284177011541714', None), 'rs2': ('S285', 'phosphorylated', '0.8048507494877875', None), 'rs3': ('T286', 'phosphorylated', '5.52511784910183', None)}, 'Ste11@4': {'rs1': ('S281', 'phosphorylated', '2.284177011541714', None), 'rs2': ('S285', 'phosphorylated', '0.8048507494877875', None), 'rs3': ('T286', 'phosphorylated', '5.52511784910183', None)}, 'Kss1': {'rs1': ('T183', None, '2.35', None), 'rs2': ('Y185', None, '0.75', None)}, 'Ste50': {'rs7': ('S196', None, '1.57', None), 'rs4': ('S202', None, '0.78', None), 'rs5': ('T244', None, '4.7', None), 'rs3': ('S155', None, '2.35', None), 'rs6': ('S248', None, '5.49', None)}, 'Ste7': {'rs1': ('S359', 'phosphorylated', '2.35', None), 'rs2': ('S363', 'phosphorylated', '0.78', None), 'rs3': (None, None, '5.633859166012091', '')}}
+Modifications RHS: {'Ste5': {}, 'Ste11@5': {'rs1': ('S281', 'phosphorylated', '2.284177011541714', None), 'rs2': ('S285', 'phosphorylated', '0.8048507494877875', None), 'rs3': ('T286', 'phosphorylated', '5.52511784910183', None)}, 'Ste11@4': {'rs1': ('S281', 'phosphorylated', '2.284177011541714', None), 'rs2': ('S285', 'phosphorylated', '0.8048507494877875', None), 'rs3': ('T286', 'phosphorylated', '5.52511784910183', None)}, 'Kss1': {'rs1': ('T183', 'phosphorylated', '2.35', None), 'rs2': ('Y185', 'phosphorylated', '0.75', None)}, 'Ste50': {'rs7': ('S196', None, '1.57', None), 'rs4': ('S202', None, '0.78', None), 'rs5': ('T244', None, '4.7', None), 'rs3': ('S155', None, '2.35', None), 'rs6': ('S248', None, '5.49', None)}, 'Ste7': {'rs1': ('S359', 'phosphorylated', '2.35', None), 'rs2': ('S363', 'phosphorylated', '0.78', None), 'rs3': (None, None, '5.633859166012091', '')}}
 Modification type: P+
 LHSp:[]
 
@@ -703,8 +703,8 @@ Single components:['Dig1@1', 'Ste12@2', 'Ste12@3', 'Tec1@4']->['Dig1@1', 'Ste12@
 Rxn type: False
 PPIs LHS: ['Dig1@1--Ste12@2', 'Ste12@3--Tec1@4']
 PPIs RHS: ['Dig1@1--Ste12@2', 'Ste12@3--Tec1@4']
-Modifications LHS: {'Ste12': {'rs1': (None, None, '2.35', None)}, 'Dig1': {'rs1': (None, None, '2.356194490192345', None)}, 'Tec1': {'rs1': ('T273', None, '2.3', None), 'rs2': (None, None, '0.8161980913738187', '')}}
-Modifications RHS: {'Ste12': {'rs1': (None, 'phosphorylated', '2.35', None)}, 'Dig1': {'rs1': (None, 'phosphorylated', '2.356194490192345', None)}, 'Tec1': {'rs1': ('T273', None, '2.3', None), 'rs2': (None, None, '0.8161980913738187', '')}}
+Modifications LHS: {'Ste12': {'rs1': (None, None, '2.35', None)}, 'Tec1': {'rs1': ('T273', None, '2.3', None), 'rs2': (None, None, '0.8161980913738187', '')}, 'Dig1': {'rs1': (None, None, '2.356194490192345', None)}}
+Modifications RHS: {'Ste12': {'rs1': (None, 'phosphorylated', '2.35', None)}, 'Tec1': {'rs1': ('T273', None, '2.3', None), 'rs2': (None, None, '0.8161980913738187', '')}, 'Dig1': {'rs1': (None, 'phosphorylated', '2.356194490192345', None)}}
 Modification type: P+
 LHSp:[]
 
@@ -715,8 +715,8 @@ Single components:['Cyc8@1', 'Sfl1@3', 'Sfl1@4', 'Tup1@2']->['Cyc8@1', 'Sfl1@3',
 Rxn type: False
 PPIs LHS: ['Sfl1@1--Sfl1@2', 'Cyc8@1--Tup1@2', 'Cyc8@1--Sfl1@3']
 PPIs RHS: ['Cyc8@1--Tup1@2', 'Sfl1@1--Sfl1@2', 'Cyc8@1--Sfl1@3']
-Modifications LHS: {'Sfl1': {'rs1': (None, None, '2.356194490192345', '')}, 'Tup1': {}, 'Cyc8': {}}
-Modifications RHS: {'Sfl1': {'rs1': (None, 'phosphorylated', '2.356194490192345', '')}, 'Tup1': {}, 'Cyc8': {}}
+Modifications LHS: {'Cyc8': {}, 'Sfl1': {'rs1': (None, None, '2.356194490192345', '')}, 'Tup1': {}}
+Modifications RHS: {'Cyc8': {}, 'Sfl1': {'rs1': (None, 'phosphorylated', '2.356194490192345', '')}, 'Tup1': {}}
 Modification type: P+
 LHSp:[]
 
@@ -749,8 +749,8 @@ Single components:['Mfa12@1', 'Ste3@2']->['Mfa12@1', 'Ste3@2']
 Rxn type: False
 PPIs LHS: ['Mfa12@1--Ste3@2']
 PPIs RHS: ['Mfa12@1--Ste3@2']
-Modifications LHS: {'Mfa12': {}, 'Ste3': {'rs1': (None, None, '2.4', None), 'rs2': (None, None, '0.81', None), 'rs3': (None, None, '5.84', None)}}
-Modifications RHS: {'Mfa12': {}, 'Ste3': {'rs1': (None, 'phosphorylated', '2.4', None), 'rs2': (None, None, '0.81', None), 'rs3': (None, None, '5.84', None)}}
+Modifications LHS: {'Ste3': {'rs1': (None, None, '2.4', None), 'rs2': (None, None, '0.81', None), 'rs3': (None, None, '5.84', None)}, 'Mfa12': {}}
+Modifications RHS: {'Ste3': {'rs1': (None, 'phosphorylated', '2.4', None), 'rs2': (None, None, '0.81', None), 'rs3': (None, None, '5.84', None)}, 'Mfa12': {}}
 Modification type: P+
 LHSp:[]
 
@@ -803,8 +803,8 @@ Single components:['Mpt5@1', 'Sst2@2']->['Mpt5@1', 'Sst2@2']
 Rxn type: False
 PPIs LHS: ['Mpt5@1--Sst2@2']
 PPIs RHS: ['Mpt5@1--Sst2@2']
-Modifications LHS: {'Mpt5': {}, 'Sst2': {'rs1': (None, None, '0.7838611806902125', ''), 'rs2': ('S539', None, '2.32', None)}}
-Modifications RHS: {'Mpt5': {}, 'Sst2': {'rs1': (None, None, '0.7838611806902125', ''), 'rs2': ('S539', 'phosphorylated', '2.32', None)}}
+Modifications LHS: {'Sst2': {'rs1': (None, None, '0.7838611806902125', ''), 'rs2': ('S539', None, '2.32', None)}, 'Mpt5': {}}
+Modifications RHS: {'Sst2': {'rs1': (None, None, '0.7838611806902125', ''), 'rs2': ('S539', 'phosphorylated', '2.32', None)}, 'Mpt5': {}}
 Modification type: P+
 LHSp:[]
 
@@ -870,8 +870,8 @@ Single components:['Cdc28@1', 'Cln1@2', 'Far1@3']->['Cdc28@1', 'Cln1@2', 'Far1@3
 Rxn type: False
 PPIs LHS: ['Cdc28@1--Cln1@2', 'Cdc28@1--Far1@3']
 PPIs RHS: ['Cdc28@1--Cln1@2', 'Cdc28@1--Far1@3']
-Modifications LHS: {'Cdc28': {}, 'Far1': {'rs5': (None, None, '3.9757573696164945', ''), 'rs3': ('T306', 'phosphorylated', '0.78', None), 'rs4': (None, None, '5.6', None), 'rs2': ('S87', None, '2.27', None)}, 'Cln1': {}}
-Modifications RHS: {'Cdc28': {}, 'Far1': {'rs5': (None, None, '3.9757573696164945', ''), 'rs3': ('T306', 'phosphorylated', '0.78', None), 'rs4': (None, None, '5.6', None), 'rs2': ('S87', 'phosphorylated', '2.27', None)}, 'Cln1': {}}
+Modifications LHS: {'Far1': {'rs4': (None, None, '5.6', None), 'rs2': ('S87', None, '2.27', None), 'rs3': ('T306', 'phosphorylated', '0.78', None), 'rs5': (None, None, '3.9757573696164945', '')}, 'Cdc28': {}, 'Cln1': {}}
+Modifications RHS: {'Far1': {'rs4': (None, None, '5.6', None), 'rs2': ('S87', 'phosphorylated', '2.27', None), 'rs3': ('T306', 'phosphorylated', '0.78', None), 'rs5': (None, None, '3.9757573696164945', '')}, 'Cdc28': {}, 'Cln1': {}}
 Modification type: P+
 LHSp:[]
 
@@ -882,8 +882,8 @@ Single components:['Cdc28@1', 'Cln1@2', 'Far1@3']->['Cdc28@1', 'Cln1@2', 'Far1@3
 Rxn type: False
 PPIs LHS: ['Cdc28@1--Cln1@2', 'Cdc28@1--Far1@3']
 PPIs RHS: ['Cdc28@1--Cln1@2', 'Cdc28@1--Far1@3']
-Modifications LHS: {'Cdc28': {}, 'Far1': {'rs5': (None, None, '3.9757573696164945', ''), 'rs3': ('T306', 'phosphorylated', '0.78', None), 'rs4': (None, None, '5.6', None), 'rs2': ('S87', 'phosphorylated', '2.27', None)}, 'Cln1': {}}
-Modifications RHS: {'Cdc28': {}, 'Far1': {'rs5': (None, 'ubiquitinated', '3.9757573696164945', ''), 'rs3': ('T306', 'phosphorylated', '0.78', None), 'rs4': (None, None, '5.6', None), 'rs2': ('S87', 'phosphorylated', '2.27', None)}, 'Cln1': {}}
+Modifications LHS: {'Far1': {'rs4': (None, None, '5.6', None), 'rs2': ('S87', 'phosphorylated', '2.27', None), 'rs3': ('T306', 'phosphorylated', '0.78', None), 'rs5': (None, None, '3.9757573696164945', '')}, 'Cdc28': {}, 'Cln1': {}}
+Modifications RHS: {'Far1': {'rs4': (None, None, '5.6', None), 'rs2': ('S87', 'phosphorylated', '2.27', None), 'rs3': ('T306', 'phosphorylated', '0.78', None), 'rs5': (None, 'ubiquitinated', '3.9757573696164945', '')}, 'Cdc28': {}, 'Cln1': {}}
 Modification type: Ub+
 LHSp:[]
 
@@ -919,8 +919,8 @@ Rxn type: False
 PPIs LHS: ['Bem1@1--Cdc42@5', 'Cdc42@5--Rsr1@4', 'Cdc24@1--Rsr1@3', 'GTP@1--Rsr1@2', 'Cdc42@1--GTP@2']
 PPIs RHS: ['Bem1@1--Cdc42@5', 'Cdc42@5--Rsr1@4', 'Cdc24@1--Rsr1@3', 'GTP@1--Rsr1@2', 'Cdc42@1--GTP@2', 'GDP@1--Rsr1@2']
 Rsr1_[GDP]_i+_GDP_[Rsr1],Rsr1,GDP,,i+,GDP,Rsr1,,,,
-Modifications LHS: {'Cdc24': {'rs1': (None, None, '2.26', None)}, 'Bem1': {}, 'Cdc42': {}, 'Rsr1': {'rs1': (None, 'prenylated', '2.24', None)}, 'GTP': {}}
-Modifications RHS: {'Cdc24': {'rs1': (None, 'phosphorylated', '2.26', None)}, 'Bem1': {}, 'Cdc42': {}, 'Rsr1': {'rs1': (None, 'prenylated', '2.24', None)}, 'GTP': {}}
+Modifications LHS: {'Cdc24': {'rs1': (None, None, '2.26', None)}, 'Bem1': {}, 'Rsr1': {'rs1': (None, 'prenylated', '2.24', None)}, 'GTP': {}, 'Cdc42': {}}
+Modifications RHS: {'Cdc24': {'rs1': (None, 'phosphorylated', '2.26', None)}, 'Bem1': {}, 'Rsr1': {'rs1': (None, 'prenylated', '2.24', None)}, 'GTP': {}, 'Cdc42': {}}
 Modification type: P+
 LHSp:[]
 
@@ -931,8 +931,8 @@ Single components:['Bem1@1', 'Cdc24@2', 'Cdc42@5', 'GDP@3', 'GDP@6', 'Rsr1@4']->
 Rxn type: synthesis/degradation
 PPIs LHS: ['Bem1@1--Cdc42@5', 'Cdc42@5--Rsr1@4', 'Cdc24@1--Rsr1@3', 'GTP@1--Rsr1@2', 'GDP@1--Rsr1@2', 'Cdc42@1--GDP@2']
 PPIs RHS: ['Bem1@1--Cdc42@5', 'Cdc42@5--Rsr1@4', 'Cdc24@1--Rsr1@3', 'GTP@1--Rsr1@2', 'Cdc42@1--GTP@2']
-Cdc42_[GDP]_i-_GDP_[Cdc42],Cdc42,GDP,,i-,GDP,Cdc42,,,,
 Rsr1_[GDP]_i-_GDP_[Rsr1],Rsr1,GDP,,i-,GDP,Rsr1,,,,
+Cdc42_[GDP]_i-_GDP_[Cdc42],Cdc42,GDP,,i-,GDP,Cdc42,,,,
 Cdc42_[GTP]_i+_GTP_[Cdc42],Cdc42,GTP,,i+,GTP,Cdc42,,,,
 Modification type: False
 LHSp:[]
@@ -1233,8 +1233,8 @@ Single components:['Cdc24@1', 'Far1@2']->['Cdc24@1', 'Far1@2']
 Rxn type: False
 PPIs LHS: ['Cdc24@1--Far1@2']
 PPIs RHS: ['Cdc24@1--Far1@2']
-Modifications LHS: {'Cdc24': {'rs1': (None, None, '2.26', None)}, 'Far1': {'rs5': (None, None, '3.9757573696164945', ''), 'rs3': ('T306', 'phosphorylated', '0.78', None), 'rs4': (None, None, '5.6', None), 'rs2': ('S87', None, '2.27', None)}}
-Modifications RHS: {'Cdc24': {'rs1': (None, None, '2.26', None)}, 'Far1': {'rs5': (None, None, '3.9757573696164945', ''), 'rs3': ('T306', 'phosphorylated', '0.78', None), 'rs4': (None, None, '5.6', None), 'rs2': ('S87', None, '2.27', None)}}
+Modifications LHS: {'Cdc24': {'rs1': (None, None, '2.26', None)}, 'Far1': {'rs4': (None, None, '5.6', None), 'rs2': ('S87', None, '2.27', None), 'rs3': ('T306', 'phosphorylated', '0.78', None), 'rs5': (None, None, '3.9757573696164945', '')}}
+Modifications RHS: {'Cdc24': {'rs1': (None, None, '2.26', None)}, 'Far1': {'rs4': (None, None, '5.6', None), 'rs2': ('S87', None, '2.27', None), 'rs3': ('T306', 'phosphorylated', '0.78', None), 'rs5': (None, None, '3.9757573696164945', '')}}
 Modification type: False
 LHSp:[]
 
@@ -1257,8 +1257,8 @@ Single components:['Ste2@1', 'Ste2@2']->['Ste2@1', 'Ste2@2']
 Rxn type: False
 PPIs LHS: []
 PPIs RHS: []
-Modifications LHS: {'Ste2@1': {'rs3': ('S339', 'phosphorylated', '3.4905064718238514', None), 'rs1': ('S331', 'phosphorylated', '2.3832305715485393', None), 'rs4': ('K337', 'ubiquitinated', '0.8269780661655485', None), 'rs2': ('S338', 'phosphorylated', '5.928321020727583', None)}, 'Ste2@2': {'rs3': ('S339', 'phosphorylated', '3.4905064718238514', None), 'rs1': ('S331', 'phosphorylated', '2.3832305715485393', None), 'rs4': ('K337', 'ubiquitinated', '0.8269780661655485', None), 'rs2': ('S338', 'phosphorylated', '5.928321020727583', None)}}
-Modifications RHS: {'Ste2@1': {'rs3': ('S339', 'phosphorylated', '3.4905064718238514', None), 'rs1': ('S331', 'phosphorylated', '2.3832305715485393', None), 'rs4': ('K337', 'ubiquitinated', '0.8269780661655485', None), 'rs2': ('S338', 'phosphorylated', '5.928321020727583', None)}, 'Ste2@2': {'rs3': ('S339', 'phosphorylated', '3.4905064718238514', None), 'rs1': ('S331', 'phosphorylated', '2.3832305715485393', None), 'rs4': ('K337', 'ubiquitinated', '0.8269780661655485', None), 'rs2': ('S338', 'phosphorylated', '5.928321020727583', None)}}
+Modifications LHS: {'Ste2@1': {'rs4': ('K337', 'ubiquitinated', '0.8269780661655485', None), 'rs1': ('S331', 'phosphorylated', '2.3832305715485393', None), 'rs2': ('S338', 'phosphorylated', '5.928321020727583', None), 'rs3': ('S339', 'phosphorylated', '3.4905064718238514', None)}, 'Ste2@2': {'rs4': ('K337', 'ubiquitinated', '0.8269780661655485', None), 'rs1': ('S331', 'phosphorylated', '2.3832305715485393', None), 'rs2': ('S338', 'phosphorylated', '5.928321020727583', None), 'rs3': ('S339', 'phosphorylated', '3.4905064718238514', None)}}
+Modifications RHS: {'Ste2@1': {'rs4': ('K337', 'ubiquitinated', '0.8269780661655485', None), 'rs1': ('S331', 'phosphorylated', '2.3832305715485393', None), 'rs2': ('S338', 'phosphorylated', '5.928321020727583', None), 'rs3': ('S339', 'phosphorylated', '3.4905064718238514', None)}, 'Ste2@2': {'rs4': ('K337', 'ubiquitinated', '0.8269780661655485', None), 'rs1': ('S331', 'phosphorylated', '2.3832305715485393', None), 'rs2': ('S338', 'phosphorylated', '5.928321020727583', None), 'rs3': ('S339', 'phosphorylated', '3.4905064718238514', None)}}
 Modification type: False
 LHSp:[]
 
@@ -1305,8 +1305,8 @@ Single components:['Cdc28@1', 'Cln2@2']->['Cdc28@1', 'Cln2@2']
 Rxn type: False
 PPIs LHS: ['Cdc28@1--Cln2@2']
 PPIs RHS: ['Cdc28@1--Cln2@2']
-Modifications LHS: {'Cdc28': {}, 'Cln2': {}}
-Modifications RHS: {'Cdc28': {}, 'Cln2': {}}
+Modifications LHS: {'Cln2': {}, 'Cdc28': {}}
+Modifications RHS: {'Cln2': {}, 'Cdc28': {}}
 Modification type: False
 LHSp:[]
 
@@ -1480,10 +1480,10 @@ Rxn type: synthesis/degradation
 PPIs LHS: ['Bem1@1--Cdc42@5', 'Cdc42@5--Rsr1@4', 'Cdc24@1--Rsr1@3', 'GTP@1--Rsr1@2', 'Cdc42@1--GTP@2']
 PPIs RHS: []
 Rsr1_[GTP]_i-_GTP_[Rsr1],Rsr1,GTP,,i-,GTP,Rsr1,,,,
-Cdc24_[Rsr1]_ppi-_Rsr1_[Cdc24],Cdc24,Rsr1,,ppi-,Rsr1,Cdc24,,,,
-Cdc42_[Rsr1]_ppi-_Rsr1_[Cdc42],Cdc42,Rsr1,,ppi-,Rsr1,Cdc42,,,,
-Bem1_[Cdc42]_ppi-_Cdc42_[Bem1],Bem1,Cdc42,,ppi-,Cdc42,Bem1,,,,
 Cdc42_[GTP]_i-_GTP_[Cdc42],Cdc42,GTP,,i-,GTP,Cdc42,,,,
+Cdc42_[Rsr1]_ppi-_Rsr1_[Cdc42],Cdc42,Rsr1,,ppi-,Rsr1,Cdc42,,,,
+Cdc24_[Rsr1]_ppi-_Rsr1_[Cdc24],Cdc24,Rsr1,,ppi-,Rsr1,Cdc24,,,,
+Bem1_[Cdc42]_ppi-_Cdc42_[Bem1],Bem1,Cdc42,,ppi-,Cdc42,Bem1,,,,
 Modification type: False
 LHSp:[]
 
@@ -1516,8 +1516,8 @@ Single components:['Bem1@1', 'Cdc24@4', 'Cdc42@2', 'Far1@5', 'GTP@3', 'Ste18@6',
 Rxn type: False
 PPIs LHS: ['Cdc42@2--Ste20@8', 'Bem1@1--Cdc24@4', 'Bem1@1--Cdc42@2', 'Cdc42@1--GTP@2', 'Far1@2--Ste4@4', 'Cdc24@1--Far1@2', 'Ste18@1--Ste4@2']
 PPIs RHS: ['Cdc42@2--Ste20@8', 'Bem1@1--Cdc24@4', 'Bem1@1--Cdc42@2', 'Cdc42@1--GTP@2', 'Far1@2--Ste4@4', 'Cdc24@1--Far1@2', 'Ste18@1--Ste4@2']
-Modifications LHS: {'Far1': {'rs5': (None, None, '3.9757573696164945', ''), 'rs3': ('T306', 'phosphorylated', '0.78', None), 'rs4': (None, None, '5.6', None), 'rs2': ('S87', None, '2.27', None)}, 'Ste18': {'rs1': (None, 'prenylated', '0.71', None), 'rs2': (None, 'palmytoylated', '2.45', None)}, 'Ste4': {'rs1': ('T322', 'phosphorylated', '5.61', None), 'rs2': ('T320', 'phosphorylated', '0.72', None), 'rs3': ('S335', 'phosphorylated', '2.29', None)}, 'GTP': {}, 'Cdc24': {'rs1': (None, None, '2.26', None)}, 'Bem1': {}, 'Cdc42': {}, 'Ste20': {'rs1': (None, None, '2.35', None)}}
-Modifications RHS: {'Far1': {'rs5': (None, None, '3.9757573696164945', ''), 'rs3': ('T306', 'phosphorylated', '0.78', None), 'rs4': (None, None, '5.6', None), 'rs2': ('S87', None, '2.27', None)}, 'Ste18': {'rs1': (None, 'prenylated', '0.71', None), 'rs2': (None, 'palmytoylated', '2.45', None)}, 'Ste4': {'rs1': ('T322', 'phosphorylated', '5.61', None), 'rs2': ('T320', 'phosphorylated', '0.72', None), 'rs3': ('S335', 'phosphorylated', '2.29', None)}, 'GTP': {}, 'Cdc24': {'rs1': (None, None, '2.26', None)}, 'Bem1': {}, 'Cdc42': {}, 'Ste20': {'rs1': (None, 'phosphorylated', '2.35', None)}}
+Modifications LHS: {'Cdc42': {}, 'Cdc24': {'rs1': (None, None, '2.26', None)}, 'Ste4': {'rs1': ('T322', 'phosphorylated', '5.61', None), 'rs2': ('T320', 'phosphorylated', '0.72', None), 'rs3': ('S335', 'phosphorylated', '2.29', None)}, 'Ste18': {'rs1': (None, 'prenylated', '0.71', None), 'rs2': (None, 'palmytoylated', '2.45', None)}, 'Ste20': {'rs1': (None, None, '2.35', None)}, 'Far1': {'rs4': (None, None, '5.6', None), 'rs2': ('S87', None, '2.27', None), 'rs3': ('T306', 'phosphorylated', '0.78', None), 'rs5': (None, None, '3.9757573696164945', '')}, 'Bem1': {}, 'GTP': {}}
+Modifications RHS: {'Cdc42': {}, 'Cdc24': {'rs1': (None, None, '2.26', None)}, 'Ste4': {'rs1': ('T322', 'phosphorylated', '5.61', None), 'rs2': ('T320', 'phosphorylated', '0.72', None), 'rs3': ('S335', 'phosphorylated', '2.29', None)}, 'Ste18': {'rs1': (None, 'prenylated', '0.71', None), 'rs2': (None, 'palmytoylated', '2.45', None)}, 'Ste20': {'rs1': (None, 'phosphorylated', '2.35', None)}, 'Far1': {'rs4': (None, None, '5.6', None), 'rs2': ('S87', None, '2.27', None), 'rs3': ('T306', 'phosphorylated', '0.78', None), 'rs5': (None, None, '3.9757573696164945', '')}, 'Bem1': {}, 'GTP': {}}
 Modification type: P+
 LHSp:[]
 
@@ -1528,8 +1528,8 @@ Single components:['Bem1@1', 'Bem1@1', 'Cdc24@4', 'Cdc24@4', 'Cdc42@2', 'Cdc42@2
 Rxn type: False
 PPIs LHS: ['Cdc42@2--Ste20@8', 'Bem1@1--Cdc24@4', 'Bem1@1--Cdc42@2', 'Cdc42@1--GTP@2', 'Far1@2--Ste4@4', 'Cdc24@1--Far1@2', 'Ste18@1--Ste4@2']
 PPIs RHS: ['Cdc42@2--Ste20@8', 'Bem1@1--Cdc24@4', 'Bem1@1--Cdc42@2', 'Cdc42@1--GTP@2', 'Far1@2--Ste4@4', 'Cdc24@1--Far1@2', 'Ste18@1--Ste4@2']
-Modifications LHS: {'Far1': {'rs5': (None, None, '3.9757573696164945', ''), 'rs3': ('T306', 'phosphorylated', '0.78', None), 'rs4': (None, None, '5.6', None), 'rs2': ('S87', None, '2.27', None)}, 'Ste18': {'rs1': (None, 'prenylated', '0.71', None), 'rs2': (None, 'palmytoylated', '2.45', None)}, 'Ste4': {'rs1': ('T322', 'phosphorylated', '5.61', None), 'rs2': ('T320', 'phosphorylated', '0.72', None), 'rs3': ('S335', 'phosphorylated', '2.29', None)}, 'GTP': {}, 'Cdc24': {'rs1': (None, None, '2.26', None)}, 'Bem1': {}, 'Cdc42': {}, 'Ste20': {'rs1': (None, None, '2.35', None)}}
-Modifications RHS: {'Far1': {'rs5': (None, None, '3.9757573696164945', ''), 'rs3': ('T306', 'phosphorylated', '0.78', None), 'rs4': (None, None, '5.6', None), 'rs2': ('S87', None, '2.27', None)}, 'Ste18': {'rs1': (None, 'prenylated', '0.71', None), 'rs2': (None, 'palmytoylated', '2.45', None)}, 'Ste4': {'rs1': ('T322', 'phosphorylated', '5.61', None), 'rs2': ('T320', 'phosphorylated', '0.72', None), 'rs3': ('S335', 'phosphorylated', '2.29', None)}, 'GTP': {}, 'Cdc24': {'rs1': (None, None, '2.26', None)}, 'Bem1': {}, 'Cdc42': {}, 'Ste20': {'rs1': (None, 'phosphorylated', '2.35', None)}}
+Modifications LHS: {'Cdc42': {}, 'Cdc24': {'rs1': (None, None, '2.26', None)}, 'Ste4': {'rs1': ('T322', 'phosphorylated', '5.61', None), 'rs2': ('T320', 'phosphorylated', '0.72', None), 'rs3': ('S335', 'phosphorylated', '2.29', None)}, 'Ste18': {'rs1': (None, 'prenylated', '0.71', None), 'rs2': (None, 'palmytoylated', '2.45', None)}, 'Ste20': {'rs1': (None, None, '2.35', None)}, 'Far1': {'rs4': (None, None, '5.6', None), 'rs2': ('S87', None, '2.27', None), 'rs3': ('T306', 'phosphorylated', '0.78', None), 'rs5': (None, None, '3.9757573696164945', '')}, 'Bem1': {}, 'GTP': {}}
+Modifications RHS: {'Cdc42': {}, 'Cdc24': {'rs1': (None, None, '2.26', None)}, 'Ste4': {'rs1': ('T322', 'phosphorylated', '5.61', None), 'rs2': ('T320', 'phosphorylated', '0.72', None), 'rs3': ('S335', 'phosphorylated', '2.29', None)}, 'Ste18': {'rs1': (None, 'prenylated', '0.71', None), 'rs2': (None, 'palmytoylated', '2.45', None)}, 'Ste20': {'rs1': (None, 'phosphorylated', '2.35', None)}, 'Far1': {'rs4': (None, None, '5.6', None), 'rs2': ('S87', None, '2.27', None), 'rs3': ('T306', 'phosphorylated', '0.78', None), 'rs5': (None, None, '3.9757573696164945', '')}, 'Bem1': {}, 'GTP': {}}
 Modification type: P+
 LHSp:[]
 
@@ -1540,8 +1540,8 @@ Single components:['Bem1@1', 'Bem1@1', 'Bem1@1', 'Cdc24@4', 'Cdc24@4', 'Cdc24@4'
 Rxn type: False
 PPIs LHS: ['Cdc42@2--Ste20@8', 'Bem1@1--Cdc24@4', 'Bem1@1--Cdc42@2', 'Cdc42@1--GTP@2', 'Far1@2--Ste4@4', 'Cdc24@1--Far1@2', 'Ste18@1--Ste4@2']
 PPIs RHS: ['Cdc42@2--Ste20@8', 'Bem1@1--Cdc24@4', 'Bem1@1--Cdc42@2', 'Cdc42@1--GTP@2', 'Far1@2--Ste4@4', 'Cdc24@1--Far1@2', 'Ste18@1--Ste4@2']
-Modifications LHS: {'Far1': {'rs5': (None, None, '3.9757573696164945', ''), 'rs3': ('T306', 'phosphorylated', '0.78', None), 'rs4': (None, None, '5.6', None), 'rs2': ('S87', None, '2.27', None)}, 'Ste18': {'rs1': (None, 'prenylated', '0.71', None), 'rs2': (None, 'palmytoylated', '2.45', None)}, 'Ste4': {'rs1': ('T322', 'phosphorylated', '5.61', None), 'rs2': ('T320', 'phosphorylated', '0.72', None), 'rs3': ('S335', 'phosphorylated', '2.29', None)}, 'GTP': {}, 'Cdc24': {'rs1': (None, None, '2.26', None)}, 'Bem1': {}, 'Cdc42': {}, 'Ste20': {'rs1': (None, None, '2.35', None)}}
-Modifications RHS: {'Far1': {'rs5': (None, None, '3.9757573696164945', ''), 'rs3': ('T306', 'phosphorylated', '0.78', None), 'rs4': (None, None, '5.6', None), 'rs2': ('S87', None, '2.27', None)}, 'Ste18': {'rs1': (None, 'prenylated', '0.71', None), 'rs2': (None, 'palmytoylated', '2.45', None)}, 'Ste4': {'rs1': ('T322', 'phosphorylated', '5.61', None), 'rs2': ('T320', 'phosphorylated', '0.72', None), 'rs3': ('S335', 'phosphorylated', '2.29', None)}, 'GTP': {}, 'Cdc24': {'rs1': (None, None, '2.26', None)}, 'Bem1': {}, 'Cdc42': {}, 'Ste20': {'rs1': (None, 'phosphorylated', '2.35', None)}}
+Modifications LHS: {'Cdc42': {}, 'Cdc24': {'rs1': (None, None, '2.26', None)}, 'Ste4': {'rs1': ('T322', 'phosphorylated', '5.61', None), 'rs2': ('T320', 'phosphorylated', '0.72', None), 'rs3': ('S335', 'phosphorylated', '2.29', None)}, 'Ste18': {'rs1': (None, 'prenylated', '0.71', None), 'rs2': (None, 'palmytoylated', '2.45', None)}, 'Ste20': {'rs1': (None, None, '2.35', None)}, 'Far1': {'rs4': (None, None, '5.6', None), 'rs2': ('S87', None, '2.27', None), 'rs3': ('T306', 'phosphorylated', '0.78', None), 'rs5': (None, None, '3.9757573696164945', '')}, 'Bem1': {}, 'GTP': {}}
+Modifications RHS: {'Cdc42': {}, 'Cdc24': {'rs1': (None, None, '2.26', None)}, 'Ste4': {'rs1': ('T322', 'phosphorylated', '5.61', None), 'rs2': ('T320', 'phosphorylated', '0.72', None), 'rs3': ('S335', 'phosphorylated', '2.29', None)}, 'Ste18': {'rs1': (None, 'prenylated', '0.71', None), 'rs2': (None, 'palmytoylated', '2.45', None)}, 'Ste20': {'rs1': (None, 'phosphorylated', '2.35', None)}, 'Far1': {'rs4': (None, None, '5.6', None), 'rs2': ('S87', None, '2.27', None), 'rs3': ('T306', 'phosphorylated', '0.78', None), 'rs5': (None, None, '3.9757573696164945', '')}, 'Bem1': {}, 'GTP': {}}
 Modification type: P+
 LHSp:[]
 
@@ -1624,8 +1624,8 @@ Single components:['Asg7@3', 'Mfa12@1', 'Ste3@2']->['Asg7@3', 'Mfa12@1', 'Ste3@2
 Rxn type: False
 PPIs LHS: ['Mfa12@1--Ste3@2', 'Asg7@3--Ste3@2']
 PPIs RHS: ['Mfa12@1--Ste3@2', 'Asg7@3--Ste3@2']
-Modifications LHS: {'Mfa12': {}, 'Asg7': {}, 'Ste3': {'rs1': (None, None, '2.4', None), 'rs2': (None, None, '0.81', None), 'rs3': (None, None, '5.84', None)}}
-Modifications RHS: {'Mfa12': {}, 'Asg7': {}, 'Ste3': {'rs1': (None, None, '2.4', None), 'rs2': (None, 'phosphorylated', '0.81', None), 'rs3': (None, None, '5.84', None)}}
+Modifications LHS: {'Ste3': {'rs1': (None, None, '2.4', None), 'rs2': (None, None, '0.81', None), 'rs3': (None, None, '5.84', None)}, 'Mfa12': {}, 'Asg7': {}}
+Modifications RHS: {'Ste3': {'rs1': (None, None, '2.4', None), 'rs2': (None, 'phosphorylated', '0.81', None), 'rs3': (None, None, '5.84', None)}, 'Mfa12': {}, 'Asg7': {}}
 Modification type: P+
 LHSp:[]
 
@@ -1636,8 +1636,8 @@ Single components:['Asg7@3', 'Asg7@3', 'Mfa12@1', 'Mfa12@1', 'Ste3@2', 'Ste3@2']
 Rxn type: False
 PPIs LHS: ['Mfa12@1--Ste3@2', 'Asg7@3--Ste3@2']
 PPIs RHS: ['Mfa12@1--Ste3@2', 'Asg7@3--Ste3@2']
-Modifications LHS: {'Mfa12': {}, 'Asg7': {}, 'Ste3': {'rs1': (None, None, '2.4', None), 'rs2': (None, None, '0.81', None), 'rs3': (None, None, '5.84', None)}}
-Modifications RHS: {'Mfa12': {}, 'Asg7': {}, 'Ste3': {'rs1': (None, None, '2.4', None), 'rs2': (None, 'phosphorylated', '0.81', None), 'rs3': (None, None, '5.84', None)}}
+Modifications LHS: {'Ste3': {'rs1': (None, None, '2.4', None), 'rs2': (None, None, '0.81', None), 'rs3': (None, None, '5.84', None)}, 'Mfa12': {}, 'Asg7': {}}
+Modifications RHS: {'Ste3': {'rs1': (None, None, '2.4', None), 'rs2': (None, 'phosphorylated', '0.81', None), 'rs3': (None, None, '5.84', None)}, 'Mfa12': {}, 'Asg7': {}}
 Modification type: P+
 LHSp:[]
 
@@ -1648,8 +1648,8 @@ Single components:['Asg7@3', 'Mfa12@1', 'Ste3@2']->['Asg7@3', 'Mfa12@1', 'Ste3@2
 Rxn type: False
 PPIs LHS: ['Mfa12@1--Ste3@2', 'Asg7@3--Ste3@2']
 PPIs RHS: ['Mfa12@1--Ste3@2', 'Asg7@3--Ste3@2']
-Modifications LHS: {'Mfa12': {}, 'Asg7': {}, 'Ste3': {'rs1': (None, None, '2.4', None), 'rs2': (None, 'phosphorylated', '0.81', None), 'rs3': (None, None, '5.84', None)}}
-Modifications RHS: {'Mfa12': {}, 'Asg7': {}, 'Ste3': {'rs1': (None, None, '2.4', None), 'rs2': (None, 'phosphorylated', '0.81', None), 'rs3': (None, 'ubiquitinated', '5.84', None)}}
+Modifications LHS: {'Ste3': {'rs1': (None, None, '2.4', None), 'rs2': (None, 'phosphorylated', '0.81', None), 'rs3': (None, None, '5.84', None)}, 'Mfa12': {}, 'Asg7': {}}
+Modifications RHS: {'Ste3': {'rs1': (None, None, '2.4', None), 'rs2': (None, 'phosphorylated', '0.81', None), 'rs3': (None, 'ubiquitinated', '5.84', None)}, 'Mfa12': {}, 'Asg7': {}}
 Modification type: Ub+
 LHSp:[]
 
@@ -1660,8 +1660,8 @@ Single components:['Asg7@3', 'Asg7@3', 'Mfa12@1', 'Mfa12@1', 'Ste3@2', 'Ste3@2']
 Rxn type: False
 PPIs LHS: ['Mfa12@1--Ste3@2', 'Asg7@3--Ste3@2']
 PPIs RHS: ['Mfa12@1--Ste3@2', 'Asg7@3--Ste3@2']
-Modifications LHS: {'Mfa12': {}, 'Asg7': {}, 'Ste3': {'rs1': (None, None, '2.4', None), 'rs2': (None, 'phosphorylated', '0.81', None), 'rs3': (None, None, '5.84', None)}}
-Modifications RHS: {'Mfa12': {}, 'Asg7': {}, 'Ste3': {'rs1': (None, None, '2.4', None), 'rs2': (None, 'phosphorylated', '0.81', None), 'rs3': (None, 'ubiquitinated', '5.84', None)}}
+Modifications LHS: {'Ste3': {'rs1': (None, None, '2.4', None), 'rs2': (None, 'phosphorylated', '0.81', None), 'rs3': (None, None, '5.84', None)}, 'Mfa12': {}, 'Asg7': {}}
+Modifications RHS: {'Ste3': {'rs1': (None, None, '2.4', None), 'rs2': (None, 'phosphorylated', '0.81', None), 'rs3': (None, 'ubiquitinated', '5.84', None)}, 'Mfa12': {}, 'Asg7': {}}
 Modification type: Ub+
 LHSp:[]
 
@@ -1672,8 +1672,8 @@ Single components:['MfAlpha12@1', 'Sst2@4', 'Ste2@2', 'Ste2@3']->['MfAlpha12@1',
 Rxn type: False
 PPIs LHS: ['Sst2@4--Ste2@2', 'Ste2@1--Ste2@2', 'MfAlpha12@1--Ste2@2']
 PPIs RHS: ['Sst2@4--Ste2@2', 'Ste2@1--Ste2@2', 'MfAlpha12@1--Ste2@2']
-Modifications LHS: {'MfAlpha12': {}, 'Ste2@2': {'rs3': ('S339', None, '3.4905064718238514', None), 'rs1': ('S331', None, '2.3832305715485393', None), 'rs4': ('K337', None, '0.8269780661655485', None), 'rs2': ('S338', None, '5.928321020727583', None)}, 'Ste2@3': {'rs3': ('S339', None, '3.4905064718238514', None), 'rs1': ('S331', None, '2.3832305715485393', None), 'rs4': ('K337', None, '0.8269780661655485', None), 'rs2': ('S338', None, '5.928321020727583', None)}, 'Sst2': {'rs1': (None, None, '0.7838611806902125', ''), 'rs2': ('S539', None, '2.32', None)}}
-Modifications RHS: {'MfAlpha12': {}, 'Ste2@2': {'rs3': ('S339', 'phosphorylated', '3.4905064718238514', None), 'rs1': ('S331', 'phosphorylated', '2.3832305715485393', None), 'rs4': ('K337', None, '0.8269780661655485', None), 'rs2': ('S338', 'phosphorylated', '5.928321020727583', None)}, 'Ste2@3': {'rs3': ('S339', 'phosphorylated', '3.4905064718238514', None), 'rs1': ('S331', 'phosphorylated', '2.3832305715485393', None), 'rs4': ('K337', None, '0.8269780661655485', None), 'rs2': ('S338', 'phosphorylated', '5.928321020727583', None)}, 'Sst2': {'rs1': (None, None, '0.7838611806902125', ''), 'rs2': ('S539', None, '2.32', None)}}
+Modifications LHS: {'MfAlpha12': {}, 'Ste2@2': {'rs4': ('K337', None, '0.8269780661655485', None), 'rs1': ('S331', None, '2.3832305715485393', None), 'rs2': ('S338', None, '5.928321020727583', None), 'rs3': ('S339', None, '3.4905064718238514', None)}, 'Sst2': {'rs1': (None, None, '0.7838611806902125', ''), 'rs2': ('S539', None, '2.32', None)}, 'Ste2@3': {'rs4': ('K337', None, '0.8269780661655485', None), 'rs1': ('S331', None, '2.3832305715485393', None), 'rs2': ('S338', None, '5.928321020727583', None), 'rs3': ('S339', None, '3.4905064718238514', None)}}
+Modifications RHS: {'MfAlpha12': {}, 'Ste2@2': {'rs4': ('K337', None, '0.8269780661655485', None), 'rs1': ('S331', 'phosphorylated', '2.3832305715485393', None), 'rs2': ('S338', 'phosphorylated', '5.928321020727583', None), 'rs3': ('S339', 'phosphorylated', '3.4905064718238514', None)}, 'Sst2': {'rs1': (None, None, '0.7838611806902125', ''), 'rs2': ('S539', None, '2.32', None)}, 'Ste2@3': {'rs4': ('K337', None, '0.8269780661655485', None), 'rs1': ('S331', 'phosphorylated', '2.3832305715485393', None), 'rs2': ('S338', 'phosphorylated', '5.928321020727583', None), 'rs3': ('S339', 'phosphorylated', '3.4905064718238514', None)}}
 Modification type: P+
 LHSp:[]
 
@@ -1684,8 +1684,8 @@ Single components:['MfAlpha12@1', 'MfAlpha12@1', 'Sst2@4', 'Sst2@4', 'Ste2@2', '
 Rxn type: False
 PPIs LHS: ['Sst2@4--Ste2@2', 'Ste2@1--Ste2@2', 'MfAlpha12@1--Ste2@2']
 PPIs RHS: ['Sst2@4--Ste2@2', 'Ste2@1--Ste2@2', 'MfAlpha12@1--Ste2@2']
-Modifications LHS: {'MfAlpha12': {}, 'Ste2@2': {'rs3': ('S339', None, '3.4905064718238514', None), 'rs1': ('S331', None, '2.3832305715485393', None), 'rs4': ('K337', None, '0.8269780661655485', None), 'rs2': ('S338', None, '5.928321020727583', None)}, 'Ste2@3': {'rs3': ('S339', None, '3.4905064718238514', None), 'rs1': ('S331', None, '2.3832305715485393', None), 'rs4': ('K337', None, '0.8269780661655485', None), 'rs2': ('S338', None, '5.928321020727583', None)}, 'Sst2': {'rs1': (None, None, '0.7838611806902125', ''), 'rs2': ('S539', None, '2.32', None)}}
-Modifications RHS: {'MfAlpha12': {}, 'Ste2@2': {'rs3': ('S339', 'phosphorylated', '3.4905064718238514', None), 'rs1': ('S331', 'phosphorylated', '2.3832305715485393', None), 'rs4': ('K337', None, '0.8269780661655485', None), 'rs2': ('S338', 'phosphorylated', '5.928321020727583', None)}, 'Ste2@3': {'rs3': ('S339', 'phosphorylated', '3.4905064718238514', None), 'rs1': ('S331', 'phosphorylated', '2.3832305715485393', None), 'rs4': ('K337', None, '0.8269780661655485', None), 'rs2': ('S338', 'phosphorylated', '5.928321020727583', None)}, 'Sst2': {'rs1': (None, None, '0.7838611806902125', ''), 'rs2': ('S539', None, '2.32', None)}}
+Modifications LHS: {'MfAlpha12': {}, 'Ste2@2': {'rs4': ('K337', None, '0.8269780661655485', None), 'rs1': ('S331', None, '2.3832305715485393', None), 'rs2': ('S338', None, '5.928321020727583', None), 'rs3': ('S339', None, '3.4905064718238514', None)}, 'Sst2': {'rs1': (None, None, '0.7838611806902125', ''), 'rs2': ('S539', None, '2.32', None)}, 'Ste2@3': {'rs4': ('K337', None, '0.8269780661655485', None), 'rs1': ('S331', None, '2.3832305715485393', None), 'rs2': ('S338', None, '5.928321020727583', None), 'rs3': ('S339', None, '3.4905064718238514', None)}}
+Modifications RHS: {'MfAlpha12': {}, 'Ste2@2': {'rs4': ('K337', None, '0.8269780661655485', None), 'rs1': ('S331', 'phosphorylated', '2.3832305715485393', None), 'rs2': ('S338', 'phosphorylated', '5.928321020727583', None), 'rs3': ('S339', 'phosphorylated', '3.4905064718238514', None)}, 'Sst2': {'rs1': (None, None, '0.7838611806902125', ''), 'rs2': ('S539', None, '2.32', None)}, 'Ste2@3': {'rs4': ('K337', None, '0.8269780661655485', None), 'rs1': ('S331', 'phosphorylated', '2.3832305715485393', None), 'rs2': ('S338', 'phosphorylated', '5.928321020727583', None), 'rs3': ('S339', 'phosphorylated', '3.4905064718238514', None)}}
 Modification type: P+
 LHSp:[]
 
@@ -1696,8 +1696,8 @@ Single components:['MfAlpha12@1', 'Sst2@4', 'Ste2@2', 'Ste2@3']->['MfAlpha12@1',
 Rxn type: False
 PPIs LHS: ['Sst2@4--Ste2@2', 'Ste2@1--Ste2@2', 'MfAlpha12@1--Ste2@2']
 PPIs RHS: ['Sst2@4--Ste2@2', 'Ste2@1--Ste2@2', 'MfAlpha12@1--Ste2@2']
-Modifications LHS: {'MfAlpha12': {}, 'Ste2@2': {'rs3': ('S339', 'phosphorylated', '3.4905064718238514', None), 'rs1': ('S331', 'phosphorylated', '2.3832305715485393', None), 'rs4': ('K337', None, '0.8269780661655485', None), 'rs2': ('S338', 'phosphorylated', '5.928321020727583', None)}, 'Ste2@3': {'rs3': ('S339', 'phosphorylated', '3.4905064718238514', None), 'rs1': ('S331', 'phosphorylated', '2.3832305715485393', None), 'rs4': ('K337', None, '0.8269780661655485', None), 'rs2': ('S338', 'phosphorylated', '5.928321020727583', None)}, 'Sst2': {'rs1': (None, None, '0.7838611806902125', ''), 'rs2': ('S539', None, '2.32', None)}}
-Modifications RHS: {'MfAlpha12': {}, 'Ste2@2': {'rs3': ('S339', 'phosphorylated', '3.4905064718238514', None), 'rs1': ('S331', 'phosphorylated', '2.3832305715485393', None), 'rs4': ('K337', 'ubiquitinated', '0.8269780661655485', None), 'rs2': ('S338', 'phosphorylated', '5.928321020727583', None)}, 'Ste2@3': {'rs3': ('S339', 'phosphorylated', '3.4905064718238514', None), 'rs1': ('S331', 'phosphorylated', '2.3832305715485393', None), 'rs4': ('K337', 'ubiquitinated', '0.8269780661655485', None), 'rs2': ('S338', 'phosphorylated', '5.928321020727583', None)}, 'Sst2': {'rs1': (None, None, '0.7838611806902125', ''), 'rs2': ('S539', None, '2.32', None)}}
+Modifications LHS: {'MfAlpha12': {}, 'Ste2@2': {'rs4': ('K337', None, '0.8269780661655485', None), 'rs1': ('S331', 'phosphorylated', '2.3832305715485393', None), 'rs2': ('S338', 'phosphorylated', '5.928321020727583', None), 'rs3': ('S339', 'phosphorylated', '3.4905064718238514', None)}, 'Sst2': {'rs1': (None, None, '0.7838611806902125', ''), 'rs2': ('S539', None, '2.32', None)}, 'Ste2@3': {'rs4': ('K337', None, '0.8269780661655485', None), 'rs1': ('S331', 'phosphorylated', '2.3832305715485393', None), 'rs2': ('S338', 'phosphorylated', '5.928321020727583', None), 'rs3': ('S339', 'phosphorylated', '3.4905064718238514', None)}}
+Modifications RHS: {'MfAlpha12': {}, 'Ste2@2': {'rs4': ('K337', 'ubiquitinated', '0.8269780661655485', None), 'rs1': ('S331', 'phosphorylated', '2.3832305715485393', None), 'rs2': ('S338', 'phosphorylated', '5.928321020727583', None), 'rs3': ('S339', 'phosphorylated', '3.4905064718238514', None)}, 'Sst2': {'rs1': (None, None, '0.7838611806902125', ''), 'rs2': ('S539', None, '2.32', None)}, 'Ste2@3': {'rs4': ('K337', 'ubiquitinated', '0.8269780661655485', None), 'rs1': ('S331', 'phosphorylated', '2.3832305715485393', None), 'rs2': ('S338', 'phosphorylated', '5.928321020727583', None), 'rs3': ('S339', 'phosphorylated', '3.4905064718238514', None)}}
 Modification type: Ub+
 LHSp:[]
 
@@ -1708,8 +1708,8 @@ Single components:['MfAlpha12@1', 'MfAlpha12@1', 'Sst2@4', 'Sst2@4', 'Ste2@2', '
 Rxn type: False
 PPIs LHS: ['Sst2@4--Ste2@2', 'Ste2@1--Ste2@2', 'MfAlpha12@1--Ste2@2']
 PPIs RHS: ['Sst2@4--Ste2@2', 'Ste2@1--Ste2@2', 'MfAlpha12@1--Ste2@2']
-Modifications LHS: {'MfAlpha12': {}, 'Ste2@2': {'rs3': ('S339', 'phosphorylated', '3.4905064718238514', None), 'rs1': ('S331', 'phosphorylated', '2.3832305715485393', None), 'rs4': ('K337', None, '0.8269780661655485', None), 'rs2': ('S338', 'phosphorylated', '5.928321020727583', None)}, 'Ste2@3': {'rs3': ('S339', 'phosphorylated', '3.4905064718238514', None), 'rs1': ('S331', 'phosphorylated', '2.3832305715485393', None), 'rs4': ('K337', None, '0.8269780661655485', None), 'rs2': ('S338', 'phosphorylated', '5.928321020727583', None)}, 'Sst2': {'rs1': (None, None, '0.7838611806902125', ''), 'rs2': ('S539', None, '2.32', None)}}
-Modifications RHS: {'MfAlpha12': {}, 'Ste2@2': {'rs3': ('S339', 'phosphorylated', '3.4905064718238514', None), 'rs1': ('S331', 'phosphorylated', '2.3832305715485393', None), 'rs4': ('K337', 'ubiquitinated', '0.8269780661655485', None), 'rs2': ('S338', 'phosphorylated', '5.928321020727583', None)}, 'Ste2@3': {'rs3': ('S339', 'phosphorylated', '3.4905064718238514', None), 'rs1': ('S331', 'phosphorylated', '2.3832305715485393', None), 'rs4': ('K337', 'ubiquitinated', '0.8269780661655485', None), 'rs2': ('S338', 'phosphorylated', '5.928321020727583', None)}, 'Sst2': {'rs1': (None, None, '0.7838611806902125', ''), 'rs2': ('S539', None, '2.32', None)}}
+Modifications LHS: {'MfAlpha12': {}, 'Ste2@2': {'rs4': ('K337', None, '0.8269780661655485', None), 'rs1': ('S331', 'phosphorylated', '2.3832305715485393', None), 'rs2': ('S338', 'phosphorylated', '5.928321020727583', None), 'rs3': ('S339', 'phosphorylated', '3.4905064718238514', None)}, 'Sst2': {'rs1': (None, None, '0.7838611806902125', ''), 'rs2': ('S539', None, '2.32', None)}, 'Ste2@3': {'rs4': ('K337', None, '0.8269780661655485', None), 'rs1': ('S331', 'phosphorylated', '2.3832305715485393', None), 'rs2': ('S338', 'phosphorylated', '5.928321020727583', None), 'rs3': ('S339', 'phosphorylated', '3.4905064718238514', None)}}
+Modifications RHS: {'MfAlpha12': {}, 'Ste2@2': {'rs4': ('K337', 'ubiquitinated', '0.8269780661655485', None), 'rs1': ('S331', 'phosphorylated', '2.3832305715485393', None), 'rs2': ('S338', 'phosphorylated', '5.928321020727583', None), 'rs3': ('S339', 'phosphorylated', '3.4905064718238514', None)}, 'Sst2': {'rs1': (None, None, '0.7838611806902125', ''), 'rs2': ('S539', None, '2.32', None)}, 'Ste2@3': {'rs4': ('K337', 'ubiquitinated', '0.8269780661655485', None), 'rs1': ('S331', 'phosphorylated', '2.3832305715485393', None), 'rs2': ('S338', 'phosphorylated', '5.928321020727583', None), 'rs3': ('S339', 'phosphorylated', '3.4905064718238514', None)}}
 Modification type: Ub+
 LHSp:[]
 
@@ -1720,8 +1720,8 @@ Single components:['MfAlpha12@1', 'MfAlpha12@1', 'MfAlpha12@1', 'Sst2@4', 'Sst2@
 Rxn type: False
 PPIs LHS: ['Sst2@4--Ste2@2', 'Ste2@1--Ste2@2', 'MfAlpha12@1--Ste2@2']
 PPIs RHS: ['Sst2@4--Ste2@2', 'Ste2@1--Ste2@2', 'MfAlpha12@1--Ste2@2']
-Modifications LHS: {'MfAlpha12': {}, 'Ste2@2': {'rs3': ('S339', 'phosphorylated', '3.4905064718238514', None), 'rs1': ('S331', 'phosphorylated', '2.3832305715485393', None), 'rs4': ('K337', None, '0.8269780661655485', None), 'rs2': ('S338', 'phosphorylated', '5.928321020727583', None)}, 'Ste2@3': {'rs3': ('S339', 'phosphorylated', '3.4905064718238514', None), 'rs1': ('S331', 'phosphorylated', '2.3832305715485393', None), 'rs4': ('K337', None, '0.8269780661655485', None), 'rs2': ('S338', 'phosphorylated', '5.928321020727583', None)}, 'Sst2': {'rs1': (None, None, '0.7838611806902125', ''), 'rs2': ('S539', None, '2.32', None)}}
-Modifications RHS: {'MfAlpha12': {}, 'Ste2@2': {'rs3': ('S339', 'phosphorylated', '3.4905064718238514', None), 'rs1': ('S331', 'phosphorylated', '2.3832305715485393', None), 'rs4': ('K337', 'ubiquitinated', '0.8269780661655485', None), 'rs2': ('S338', 'phosphorylated', '5.928321020727583', None)}, 'Ste2@3': {'rs3': ('S339', 'phosphorylated', '3.4905064718238514', None), 'rs1': ('S331', 'phosphorylated', '2.3832305715485393', None), 'rs4': ('K337', 'ubiquitinated', '0.8269780661655485', None), 'rs2': ('S338', 'phosphorylated', '5.928321020727583', None)}, 'Sst2': {'rs1': (None, None, '0.7838611806902125', ''), 'rs2': ('S539', None, '2.32', None)}}
+Modifications LHS: {'MfAlpha12': {}, 'Ste2@2': {'rs4': ('K337', None, '0.8269780661655485', None), 'rs1': ('S331', 'phosphorylated', '2.3832305715485393', None), 'rs2': ('S338', 'phosphorylated', '5.928321020727583', None), 'rs3': ('S339', 'phosphorylated', '3.4905064718238514', None)}, 'Sst2': {'rs1': (None, None, '0.7838611806902125', ''), 'rs2': ('S539', None, '2.32', None)}, 'Ste2@3': {'rs4': ('K337', None, '0.8269780661655485', None), 'rs1': ('S331', 'phosphorylated', '2.3832305715485393', None), 'rs2': ('S338', 'phosphorylated', '5.928321020727583', None), 'rs3': ('S339', 'phosphorylated', '3.4905064718238514', None)}}
+Modifications RHS: {'MfAlpha12': {}, 'Ste2@2': {'rs4': ('K337', 'ubiquitinated', '0.8269780661655485', None), 'rs1': ('S331', 'phosphorylated', '2.3832305715485393', None), 'rs2': ('S338', 'phosphorylated', '5.928321020727583', None), 'rs3': ('S339', 'phosphorylated', '3.4905064718238514', None)}, 'Sst2': {'rs1': (None, None, '0.7838611806902125', ''), 'rs2': ('S539', None, '2.32', None)}, 'Ste2@3': {'rs4': ('K337', 'ubiquitinated', '0.8269780661655485', None), 'rs1': ('S331', 'phosphorylated', '2.3832305715485393', None), 'rs2': ('S338', 'phosphorylated', '5.928321020727583', None), 'rs3': ('S339', 'phosphorylated', '3.4905064718238514', None)}}
 Modification type: Ub+
 LHSp:[]
 
@@ -1929,37 +1929,39 @@ Gpa1_[GDP]_i-_GDP_[Gpa1],Gpa1,GDP,,i-,GDP,Gpa1,,,,
 Gpa1_[GTP]_i+_GTP_[Gpa1],Gpa1,GTP,,i+,GTP,Gpa1,,,,
 Modification type: False
 LHSp:[]
-Warning: The modifier <Far1_re65> has not been initialised. Please initialise or remove line ['<Fus3PplusFar1_re65>,AND,<Far1_re65>']
-Warning: The modifier <Bcy1_re235_0> has not been initialised. Please initialise or remove line ['<Tpk2PplusBcy1_re235_0>,AND,<Bcy1_re235_0>']
-Warning: The modifier <Tpk2PplusFlo8_re52> has not been initialised. Please initialise or remove line ['<Tpk2PplusFlo8(rs1)>,AND,<Tpk2PplusFlo8_re52>']
-Warning: The modifier <Sst2_re166> has not been initialised. Please initialise or remove line ['<Rad6UbplusSst2_re166>,AND,<Sst2_re166>']
-Warning: The modifier <Bcy1_re235_2> has not been initialised. Please initialise or remove line ['<Tpk1PplusBcy1_re235_2>,AND,<Bcy1_re235_2>']
 Warning: The modifier <Bcy1_re235_1> has not been initialised. Please initialise or remove line ['<Tpk3PplusBcy1_re235_1>,AND,<Bcy1_re235_1>']
-Line <Fus3PplusFar1_re65>,AND,<Far1_re65> has been removed.
-Line <Tpk2PplusBcy1_re235_0>,AND,<Bcy1_re235_0> has been removed.
-Line <Tpk2PplusFlo8(rs1)>,AND,<Tpk2PplusFlo8_re52> has been removed.
-Line <Rad6UbplusSst2_re166>,AND,<Sst2_re166> has been removed.
-Line <Tpk1PplusBcy1_re235_2>,AND,<Bcy1_re235_2> has been removed.
+Warning: The modifier <Far1_re65> has not been initialised. Please initialise or remove line ['<Fus3PplusFar1_re65>,AND,<Far1_re65>', '<Fus3PplusFar1_re65>,AND,<Far1_re65>', '<Fus3PplusFar1_re65>,AND,<Far1_re65>']
+Warning: The modifier <Sst2_re166> has not been initialised. Please initialise or remove line ['<Rad6UbplusSst2_re166>,AND,<Sst2_re166>']
+Warning: The modifier <Tpk2PplusFlo8_re52> has not been initialised. Please initialise or remove line ['<Tpk2PplusFlo8(rs1)>,AND,<Tpk2PplusFlo8_re52>']
+Warning: The modifier <Bcy1_re235_0> has not been initialised. Please initialise or remove line ['<Tpk2PplusBcy1_re235_0>,AND,<Bcy1_re235_0>']
+Warning: The modifier <Bcy1_re235_2> has not been initialised. Please initialise or remove line ['<Tpk1PplusBcy1_re235_2>,AND,<Bcy1_re235_2>']
 Line <Tpk3PplusBcy1_re235_1>,AND,<Bcy1_re235_1> has been removed.
-Warning: The modifier <Rad6UbplusSst2_re166> has not been initialised. Please initialise or remove line ['<Rad6UbplusSst2(rs1)>,AND,<Rad6UbplusSst2_re166>']
+Line <Fus3PplusFar1_re65>,AND,<Far1_re65> has been removed.
+Line <Fus3PplusFar1_re65>,AND,<Far1_re65> has been removed.
+Line <Fus3PplusFar1_re65>,AND,<Far1_re65> has been removed.
+Line <Rad6UbplusSst2_re166>,AND,<Sst2_re166> has been removed.
+Line <Tpk2PplusFlo8(rs1)>,AND,<Tpk2PplusFlo8_re52> has been removed.
+Line <Tpk2PplusBcy1_re235_0>,AND,<Bcy1_re235_0> has been removed.
+Line <Tpk1PplusBcy1_re235_2>,AND,<Bcy1_re235_2> has been removed.
+Warning: The modifier <Tpk2PplusBcy1_re235_0> has not been initialised. Please initialise or remove line ['<Tpk2PplusBcy1(S145)>,AND,<Tpk2PplusBcy1_re235_0>']
 Warning: The modifier <Tpk2PplusFlo8(rs1)> has not been initialised. Please initialise or remove line ['Tpk2_P+_Flo8_[(rs1)],!,<Tpk2PplusFlo8(rs1)>']
 Warning: The modifier <Tpk3PplusBcy1_re235_1> has not been initialised. Please initialise or remove line ['<Tpk3PplusBcy1(S145)>,AND,<Tpk3PplusBcy1_re235_1>']
 Warning: The modifier <Fus3PplusFar1_re65> has not been initialised. Please initialise or remove line ['<Fus3PplusFar1(T306)>,AND,<Fus3PplusFar1_re65>']
-Warning: The modifier <Tpk2PplusBcy1_re235_0> has not been initialised. Please initialise or remove line ['<Tpk2PplusBcy1(S145)>,AND,<Tpk2PplusBcy1_re235_0>']
 Warning: The modifier <Tpk1PplusBcy1_re235_2> has not been initialised. Please initialise or remove line ['<Tpk1PplusBcy1(S145)>,AND,<Tpk1PplusBcy1_re235_2>']
-Line <Rad6UbplusSst2(rs1)>,AND,<Rad6UbplusSst2_re166> has been removed.
+Warning: The modifier <Rad6UbplusSst2_re166> has not been initialised. Please initialise or remove line ['<Rad6UbplusSst2(rs1)>,AND,<Rad6UbplusSst2_re166>']
+Line <Tpk2PplusBcy1(S145)>,AND,<Tpk2PplusBcy1_re235_0> has been removed.
 Line Tpk2_P+_Flo8_[(rs1)],!,<Tpk2PplusFlo8(rs1)> has been removed.
 Line <Tpk3PplusBcy1(S145)>,AND,<Tpk3PplusBcy1_re235_1> has been removed.
 Line <Fus3PplusFar1(T306)>,AND,<Fus3PplusFar1_re65> has been removed.
-Line <Tpk2PplusBcy1(S145)>,AND,<Tpk2PplusBcy1_re235_0> has been removed.
 Line <Tpk1PplusBcy1(S145)>,AND,<Tpk1PplusBcy1_re235_2> has been removed.
+Line <Rad6UbplusSst2(rs1)>,AND,<Rad6UbplusSst2_re166> has been removed.
+Warning: The modifier <Tpk3PplusBcy1(S145)> has not been initialised. Please initialise or remove line ['Tpk3_P+_Bcy1_[(S145)],!,<Tpk3PplusBcy1(S145)>']
+Warning: The modifier <Rad6UbplusSst2(rs1)> has not been initialised. Please initialise or remove line ['Rad6_Ub+_Sst2_[(rs1)],!,<Rad6UbplusSst2(rs1)>']
+Warning: The modifier <Fus3PplusFar1(T306)> has not been initialised. Please initialise or remove line ['Fus3_P+_Far1_[(T306)],!,<Fus3PplusFar1(T306)>']
 Warning: The modifier <Tpk2PplusBcy1(S145)> has not been initialised. Please initialise or remove line ['Tpk2_P+_Bcy1_[(S145)],!,<Tpk2PplusBcy1(S145)>']
 Warning: The modifier <Tpk1PplusBcy1(S145)> has not been initialised. Please initialise or remove line ['Tpk1_P+_Bcy1_[(S145)],!,<Tpk1PplusBcy1(S145)>']
-Warning: The modifier <Fus3PplusFar1(T306)> has not been initialised. Please initialise or remove line ['Fus3_P+_Far1_[(T306)],!,<Fus3PplusFar1(T306)>']
-Warning: The modifier <Rad6UbplusSst2(rs1)> has not been initialised. Please initialise or remove line ['Rad6_Ub+_Sst2_[(rs1)],!,<Rad6UbplusSst2(rs1)>']
-Warning: The modifier <Tpk3PplusBcy1(S145)> has not been initialised. Please initialise or remove line ['Tpk3_P+_Bcy1_[(S145)],!,<Tpk3PplusBcy1(S145)>']
+Line Tpk3_P+_Bcy1_[(S145)],!,<Tpk3PplusBcy1(S145)> has been removed.
+Line Rad6_Ub+_Sst2_[(rs1)],!,<Rad6UbplusSst2(rs1)> has been removed.
+Line Fus3_P+_Far1_[(T306)],!,<Fus3PplusFar1(T306)> has been removed.
 Line Tpk2_P+_Bcy1_[(S145)],!,<Tpk2PplusBcy1(S145)> has been removed.
 Line Tpk1_P+_Bcy1_[(S145)],!,<Tpk1PplusBcy1(S145)> has been removed.
-Line Fus3_P+_Far1_[(T306)],!,<Fus3PplusFar1(T306)> has been removed.
-Line Rad6_Ub+_Sst2_[(rs1)],!,<Rad6UbplusSst2(rs1)> has been removed.
-Line Tpk3_P+_Bcy1_[(S145)],!,<Tpk3PplusBcy1(S145)> has been removed.
