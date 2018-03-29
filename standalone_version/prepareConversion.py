@@ -6,6 +6,7 @@ import molecule
 import re
 import SBtab
 import validatorSBtab
+import misc
 from molecule import Molecule, MoleculeDef, Complex, Rule
 from anytree import Node, RenderTree
 
@@ -448,8 +449,7 @@ def prepareModel(file_name: str):
         print('Warnings for file %s:\n' % filename)
         for warning in warnings:
             print(warning)
-    sbtab_contingency.write(filename)         
-    
+    sbtab_contingency.write(filename)
 
     # 3.2 Now reading the file back in and storing the provided information
     print('The file bindings_filename.csv has been written to directory inputoutput.'\

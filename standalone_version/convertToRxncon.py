@@ -6,6 +6,7 @@ import molecule
 import re
 import SBtab
 import validatorSBtab
+import misc
 from molecule import Molecule, MoleculeDef, Complex, Rule
 
 def convert(file_name: str):
@@ -1493,7 +1494,7 @@ def outwriter(sbtab_string_reactions,
     # don't print warnings, the digit warning is omnipotent!
 
     sbtab_reaction.write(filename_r)
-    
+   
     # correct, clean, and flatten the contingencies
     outputs = correct_contingency_lines(contingencies)
 
@@ -1522,6 +1523,13 @@ def outwriter(sbtab_string_reactions,
 
     sbtab_contingency.write(filename_c)
 
+    # write reaction/contingency xls
+    ff = re.search('(.*)/(.*)', file_name[:-4].lower()).group(2)
+    filename_m = 'files/%s_model.xls' % (ff)
+    
+    misc.csv2xls([sbtab_reaction, sbtab_contingency],
+                 ['reactions', 'contingencies'], filename_m)
+    
     # write the log file
     ll = re.search('(.*)/(.*)', file_name[:-4].lower()).group(2)
     filename = 'files/%s_logfile.txt' % (ll)

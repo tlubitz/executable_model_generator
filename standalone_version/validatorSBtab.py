@@ -304,7 +304,7 @@ if __name__ == '__main__':
     sbtab_file_o = open(file_name, 'r')
     sbtab_file = sbtab_file_o.read()
     sbtab_file_o.close()
-    delimiter = misc.getDelimiter(sbtab_file)
+    delimiter = misc.check_delimiter(sbtab_file)
     sbtab_tablib = tablibIO.importSetNew(sbtab_file, file_name, delimiter)
 
     try:
