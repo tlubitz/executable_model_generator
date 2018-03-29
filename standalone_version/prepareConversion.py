@@ -4,6 +4,8 @@ import sys
 import copy
 import molecule
 import re
+import SBtab
+import validatorSBtab
 from molecule import Molecule, MoleculeDef, Complex, Rule
 from anytree import Node, RenderTree
 
@@ -426,19 +428,28 @@ def prepareModel(file_name: str):
         # print("%s%s" % (pre, node.name))
         pass
 
+    sbtab_string = '!!SBtab TableType="rxnconContingencyList" '\
+                   'TableName="ContingencyList" Document="%s" '\
+                   '\n' % (file_name[:-4])
+    sbtab_string += '!UID:Contingency,!Target,!Contingency,!Modifier,'\
+                    '!Reference:Identifiers:pubmed,!Quality,!Comment,'\
+                    '!InternalComplexID\n'
+    for i, row in enumerate(sorted(rows)):
+        sbtab_string += str(i + 1) + ',' + row
+
+
     ff = re.search('(.*)/(.*)', file_name[:-4].lower()).group(2)
     filename = 'files/%s_bindings.csv' % (ff)
-    domain_file = open(filename, 'w')
-    domain_file.write('!!SBtab TableType="rxnconContingencyList"'\
-                      'TableName="ContingencyList" Document="%s"'\
-                      '\n' % (file_name[:-4]))
-    domain_file.write('!UID:Contingency,!Target,!Contingency,!Modifier,'\
-                      '!Reference:Identifiers:pubmed,!Quality,!Comment,'\
-                      '!InternalComplexID\n')
-
-    for i, row in enumerate(sorted(rows)):
-        domain_file.write(str(i + 1) + ',' + row)
-    domain_file.close()
+    sbtab_contingency = SBtab.SBtabTable(sbtab_string, filename)
+    sbtab_contingency_valid = validatorSBtab.ValidateTable(sbtab_contingency,
+                                                           filename)
+    warnings = sbtab_contingency_valid.return_output()
+    if warnings != []:
+        print('Warnings for file %s:\n' % filename)
+        for warning in warnings:
+            print(warning)
+    sbtab_contingency.write(filename)         
+    
 
     # 3.2 Now reading the file back in and storing the provided information
     print('The file bindings_filename.csv has been written to directory inputoutput.'\
@@ -450,7 +461,8 @@ def prepareModel(file_name: str):
 
     while get_file is False:
         try:
-            domain_file = open(filename[:-4] + '_re.csv', 'r').read()
+            filename_re = filename[:-4] + '_re.csv'
+            domain_file = open(filename_re, 'r').read()
             get_file = True
         except:
             print('The domain file could not be read. Please make sure the'\
@@ -458,11 +470,17 @@ def prepareModel(file_name: str):
                   'ter again.')
             input('')
 
+    sbtab_contingency_re = SBtab.SBtabTable(domain_file, filename_re)
+    sbtab_contingency_re_valid = validatorSBtab.ValidateTable(sbtab_contingency_re,
+                                                              filename_re)
+    warnings = sbtab_contingency_re_valid.return_output()
+    if warnings != []:
+        print('Warnings for file %s:\n' % filename_re)
+        for warning in warnings:
+            print(warning)
+
     saver = []
-    for r in domain_file.split('\n'):
-        if r.startswith('!'): continue
-        row = r.split(',')
-        if row == ['']: continue
+    for row in sbtab_contingency_re.value_rows:
         saver.append(','.join(row[1:]))
         row_id = row[0]
         row_c = re.search('<(.*)>', row[1]).group(1)

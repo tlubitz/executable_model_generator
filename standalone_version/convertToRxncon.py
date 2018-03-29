@@ -4,6 +4,8 @@ import sys
 import copy
 import molecule
 import re
+import SBtab
+import validatorSBtab
 from molecule import Molecule, MoleculeDef, Complex, Rule
 
 def convert(file_name: str):
@@ -806,7 +808,7 @@ def convert(file_name: str):
                                                                       long2short[residue_content[1]])
                     else:
                         if '@' not in k:
-                            contingency = '<%s_%s>,2AND,%s@%s_[(%s)]-{%s}' % (component.get_name(),
+                            contingency = '<%s_%s>,AND,%s@%s_[(%s)]-{%s}' % (component.get_name(),
                                                                              rule.get_id(), k,
                                                                              k_obj.get_index(),
                                                                              residue,
@@ -1139,8 +1141,10 @@ def convert(file_name: str):
         if rule.get_id() in reaction2singlecat.keys():
             rule.set_modifier_name(reaction2singlecat[rule.get_id()])
 
-    new_wl.append('\n\n!!SBtab TableType="contingencies" TableName="Contingency'\
-                  'List"\n!ID,!Target,!Contingency,!Modifier')
+    sbtab_string_reactions = '\n'.join(new_wl)
+    sbtab_string_contingencies = '!!SBtab TableType="rxnconContingencyList" T'\
+                                 'ableName="ContingencyList"\n!ID,!Target,!Co'\
+                                 'ntingency,!Modifier\n'
 
     for e in events:
         for s in events[e]:
@@ -1149,7 +1153,8 @@ def convert(file_name: str):
                 else: contingencies.append(''.join(s.replace('OR', 'AND')))
             except: log_file += 'Error writing event %s\n' % (e)
 
-    outwriter(new_wl, contingencies)
+    outwriter(sbtab_string_reactions,
+              sbtab_string_contingencies, contingencies)
 
     return model_object
 
@@ -1166,43 +1171,65 @@ def get_catalysts_by_user(writelines):
 
     ff = re.search('(.*)/(.*)', file_name[:-4].lower()).group(2)
     filename = 'files/%s_catalysts.csv' % (ff)
-    f = open(filename, 'w')
-    f.write('!!SBtab TableType="rxnconReactionList" TableName="ReactionList"\n'\
-            '!ID,!UID:Reaction,!ComponentA:Name,!ComponentA:Domain,!ComponentA'\
-            ':Residue,!Reaction,!ComponentB:Name,!ComponentB:Domain,!Component'\
-            'B:Residue,!Quality,!Literature:Identifiers:pubmed,!Comment\n')
-    dismiss = []
-    old = []
-    counter = 1
-    for i, line in enumerate(writelines):
-        if line not in dismiss:
-            f.write(str(counter) + ',' + line + '\n')
-            old.append(line)
-            dismiss.append(line)
-            counter += 1
-    f.close()
+
+    sbtab_string = '!!SBtab TableType="rxnconReactionList" TableName="Reactio'\
+                   'nList"\n!ID,!UID:Reaction,!ComponentA:Name,!ComponentA:Do'\
+                   'main,!ComponentA:Residue,!Reaction,!ComponentB:Name,!Comp'\
+                   'onentB:Domain,!ComponentB:Residue,!Quality,!Literature:Id'\
+                   'entifiers:pubmed,!Comment\n'
+    writelines_set = set(writelines)
+    
+    for i, row in enumerate(writelines_set):
+        sbtab_string += str(i + 1) + ',' + row + '\n'
+
+    sbtab_reaction = SBtab.SBtabTable(sbtab_string, filename)
+    sbtab_reaction_valid = validatorSBtab.ValidateTable(sbtab_reaction,
+                                                        filename)
+    warnings = sbtab_reaction_valid.return_output()
+    # needs to be commented out; the validator turns mad if it sees that all
+    # lines begin with a digit
+    #if warnings != []:
+    #    print('Warnings for file %s:' % filename)
+    #    for warning in warnings:
+    #        print(warning)
+
+    sbtab_reaction.write(filename)
 
     print('The file catalysts.csv has been written to the files directory. P'\
-          'lease open the file, choose a catalyst for each ambiguous reaction,'\
-          'and save it. Please do not change the order of reactions or add/rem'\
-          'ove rows. If you"re done, please hit enter and this script will pro'\
-          'ceed.')
+          'lease open the file, choose a catalyst for each ambiguous reaction'\
+          ',and save it. Please do not change the order of reactions or add/r'\
+          'emove rows. If you"re done, please hit enter and this script will '\
+          'proceed.')
     input('')
 
     get_file = False
+    filename_re = filename[:-4] + '_re.csv'
     while get_file is False:
         try:
-            catalysts_file = open(filename[:-4] + '_re.csv', 'r').read()
+            catalysts_file = open(filename_re, 'r').read()
             get_file = True
         except:
             print('The catalysts file could not be read. Please make sure the'\
-                  'file name and location have not changed and then hit enter'\
-                  'again.')
+                  ' file name and location have not changed and then hit ente'\
+                  'r again.')
             input('')
 
+    sbtab_reactions_re = SBtab.SBtabTable(catalysts_file, filename_re)
+    sbtab_reactions_re_valid = validatorSBtab.ValidateTable(sbtab_reactions_re,
+                                                            filename_re)
+    warnings = sbtab_reactions_re_valid.return_output()
+    # needs to be commented out; the validator turns mad if it sees that all
+    # lines begin with a digit
+    #if warnings != []:
+    #    print('Warnings for file %s:' % filename_re)
+    #    for warning in warnings:
+    #        print(warning)
+
+    sbtab_string = sbtab_reactions_re.return_table_string()
+            
     new_wl = []
     auto_p = False
-    for row in catalysts_file.split('\n'):
+    for row in sbtab_string.split('\n'):
         if '|' in row:
             print('There is an error in row %s. Please choose the correct cat'\
                   'alyst in the response file and run the program'\
@@ -1212,12 +1239,11 @@ def get_catalysts_by_user(writelines):
         if 'AP+' in row:
             row = row.replace('AP+', 'P+')
             auto_p = True
-
         # see output:
         # the rest == rest2 comparison is too ambiguous; it fits for all
         # reX_Y scenarios and thus also overwrites all of them in the end.
         splitrow = ','.join(row.split(',')[1:])
-        if splitrow in old or splitrow.startswith('!') or splitrow == '' or splitrow.startswith(','): continue
+        if splitrow in writelines_set or splitrow.startswith('!') or splitrow == '' or splitrow.startswith(','): continue
         else:
             splitrow = splitrow.split(',')
             try:
@@ -1344,8 +1370,7 @@ def flatten_contingencies(outputs, targets, modifiers, mod2line, tar2line):
     return outputs
     
 
-
-def correct_contingency_lines(contingencies, dismiss):
+def correct_contingency_lines(contingencies):
     '''
     write the contingencies and dont forget to replace certain
     characters and ambiguities
@@ -1363,117 +1388,115 @@ def correct_contingency_lines(contingencies, dismiss):
     }
     modifications = ['P+','Ub+','Palm+','Pre+']
     
-    #counter = 1
     outputs = []
     for j, line in enumerate(contingencies):
         empty_residue = False
-        if line not in dismiss:
-            # 1: cutout empty residues
-            for component in oppress_empty_residues.keys():
-                for residue in oppress_empty_residues[component]:
-                    if component in line and '_[(' + residue + ')]-{0}' in line:
-                        empty_residue = True
-            if empty_residue:  continue
+        # 1: cutout empty residues
+        for component in oppress_empty_residues.keys():
+            for residue in oppress_empty_residues[component]:
+                if component in line and '_[(' + residue + ')]-{0}' in line:
+                    empty_residue = True
+        if empty_residue:  continue
 
-            # 2: replace ambiguous catalysts with correct catalysts for the
-            #    different cases
-            if '|' in line:
-                for r_id in reaction2singlecat.keys():
-                    if r_id in line:    # case: reaction ID appears in line
-                        new_catalyst = reaction2singlecat[r_id]
+        # 2: replace ambiguous catalysts with correct catalysts for the
+        #    different cases
+        if '|' in line:
+            for r_id in reaction2singlecat.keys():
+                if r_id in line:    # case: reaction ID appears in line
+                    new_catalyst = reaction2singlecat[r_id]
+                    old_catalyst = re.search(r'(\[(.*?)\])', line)
+                    try:
+                        line = line.replace(old_catalyst.group(1),
+                                            new_catalyst)
+                        line = line.replace(old_catalyst.group(1).strip('[]'),
+                                            new_catalyst)
+                        if '_TRSC_' in line:
+                            line = line.replace('_' + r_id, '')
+                        break
+                    except: pass
+                # case: reaction ID with underscoreDigit appears in line
+                if r_id.split('_')[0] in line:
+                    try:
+                        r_id_iter = re.search(r_id.split('_')[0] + '_.',
+                                              line).group(0)
+                    except: r_id_iter = r_id
+                    try:
+                        try: new_catalyst = reaction2singlecat[r_id]
+                        except:
+                            new_catalyst = reaction2singlecat[r_id.split('_')[0]]
                         old_catalyst = re.search(r'(\[(.*?)\])', line)
                         try:
-                            line = line.replace(old_catalyst.group(1),
-                                                new_catalyst)
-                            line = line.replace(old_catalyst.group(1).strip('[]'),
-                                                new_catalyst)
-                            if '_TRSC_' in line:
-                                line = line.replace('_' + r_id, '')
-                            break
+                            if new_catalyst in old_catalyst:
+                                line = line.replace(old_catalyst.group(1),
+                                                    new_catalyst)
+                                line = line.replace(old_catalyst.group(1).strip('[]'),
+                                                    new_catalyst)
+                                if '_TRSC_' in line:
+                                    line = line.replace('_' + r_id_iter, '')
+                                break
                         except: pass
-                    # case: reaction ID with underscoreDigit appears in line
-                    if r_id.split('_')[0] in line:
-                        try:
-                            r_id_iter = re.search(r_id.split('_')[0] + '_.',
-                                                  line).group(0)
-                        except: r_id_iter = r_id
-                        try:
-                            try: new_catalyst = reaction2singlecat[r_id]
-                            except:
-                                new_catalyst = reaction2singlecat[r_id.split('_')[0]]
-                            old_catalyst = re.search(r'(\[(.*?)\])', line)
-                            try:
-                                if new_catalyst in old_catalyst:
-                                    line = line.replace(old_catalyst.group(1),
-                                                        new_catalyst)
-                                    line = line.replace(old_catalyst.group(1).strip('[]'),
-                                                        new_catalyst)
-                                    if '_TRSC_' in line:
-                                        line = line.replace('_' + r_id_iter, '')
-                                    break
-                            except: pass
-                        except: pass
-
-                # in transcriptions the reaction identifier is required, but
-                # needs to be removed in the end
-                if '_TRSC_' in line:
-                    try:
-                        r_id = re.search('_re.*_.', line).group(0)
-                        line = line.replace(r_id, '')
                     except: pass
 
-                for cat in reaction2singlecat.values():
-                    if cat in line:
-                        breaker = False
-                        old_catalyst = re.search(r'(\[(.*?)\])', line)
-                        try:
-                            residues = singlecat2residue[cat]
-                            for r in residues:
-                                if r in line:
-                                    line = line.replace(old_catalyst.group(1),
-                                                        cat)
-                                    line = line.replace(old_catalyst.group(1).strip('[]'),
-                                                        cat)
-                                    breaker = True
-                                    break
-                            if breaker: break
-                        except: pass
+            # in transcriptions the reaction identifier is required, but
+            # needs to be removed in the end
+            if '_TRSC_' in line:
+                try:
+                    r_id = re.search('_re.*_.', line).group(0)
+                    line = line.replace(r_id, '')
+                except: pass
 
-            # 3: remove special characters if the appear in
-            #    Boolean statements <...>
-            for sc in rmv_special_chars.keys():
-                while re.search('<.*(%s).*>' % (sc), line):
-                    terms = re.search('(.*)(<.*)(%s)(.*>)(.*)' % (sc), line)
-                    ss = sc.replace('\\', '')
-                    line = terms.group(1) + terms.group(2) + terms.group(3).replace(ss, rmv_special_chars[sc]) + terms.group(4) + terms.group(5)
-            #nl = str(counter) + ',' + ''.join(line) + '\n'
-            nl = ''.join(line)
-            if line not in dismiss:
-                if '|' in nl: nl = nl.replace('|', '')
-                outputs.append(nl)
-                dismiss.append(line)
-                #counter += 1
+            for cat in reaction2singlecat.values():
+                if cat in line:
+                    breaker = False
+                    old_catalyst = re.search(r'(\[(.*?)\])', line)
+                    try:
+                        residues = singlecat2residue[cat]
+                        for r in residues:
+                            if r in line:
+                                line = line.replace(old_catalyst.group(1),
+                                                    cat)
+                                line = line.replace(old_catalyst.group(1).strip('[]'),
+                                                    cat)
+                                breaker = True
+                                break
+                        if breaker: break
+                    except: pass
+
+        # 3: remove special characters if the appear in
+        #    Boolean statements <...>
+        for sc in rmv_special_chars.keys():
+            while re.search('<.*(%s).*>' % (sc), line):
+                terms = re.search('(.*)(<.*)(%s)(.*>)(.*)' % (sc), line)
+                ss = sc.replace('\\', '')
+                line = terms.group(1) + terms.group(2) + terms.group(3).replace(ss, rmv_special_chars[sc]) + terms.group(4) + terms.group(5)
+        nl = ''.join(line)
+        if '|' in nl: nl = nl.replace('|', '')
+        outputs.append(nl)
+
 
     return outputs
 
             
-def outwriter(writelines, contingencies):
+def outwriter(sbtab_string_reactions,
+              sbtab_string_contingencies, contingencies):
     '''
     writes to hard disk
     '''
+    # create, validate, and write reaction SBtab
     ff = re.search('(.*)/(.*)', file_name[:-4].lower()).group(2)
-    filename = 'files/%s_model.csv' % (ff)
-    f = open(filename, 'w')
-    dismiss = []
-    
-    # first write the reactions
-    for i, line in enumerate(writelines):
-        if line not in dismiss:
-            f.write(line + '\n')
-            dismiss.append(line)
+    filename_r = 'files/%s_model_reaction.csv' % (ff)
 
-    outputs = correct_contingency_lines(contingencies, dismiss)
+    sbtab_reaction = SBtab.SBtabTable(sbtab_string_reactions, filename_r)
+    sbtab_reaction_valid = validatorSBtab.ValidateTable(sbtab_reaction,
+                                                        filename_r)
+    warnings = sbtab_reaction_valid.return_output()
+    # don't print warnings, the digit warning is omnipotent!
+
+    sbtab_reaction.write(filename_r)
     
+    # correct, clean, and flatten the contingencies
+    outputs = correct_contingency_lines(contingencies)
+
     (outputs_init, targets, modifiers,
      mod2line, tar2line) = check_boolean_inits(outputs)
    
@@ -1483,15 +1506,25 @@ def outwriter(writelines, contingencies):
     (outputs_init, targets, modifiers,
      mod2line, tar2line) = check_boolean_inits(outputs_flattened)
 
-    doubles = []
-    for i,op in enumerate(sorted(outputs_init)):
-        if not op in doubles:
-            f.write(str(i+1) + ',' + op + '\n')
-            doubles.append(op)
-    f.close()
+    # create, validate, and write contingency SBtab
+    filename_c = filename_r.replace('reaction', 'contingency')
+    contingencies = set(outputs_init)
 
+    for i, contingency in enumerate(contingencies):
+        sbtab_string_contingencies += str(i + 1) + ',' + contingency + '\n'
+
+    sbtab_contingency = SBtab.SBtabTable(sbtab_string_contingencies,
+                                         filename_c)
+    sbtab_contingency_valid = validatorSBtab.ValidateTable(sbtab_contingency,
+                                                           filename_c)
+    warnings = sbtab_contingency_valid.return_output()
+    # don't print warnings, the digit warning is omnipotent!
+
+    sbtab_contingency.write(filename_c)
+
+    # write the log file
     ll = re.search('(.*)/(.*)', file_name[:-4].lower()).group(2)
-    filename = 'files/%s_logfile.csv' % (ll)
+    filename = 'files/%s_logfile.txt' % (ll)
     l = open(filename,'w')
     for line in log_file:
         l.write(line)
