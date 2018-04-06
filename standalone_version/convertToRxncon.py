@@ -9,6 +9,7 @@ import validatorSBtab
 import misc
 from molecule import Molecule, MoleculeDef, Complex, Rule
 
+
 def convert(file_name: str):
     '''
     prepares the python model for the conversion to rxncon format
